@@ -87,7 +87,7 @@ The important architecture principle remains:
 
 Tools expand capability. They do not remove the need for security, validation and governance.
 
-## example platform Example
+## Generic Example
 
 A marketplace agent should not directly change prices.
 
