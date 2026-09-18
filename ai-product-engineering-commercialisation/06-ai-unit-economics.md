@@ -151,9 +151,9 @@ Examples:
 
 Guardrails should trigger investigation rather than encourage unsafe quality degradation.
 
-## 9. example platform application
+## 9. Generic application
 
-For example platform, the relevant unit may eventually be something such as a customer account, analysed SKU, AI workflow, or managed decision—not simply a chat message.
+For the example platform, the relevant unit may eventually be something such as a customer account, analysed SKU, AI workflow, or managed decision—not simply a chat message.
 
 A simplified model:
 
