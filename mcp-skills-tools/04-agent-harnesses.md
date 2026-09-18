@@ -58,9 +58,9 @@ Without a harness, AI systems become:
 - impossible to audit;
 - unreliable at scale.
 
-## example platform Relevance
+## Generic Relevance
 
-A future example platform AI worker would not be only a language model. It would include:
+A future the example platform AI worker would not be only a language model. It would include:
 
 - reasoning model;
 - marketplace tools;
