@@ -1,23 +1,81 @@
-# Inference Servers, Scheduling and Admission Control
+# 06 — Inference Servers, Scheduling and Admission Control
 
 ## Purpose
 
-A production inference control plane decides what work is allowed, where it runs, and what happens when capacity is unavailable.
+An inference server turns model execution into a shared service. The production architecture also needs authentication, admission control, routing, observability and backpressure.
 
-## Core architecture
+## Learning outcomes
 
-Design gateway, authentication, canonical inference API, policy, admission control, router/scheduler, serving pools, streaming, cancellation, metrics and accounting. Admission should consider eligibility, context/output limits, quotas, queue capacity, deadlines and fallback. Separate queue, execution and client deadlines. Cover resident vs dynamic model loading, adapter compatibility/isolation, meaningful readiness, backpressure and cost attribution. Keep runtime-specific APIs behind adapters and business policy outside model servers. Exercise: design a gateway for three models and two priority classes across shared tenant pools.
+By the end of this module, you should be able to:
+- separate model server responsibilities from gateway/business policy
+- explain request lifecycle through admission, queue, scheduler and worker
+- design safe overload and cancellation behaviour
+- compare serving runtimes using representative workloads and portability requirements
 
-## Production standard
+## Reference path
 
-Start from representative workloads and measurable SLOs. Preserve model, artifact, runtime, hardware and configuration identity. Test normal load, peak load and failure conditions. Keep authorization, business state and consequential controls outside probabilistic inference. Connect infrastructure telemetry to task quality and successful outcomes.
+A practical path is `client -> auth/quota -> router -> admission -> scheduler -> inference worker -> stream/result -> telemetry`. The model server should not own unrelated business state.
+
+## Admission control
+
+Reject, defer or route work that cannot safely meet resource/SLO limits. Accepting every request is not graceful degradation.
+
+## Scheduling
+
+Schedulers balance active sequences, memory occupancy, priority and batching opportunities. Policies should be observable and testable.
+
+## Streaming
+
+Streaming improves perceived latency but complicates cancellation, partial responses, retries and client disconnect handling.
+
+## Health and readiness
+
+Separate process liveness from ability to serve the intended model/configuration. A process can be alive while model artifacts are missing or capacity is exhausted.
+
+## Portability
+
+Use a canonical application-facing inference contract so runtimes such as vLLM, TensorRT-LLM or hosted APIs remain replaceable.
+
+## Failure modes
+
+- health check says healthy while model is not ready
+- admission accepts work that cannot meet SLO
+- stream disconnect leads to duplicate retry/side effect
+- runtime-specific API leaks into business logic
+- queue or scheduler failure becomes a total outage
+
+## Security and governance
+
+Authenticate callers before admission. Keep model-serving credentials narrow, protect administrative endpoints, isolate tenants where necessary, and treat model artifacts/containers as signed or controlled supply-chain inputs.
+
+## Economics and operations
+
+Serving-runtime optimisations matter only when they reduce cost/latency without harming quality or portability. Include engineering cost and vendor/runtime lock-in in the decision.
+
+## Practical exercise
+
+Draw a serving architecture for interactive and background requests. Define authentication, quotas, admission, queue, runtime, telemetry, overload, cancellation and fallback.
 
 ## Architect checklist
 
-Confirm capacity, bandwidth, compute, context, concurrency, queueing, tenancy, privacy, failure recovery, observability, rollout/rollback and lifecycle economics are explicit rather than assumed.
+- [ ] business policy is outside the model server
+- [ ] admission rules are measurable
+- [ ] health/readiness reflect real serving state
+- [ ] runtime can be replaced behind a stable contract
+- [ ] overload and cancellation are tested
+
+## Primary reading
+
+- [vLLM documentation](https://docs.vllm.ai/en/stable/)
+- [NVIDIA TensorRT-LLM documentation](https://docs.nvidia.com/tensorrt-llm/)
+- [MLPerf Inference documentation](https://docs.mlcommons.org/inference/index_gh/)
+
+## Mastery gate
+
+Explain when **Inference Servers, Scheduling and Admission Control** changes the architecture materially, identify the evidence you would collect before making the decision, and state which controls remain outside the inference runtime.
 
 ## Takeaway
 
-> A production inference control plane decides what work is allowed, where it runs, and what happens when capacity is unavailable.
+> Production inference is a scheduling and control service around model execution.
 
-Next: **Cloud GPUs vs Owned Hardware**.
+Next: **07 — Cloud GPUs vs Owned Hardware**.

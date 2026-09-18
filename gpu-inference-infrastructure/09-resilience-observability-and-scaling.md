@@ -1,23 +1,81 @@
-# Resilience, Observability and Scaling
+# 09 — Resilience, Observability and Scaling
 
 ## Purpose
 
-Reliable inference controls overload, exposes real state, degrades deliberately and recovers without creating a second outage.
+Inference reliability requires visibility from user request to accelerator and a recovery design for hardware, runtime, artifact and capacity failures.
 
-## Core architecture
+## Learning outcomes
 
-Plan for GPU/node, OOM, runtime/driver, artifact, scheduler, interconnect, storage/network, provider-capacity and deployment failures. Distinguish liveness, model readiness, capacity readiness and semantic quality. Autoscale from queue/SLO/resource signals while accounting for provisioning, artifact transfer, model load and warmup. Control recovery storms and backlog. Define compliant degradation paths. Observe queue, TTFT, decode, total latency, sequences, batch, KV/VRAM, utilization, errors, fallback, versions, cost and evaluated outcomes; trace end to end. Exercise: write the runbook for losing half a serving pool at peak.
+By the end of this module, you should be able to:
+- define inference SLOs and the telemetry required to explain them
+- design failure containment and degraded-mode behaviour
+- separate model correctness from service availability
+- plan controlled rollout, rollback and scaling
 
-## Production standard
+## Failure taxonomy
 
-Start from representative workloads and measurable SLOs. Preserve model, artifact, runtime, hardware and configuration identity. Test normal load, peak load and failure conditions. Keep authorization, business state and consequential controls outside probabilistic inference. Connect infrastructure telemetry to task quality and successful outcomes.
+Include GPU/node failure, OOM, runtime/driver error, artifact corruption, scheduler failure, network/storage failure and provider capacity loss.
+
+## Observability
+
+Capture request/workload identity, model/artifact/runtime version, hardware, queue time, TTFT, decode throughput, active sequences, KV/VRAM occupancy, errors and routing/fallback.
+
+## Tracing
+
+A request trace should connect gateway, scheduler, worker and downstream evaluation so operators can distinguish queueing, inference and application failures.
+
+## Scaling
+
+Scale replicas, serving units or workload routing based on measured bottlenecks. Do not scale GPU count when the bottleneck is upstream or downstream.
+
+## Rollout
+
+Model, quantization, kernel, runtime, driver and hardware changes can all shift quality/performance. Use canary/shadow benchmarks and rollback.
+
+## Graceful degradation
+
+Possible modes include smaller eligible model, reduced context, background deferral or read-only capability. Fallbacks must still satisfy policy and quality floors.
+
+## Failure modes
+
+- availability dashboard hides model-quality regression
+- fallback violates data/residency policy
+- rollout changes several stack layers with no isolation
+- OOM/retry loop amplifies an incident
+- telemetry lacks version identity needed for diagnosis
+
+## Security and governance
+
+Observability data can contain prompts, outputs or tenant metadata. Minimise sensitive logging, enforce access and preserve audit evidence without creating an unrestricted shadow data store.
+
+## Economics and operations
+
+Reliability consumes spare capacity, redundant paths and engineering time. Include those costs in unit economics instead of treating them as waste.
+
+## Practical exercise
+
+Design an incident drill where one serving unit begins OOMing after a runtime rollout. Define detection, containment, rollback, traffic routing, evidence and the regression test added afterward.
 
 ## Architect checklist
 
-Confirm capacity, bandwidth, compute, context, concurrency, queueing, tenancy, privacy, failure recovery, observability, rollout/rollback and lifecycle economics are explicit rather than assumed.
+- [ ] SLOs distinguish availability, latency and quality
+- [ ] all stack versions are traceable
+- [ ] fallbacks preserve policy
+- [ ] rollback is rehearsed
+- [ ] incident learning becomes a regression test
+
+## Primary reading
+
+- [vLLM documentation](https://docs.vllm.ai/en/stable/)
+- [NVIDIA TensorRT-LLM documentation](https://docs.nvidia.com/tensorrt-llm/)
+- [MLPerf Inference documentation](https://docs.mlcommons.org/inference/index_gh/)
+
+## Mastery gate
+
+Explain when **Resilience, Observability and Scaling** changes the architecture materially, identify the evidence you would collect before making the decision, and state which controls remain outside the inference runtime.
 
 ## Takeaway
 
-> Reliable inference controls overload, exposes real state, degrades deliberately and recovers without creating a second outage.
+> Reliable inference is an observable, recoverable service—not a GPU that usually responds.
 
-Next: **GPU and Inference Infrastructure Capstone**.
+Next: **10 — GPU and Inference Infrastructure Capstone**.

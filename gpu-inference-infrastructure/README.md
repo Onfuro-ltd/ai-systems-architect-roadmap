@@ -253,3 +253,8 @@ Next: **01 — GPU Architecture for AI Inference**.
 - [Capacity, Utilisation and Cost Engineering](./08-capacity-utilisation-and-cost-engineering.md)
 - [Resilience, Observability and Scaling](./09-resilience-observability-and-scaling.md)
 - [GPU and Inference Infrastructure Capstone](./10-gpu-inference-infrastructure-capstone.md)
+
+
+## Primary references
+
+The detailed chapters use current primary/official references such as the NVIDIA CUDA guides, vLLM documentation and PagedAttention paper, PyTorch distributed documentation, TensorRT-LLM documentation and MLPerf Inference. Benchmark claims should always identify the exact model/runtime/hardware/workload combination.
