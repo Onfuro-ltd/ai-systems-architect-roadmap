@@ -61,7 +61,7 @@ Before fine-tuning ask:
 3. Is the behaviour stable over time?
 4. Can we evaluate improvement objectively?
 
-## example platform Example
+## Generic Example
 
 Possible fine-tuning candidates:
 
