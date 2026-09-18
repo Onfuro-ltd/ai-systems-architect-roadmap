@@ -91,9 +91,9 @@ MCP should not bypass:
 
 It should expose capabilities safely.
 
-## example platform Application
+## Generic Application
 
-Future example platform MCP capabilities could expose:
+Future the example platform MCP capabilities could expose:
 
 - Amazon SP-API tools
 - eBay tools
