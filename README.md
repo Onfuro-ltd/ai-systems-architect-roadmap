@@ -169,7 +169,9 @@ GitHub stars, vendor claims and influencer popularity are not evidence of produc
 
 ## Project status
 
-**Current stage: Foundations curriculum / early public architecture.**
+**Current stage: 28-domain curriculum drafted; v1.0 repository audit and hardening in progress.**
+
+The authoritative curriculum sequence has now been drafted through Domain 28. Before a v1.0 release, the repository is undergoing privacy cleanup, authoritative-domain structure verification, legacy-track consolidation, navigation validation and editorial normalization. See the [v1.0 Repository Audit and Hardening Plan](./docs/v1-repository-audit-and-hardening.md).
 
 The roadmap is intentionally living. AI models, protocols and techniques will change; the project's responsibility is to preserve durable knowledge while updating conclusions when strong evidence changes.
 
