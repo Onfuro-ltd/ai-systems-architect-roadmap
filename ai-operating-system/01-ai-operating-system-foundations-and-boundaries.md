@@ -1,5 +1,14 @@
 # 01 — AI Operating System Foundations and Boundaries
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **01 — AI Operating System Foundations and Boundaries** within Build an AI Operating System;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Define what the AI operating system owns and what remains the responsibility of applications, models and business systems.

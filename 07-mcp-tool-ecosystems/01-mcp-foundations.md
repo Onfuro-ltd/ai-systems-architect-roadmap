@@ -1,5 +1,14 @@
 # 01 — MCP Foundations
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **01 — MCP Foundations** within MCP and Tool Ecosystems;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 MCP provides a standard protocol boundary between AI applications and external capabilities.

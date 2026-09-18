@@ -1,5 +1,14 @@
 # 07 — Domain Evaluation and Gold Standards
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **07 — Domain Evaluation and Gold Standards** within Domain-Specific AI Systems;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Define correctness using domain evidence rather than generic model benchmarks.

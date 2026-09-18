@@ -1,5 +1,14 @@
 # 04 — Delivery, Ordering and Idempotent Consumers
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **04 — Delivery, Ordering and Idempotent Consumers** within Data and Event Architecture;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Event-driven systems must remain correct when messages are delayed, duplicated, retried, delivered out of order, or processed after a consumer restarts.

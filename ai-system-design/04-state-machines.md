@@ -1,5 +1,14 @@
 # 04 — State Machines
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **04 — State Machines** within AI System Design;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 State machines make workflow behaviour explicit. They define which states are valid, which transitions are allowed, what events cause transitions, and what the system must do when a transition fails.
@@ -314,6 +323,10 @@ For every important workflow, ask:
 10. Can an operator reconstruct the history?
 11. Which states are terminal?
 12. Can an AI component bypass the state machine?
+
+## Architect exercise
+
+Design or inspect a representative system that uses **04 — State Machines**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.
 
 ## Takeaway
 

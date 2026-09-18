@@ -1,5 +1,14 @@
 # 07 — Multi-Agent Failure Modes and Anti-Patterns
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **07 — Multi-Agent Failure Modes and Anti-Patterns** within Orchestration and Multi-Agent Systems;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Multi-agent systems introduce failure modes that do not exist in a single model call or simple workflow.

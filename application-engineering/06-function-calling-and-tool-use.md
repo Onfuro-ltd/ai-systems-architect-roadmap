@@ -1,5 +1,14 @@
 # Function Calling and Tool Use
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **Function Calling and Tool Use** within AI Application Engineering;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Why tools change AI applications
 
 A language model alone can reason and generate text, but it does not have direct access to current systems or the ability to safely perform business actions.

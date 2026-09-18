@@ -1,5 +1,14 @@
 # 04 — Planning, Control and Actuation
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **04 — Planning, Control and Actuation** within Physical AI and Robotics;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Translate goals into physically feasible trajectories and stable actuator commands.

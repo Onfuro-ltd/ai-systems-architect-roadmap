@@ -1,5 +1,14 @@
 # 05 — llama.cpp and Portable Inference
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **05 — llama.cpp and Portable Inference** within Open-Source and Local AI;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Portable inference runtimes show how quantized open-weight models can execute across CPUs, GPUs, laptops, workstations, and servers.

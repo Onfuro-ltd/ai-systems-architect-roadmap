@@ -1,4 +1,4 @@
-# Multimodal AI Systems
+# Domain 18 — Multimodal AI
 
 Multimodal AI systems work across more than one type of information: text, images, audio, video, documents, sensor inputs, and eventually actions in software or the physical world.
 

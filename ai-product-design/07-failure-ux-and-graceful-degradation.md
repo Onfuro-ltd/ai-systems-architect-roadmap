@@ -1,5 +1,14 @@
 # 07 — Failure UX and Graceful Degradation
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **07 — Failure UX and Graceful Degradation** within AI Product Design;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Design useful behaviour when models, tools, data or providers fail.

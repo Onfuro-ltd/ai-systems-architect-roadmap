@@ -1,5 +1,14 @@
 # Domain 10 — Evaluation and Reliability
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across task suites, golden data, deterministic and behavioural evaluation, model judges, regression, monitoring and outcome economics.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 This domain explains how to measure whether AI systems behave acceptably, detect regressions, diagnose failures and improve reliability over time.
@@ -140,3 +149,15 @@ Define organisational standards for evaluation ownership, release gates, reliabi
 > If a system can change behaviour, it needs evidence that the change is acceptable.
 
 Next: **01 — Evaluation Foundations**.
+
+## Canonical curriculum navigation
+
+- [Evaluation Foundations](./01-evaluation-foundations.md)
+- [Task Suites, Golden Datasets and Holdouts](./02-task-suites-golden-datasets-and-holdouts.md)
+- [Deterministic and Behavioural Evaluation](./03-deterministic-and-behavioural-evaluation.md)
+- [Human Evaluation and Model Judges](./04-human-evaluation-and-model-judges.md)
+- [Agent, Tool and Workflow Evaluation](./05-agent-tool-and-workflow-evaluation.md)
+- [Reliability, Regression and Failure Analysis](./06-reliability-regression-and-failure-analysis.md)
+- [Production Evaluation and Monitoring](./07-production-evaluation-and-monitoring.md)
+- [Cost, Latency and Outcome Economics](./08-cost-latency-and-outcome-economics.md)
+- [Capstone: Build an Evaluation and Reliability System](./09-capstone.md)

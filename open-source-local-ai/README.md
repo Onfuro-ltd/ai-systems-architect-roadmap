@@ -217,3 +217,17 @@ It must include licensing, model registry, evaluation gates, quantization policy
 > Open-weight and local AI expand the architecture space. The goal is not to run the biggest downloadable model on the nearest machine; it is to choose the deployment boundary that delivers the required quality, privacy, latency, reliability, control, and economics.
 
 Next: **01 — Open Source vs Open Weight AI**.
+
+## Canonical curriculum navigation
+
+- [Open Source vs Open Weight AI](./01-open-source-vs-open-weight-ai.md)
+- [Model Licensing and Governance](./02-model-licensing-and-governance.md)
+- [Model Formats and Quantization](./03-model-formats-and-quantization.md)
+- [Local Inference Fundamentals](./04-local-inference-fundamentals.md)
+- [llama.cpp and Portable Inference](./05-llama-cpp-and-portable-inference.md)
+- [vLLM and Production Model Serving](./06-vllm-and-production-model-serving.md)
+- [Hardware, Memory and Performance](./07-hardware-memory-and-performance.md)
+- [Local, Edge and Private Deployment](./08-local-edge-and-private-deployment.md)
+- [Benchmarking Quality, Latency and Cost](./09-benchmarking-quality-latency-and-cost.md)
+- [Hybrid Routing and Model Independence](./10-hybrid-routing-and-model-independence.md)
+- [Open-Source and Local AI Capstone](./11-open-source-local-ai-capstone.md)

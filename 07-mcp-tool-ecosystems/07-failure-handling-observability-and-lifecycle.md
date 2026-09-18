@@ -1,5 +1,14 @@
 # 07 — Failure Handling, Observability and Lifecycle
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **07 — Failure Handling, Observability and Lifecycle** within MCP and Tool Ecosystems;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Capability ecosystems fail in more ways than a single API call.

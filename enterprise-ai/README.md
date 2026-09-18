@@ -1,5 +1,14 @@
 # Domain 22 — Enterprise AI
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across enterprise architecture, identity, tenancy, data residency, gateways, governance, procurement, adoption, platform teams and operations.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 Enterprise AI is the discipline of operating AI across real organizations: many users, teams, tenants, systems, jurisdictions, data classes, vendors and risk levels.
@@ -58,3 +67,16 @@ Evaluation + operations + governance
 > Enterprise AI succeeds when probabilistic intelligence is integrated into deterministic organizational controls without losing ownership, accountability or human authority.
 
 Next: **01 — Enterprise AI Architecture and Operating Model**.
+
+## Canonical curriculum navigation
+
+- [Enterprise AI Architecture and Operating Model](./01-enterprise-ai-architecture-and-operating-model.md)
+- [Identity, Access and Tenancy](./02-identity-access-and-tenancy.md)
+- [Enterprise Data, Residency and Knowledge Boundaries](./03-enterprise-data-residency-and-knowledge-boundaries.md)
+- [Integration Architecture and AI Gateways](./04-integration-architecture-and-ai-gateways.md)
+- [Governance, Risk, Compliance and Audit](./05-governance-risk-compliance-and-audit.md)
+- [Procurement, Vendors and Model Independence](./06-procurement-vendors-and-model-independence.md)
+- [Human Oversight, Change Management and Adoption](./07-human-oversight-change-management-and-adoption.md)
+- [Enterprise AI Platform and Team Topology](./08-enterprise-ai-platform-and-team-topology.md)
+- [Reliability, Observability and Enterprise Operations](./09-reliability-observability-and-enterprise-operations.md)
+- [Enterprise AI Capstone](./10-enterprise-ai-capstone.md)

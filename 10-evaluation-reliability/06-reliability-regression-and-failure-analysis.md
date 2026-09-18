@@ -1,5 +1,14 @@
 # 06 — Reliability, Regression and Failure Analysis
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **06 — Reliability, Regression and Failure Analysis** within Evaluation and Reliability;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Reliability engineering turns individual failures into systematic improvements.

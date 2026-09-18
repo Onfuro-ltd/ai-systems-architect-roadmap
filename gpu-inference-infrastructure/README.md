@@ -240,3 +240,16 @@ It must include workload SLOs, model/hardware sizing, KV/context planning, batch
 > GPU infrastructure is not a collection of expensive devices. It is a capacity, scheduling, reliability, and economic system that turns model inference into a dependable service.
 
 Next: **01 — GPU Architecture for AI Inference**.
+
+## Canonical curriculum navigation
+
+- [GPU Architecture for AI Inference](./01-gpu-architecture-for-ai-inference.md)
+- [VRAM, Memory Bandwidth and Model Sizing](./02-vram-memory-bandwidth-and-model-sizing.md)
+- [Prefill, Decode and KV Cache](./03-prefill-decode-and-kv-cache.md)
+- [Batching, Concurrency and Throughput](./04-batching-concurrency-and-throughput.md)
+- [Parallelism and Multi-GPU Inference](./05-parallelism-and-multi-gpu-inference.md)
+- [Inference Servers, Scheduling and Admission Control](./06-inference-servers-scheduling-and-admission-control.md)
+- [Cloud GPUs vs Owned Hardware](./07-cloud-gpus-vs-owned-hardware.md)
+- [Capacity, Utilisation and Cost Engineering](./08-capacity-utilisation-and-cost-engineering.md)
+- [Resilience, Observability and Scaling](./09-resilience-observability-and-scaling.md)
+- [GPU and Inference Infrastructure Capstone](./10-gpu-inference-infrastructure-capstone.md)

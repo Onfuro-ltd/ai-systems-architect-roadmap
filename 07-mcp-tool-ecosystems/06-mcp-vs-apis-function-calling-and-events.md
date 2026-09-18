@@ -1,5 +1,14 @@
 # 06 — MCP vs APIs, Function Calling and Events
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **06 — MCP vs APIs, Function Calling and Events** within MCP and Tool Ecosystems;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 MCP is one integration option among several.

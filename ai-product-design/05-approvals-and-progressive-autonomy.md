@@ -1,5 +1,14 @@
 # 05 — Approvals and Progressive Autonomy
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **05 — Approvals and Progressive Autonomy** within AI Product Design;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Increase automation without silently removing meaningful human authority.

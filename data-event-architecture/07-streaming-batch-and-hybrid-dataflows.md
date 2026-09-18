@@ -1,5 +1,14 @@
 # 07 — Streaming, Batch and Hybrid Dataflows
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **07 — Streaming, Batch and Hybrid Dataflows** within Data and Event Architecture;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Not every data problem needs real-time streaming, and not every problem can wait for a nightly batch.

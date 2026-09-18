@@ -1,5 +1,14 @@
 # 03 — Event Contracts and Schema Evolution
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **03 — Event Contracts and Schema Evolution** within Data and Event Architecture;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Events become long-lived integration contracts. Once multiple consumers depend on them, changing a payload is no longer a local refactor.

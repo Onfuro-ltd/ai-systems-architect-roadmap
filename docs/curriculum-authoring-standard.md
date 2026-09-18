@@ -336,3 +336,19 @@ Before merging a substantial curriculum contribution, verify:
 A contribution is successful when a reader leaves with a more accurate mental model, has produced evidence through practical work, and can make a better architecture decision than they could before reading it.
 
 **We are not optimising for the number of pages in this repository. We are optimising for the quality of judgement it produces.**
+
+
+## P3 normalization interpretation
+
+P3 applies this standard to the existing authoritative curriculum without forcing decorative headings merely to satisfy a template.
+
+For inherited modules:
+
+- learning outcomes must be explicit and observable;
+- each non-capstone chapter should contain a practical or architectural exercise unless the module is itself an exercise;
+- README navigation must resolve to every direct curriculum chapter;
+- concepts such as failure, security, evaluation and economics may be combined into broader sections when that improves clarity;
+- depth is judged by whether the learner can make a better system decision, not by line count alone;
+- archived and supplemental tracks are excluded from authoritative-domain scoring, but remain subject to privacy and Markdown-integrity checks.
+
+P3 also treats time-sensitive vendor/model claims as requiring dated or primary-source evidence when they materially affect an architecture recommendation.

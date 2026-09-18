@@ -1,5 +1,14 @@
 # 05 — Agent, Tool and Workflow Evaluation
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **05 — Agent, Tool and Workflow Evaluation** within Evaluation and Reliability;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Agents and workflows must be evaluated as trajectories, not only by final text.

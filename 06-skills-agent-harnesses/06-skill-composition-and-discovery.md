@@ -1,5 +1,14 @@
 # 06 — Skill Composition and Discovery
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **06 — Skill Composition and Discovery** within Skills and Agent Harnesses;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 As systems accumulate reusable capabilities, they need ways to combine skills and select the right capability without creating uncontrolled complexity.

@@ -1,4 +1,13 @@
-# 12 — AI System Design
+# Domain 12 — AI System Design
+
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across service boundaries, synchronous and asynchronous execution, queues, state machines, fault tolerance, caching, idempotency and scalability.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
 
 ## Purpose
 
@@ -76,3 +85,17 @@ For every AI workflow, determine:
 A learner should be able to take an AI workload and produce a production architecture with explicit boundaries, state, failure modes, scaling strategy, observability, and recovery behaviour.
 
 The following chapters will build that capability progressively.
+
+## Canonical curriculum navigation
+
+- [Service Boundaries](./01-service-boundaries.md)
+- [Synchronous vs Asynchronous Execution](./02-synchronous-vs-asynchronous-execution.md)
+- [Queues and Workflow Engines](./03-queues-and-workflow-engines.md)
+- [State Machines](./04-state-machines.md)
+- [Fault Tolerance](./05-fault-tolerance.md)
+- [Caching](./06-caching.md)
+- [Idempotency](./07-idempotency.md)
+- [Scalability](./08-scalability.md)
+- [Graceful Degradation](./09-graceful-degradation.md)
+- [AI Architecture Trade-offs](./10-ai-architecture-trade-offs.md)
+- [System Design Capstone](./11-system-design-capstone.md)

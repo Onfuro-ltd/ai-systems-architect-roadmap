@@ -1,5 +1,14 @@
 # 03 — Model Capability Profiles and Task Taxonomy
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **03 — Model Capability Profiles and Task Taxonomy** within AI Economics and Model Routing;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Route from evidence about specific workloads rather than a single global model ranking.

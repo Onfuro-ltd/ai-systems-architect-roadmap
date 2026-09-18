@@ -243,3 +243,16 @@ The learner must also demonstrate a case where fine-tuning is rejected in favor 
 > Fine-tuning is a way to encode stable learned behaviour, not a replacement for architecture. Keep truth, policy, permissions, and changing business knowledge outside the model, and promote specialists only when measured outcomes justify their lifecycle cost.
 
 Next: **01 — When to Fine-Tune and When Not To**.
+
+## Canonical curriculum navigation
+
+- [When to Fine-Tune and When Not To](./01-when-to-fine-tune-and-when-not-to.md)
+- [Dataset Design and Data Quality](./02-dataset-design-and-data-quality.md)
+- [Supervised Fine-Tuning](./03-supervised-fine-tuning.md)
+- [LoRA and QLoRA](./04-lora-and-qlora.md)
+- [Preference Optimisation](./05-preference-optimisation.md)
+- [Synthetic Data](./06-synthetic-data.md)
+- [Distillation and Specialist Models](./07-distillation-and-specialist-models.md)
+- [Evaluation and Regression Testing](./08-evaluation-and-regression-testing.md)
+- [Adapter and Model Lifecycle and Governance](./09-adapter-model-lifecycle-and-governance.md)
+- [Fine-Tuning and Specialist Models Capstone](./10-fine-tuning-specialist-models-capstone.md)

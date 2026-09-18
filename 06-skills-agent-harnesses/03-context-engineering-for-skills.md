@@ -1,5 +1,14 @@
 # 03 — Context Engineering for Skills
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **03 — Context Engineering for Skills** within Skills and Agent Harnesses;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 A skill should receive the information it needs to perform its capability — not every piece of information the surrounding system can access.

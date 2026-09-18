@@ -1,5 +1,14 @@
 # 04 — LoRA and QLoRA
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **04 — LoRA and QLoRA** within Fine-Tuning and Specialist Models;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 Parameter-efficient fine-tuning adapts a model without updating every base-model parameter.
 

@@ -1,5 +1,14 @@
 # Domain 07 — MCP and Tool Ecosystems
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across MCP architecture, tools, resources, prompts, transports, schemas, discovery, authorization, trust and enterprise capability ecosystems.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 This domain explains how AI systems connect to external capabilities through the Model Context Protocol (MCP), direct APIs, function calling, events and related integration patterns.
@@ -133,3 +142,15 @@ Define enterprise standards for capability exposure, ownership, permissions, lif
 - MCP 2026-07-28 release overview: https://blog.modelcontextprotocol.io/posts/2026-07-28/
 
 Next: **01 — MCP Foundations**.
+
+## Canonical curriculum navigation
+
+- [MCP Foundations](./01-mcp-foundations.md)
+- [Tools, Resources and Prompts](./02-tools-resources-and-prompts.md)
+- [Clients, Servers and Transports](./03-clients-servers-and-transports.md)
+- [Tool Contracts, Schemas and Discovery](./04-tool-contracts-schemas-and-discovery.md)
+- [Authentication, Authorization and Trust](./05-authentication-authorization-and-trust.md)
+- [MCP vs APIs, Function Calling and Events](./06-mcp-vs-apis-function-calling-and-events.md)
+- [Failure Handling, Observability and Lifecycle](./07-failure-handling-observability-and-lifecycle.md)
+- [Enterprise Capability Ecosystems](./08-enterprise-capability-ecosystems.md)
+- [Capstone: Design an Enterprise MCP Capability](./09-capstone.md)

@@ -1,5 +1,14 @@
 # 01 — What Is an Agent?
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **01 — What Is an Agent?** within Agents;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Introduction
 
 AI agents are one of the most discussed areas in modern AI, but also one of the most misunderstood.
@@ -83,3 +92,7 @@ An agent is not simply a smarter chatbot.
 It is a software architecture pattern where AI capability is integrated into a controlled workflow.
 
 The most valuable agents will not be those with unlimited autonomy. They will be those designed around reliability, safety and measurable outcomes.
+
+## Architect exercise
+
+Design or inspect a representative system that uses **01 — What Is an Agent?**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.

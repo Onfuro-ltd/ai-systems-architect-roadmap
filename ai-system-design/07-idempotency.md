@@ -1,5 +1,14 @@
 # 07 — Idempotency
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **07 — Idempotency** within AI System Design;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Distributed systems retry work, receive duplicate events, lose acknowledgements, and recover after partial failures. Idempotency ensures that repeating the same logical operation does not accidentally repeat its business effect.
@@ -421,6 +430,10 @@ For every state-changing operation, ask:
 12. Can an AI agent repeat the action directly?
 13. How long is the idempotency record retained?
 14. Are duplicate-prevention events observable?
+
+## Architect exercise
+
+Design or inspect a representative system that uses **07 — Idempotency**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.
 
 ## Takeaway
 

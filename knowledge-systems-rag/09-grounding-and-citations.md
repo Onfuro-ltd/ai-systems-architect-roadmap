@@ -1,5 +1,14 @@
 # Grounding and Citations
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **Grounding and Citations** within Knowledge Systems and RAG;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Why grounding matters
 
 Retrieval alone does not make an AI system trustworthy.
@@ -308,3 +317,7 @@ A learner should be able to:
 - design evidence chains;
 - define when the system should refuse to answer;
 - connect AI outputs to verifiable sources.
+
+## Architect exercise
+
+Design or inspect a representative system that uses **Grounding and Citations**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.

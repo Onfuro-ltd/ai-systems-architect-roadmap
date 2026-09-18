@@ -1,5 +1,14 @@
 # 06 — Memory Architecture and Storage Patterns
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **06 — Memory Architecture and Storage Patterns** within Memory Systems;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Memory architecture combines information models, storage systems and retrieval paths.

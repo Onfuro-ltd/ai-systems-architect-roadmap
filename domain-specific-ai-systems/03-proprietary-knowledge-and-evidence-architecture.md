@@ -1,5 +1,14 @@
 # 03 — Proprietary Knowledge and Evidence Architecture
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **03 — Proprietary Knowledge and Evidence Architecture** within Domain-Specific AI Systems;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Make private organizational knowledge useful to AI while preserving authority, permissions and provenance.

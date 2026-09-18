@@ -1,5 +1,14 @@
 # Prompt and Instruction Architecture
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **Prompt and Instruction Architecture** within AI Application Engineering;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## From prompts to instructions
 
 Early AI usage focused on prompt tricks. Production systems require a more disciplined approach:

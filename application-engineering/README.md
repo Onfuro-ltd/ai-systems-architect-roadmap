@@ -1,4 +1,4 @@
-# AI Application Engineering
+# Domain 03 — AI Application Engineering
 
 ## Purpose
 
@@ -79,3 +79,21 @@ A learner completing this section should be able to design AI applications that 
 - cost-aware;
 - testable;
 - independent from unnecessary vendor lock-in.
+
+## Canonical curriculum navigation
+
+- [AI Application Architecture](./01-ai-application-architecture.md)
+- [Model APIs and Provider Abstraction](./02-model-apis-and-provider-abstraction.md)
+- [Prompt and Instruction Architecture](./03-prompt-and-instruction-architecture.md)
+- [Structured Outputs and Schemas](./04-structured-outputs-and-schemas.md)
+- [Context Engineering](./05-context-engineering.md)
+- [Function Calling and Tool Use](./06-function-calling-and-tool-use.md)
+- [State Management and Conversations](./07-state-management-and-conversations.md)
+- [Validation and Deterministic Boundaries](./08-validation-and-deterministic-boundaries.md)
+- [Reliability Patterns: Retries, Fallbacks and Failure Recovery](./09-reliability-patterns-retries-fallbacks.md)
+- [Streaming and Long-Running AI Tasks](./10-streaming-and-long-running-tasks.md)
+- [Model Routing and Cost Optimisation](./11-model-routing-and-cost-optimisation.md)
+- [Observability, Tracing and Debugging AI Systems](./12-observability-tracing-and-debugging.md)
+- [Security Basics for AI Applications](./13-security-basics-for-ai-applications.md)
+- [Testing AI Applications](./14-testing-ai-applications.md)
+- [Application Engineering Capstone](./15-application-engineering-capstone.md)

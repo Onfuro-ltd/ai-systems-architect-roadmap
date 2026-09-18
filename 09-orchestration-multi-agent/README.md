@@ -1,5 +1,14 @@
 # Domain 09 — Orchestration and Multi-Agent Systems
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across workflows, state machines, routing, delegation, multi-agent coordination, long-running execution, recovery and observability.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 This domain explains how AI systems coordinate work across deterministic workflows, model-driven loops, specialist agents and long-running processes.
@@ -140,3 +149,15 @@ Define organisational standards for orchestration, agent boundaries, concurrency
 Do not turn one understandable process into five interacting agents without evidence that the decomposition improves the system.
 
 Next: **01 — Orchestration Foundations**.
+
+## Canonical curriculum navigation
+
+- [Orchestration Foundations](./01-orchestration-foundations.md)
+- [Workflows, State Machines and Agent Loops](./02-workflows-state-machines-and-agent-loops.md)
+- [Delegation and Specialist Agents](./03-delegation-and-specialist-agents.md)
+- [Routing, Parallelism and Coordination](./04-routing-parallelism-and-coordination.md)
+- [Event-Driven and Long-Running Orchestration](./05-event-driven-and-long-running-orchestration.md)
+- [Validation, Consensus and Recovery](./06-validation-consensus-and-recovery.md)
+- [Multi-Agent Failure Modes and Anti-Patterns](./07-multi-agent-failure-modes-and-anti-patterns.md)
+- [Production Orchestration and Observability](./08-production-orchestration-and-observability.md)
+- [Capstone: Design a Production Orchestration System](./09-capstone.md)

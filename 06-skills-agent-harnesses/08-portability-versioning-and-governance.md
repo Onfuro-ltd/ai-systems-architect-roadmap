@@ -1,5 +1,14 @@
 # 08 — Portability, Versioning and Governance
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **08 — Portability, Versioning and Governance** within Skills and Agent Harnesses;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Reusable AI capabilities change over time.

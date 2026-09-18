@@ -1,5 +1,14 @@
 # Domain 06 — Skills and Agent Harnesses
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across reusable skills, contracts, context engineering, harnesses, rules, hooks, lifecycle controls, quality gates and portability.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 This domain explains how reusable expertise is packaged into skills and how agent harnesses turn probabilistic model capability into controlled, testable and observable execution.
@@ -97,3 +106,15 @@ Define standards for reusable skills, portability, ownership, versioning, testin
 > Put probabilistic reasoning inside deterministic boundaries wherever the system requires control, safety or repeatability.
 
 A capable model does not remove the need for software architecture. As AI capability increases, the surrounding control system becomes more important.
+
+## Canonical curriculum navigation
+
+- [Skills and Capabilities](./01-skills-and-capabilities.md)
+- [Skill Design and Contracts](./02-skill-design-and-contracts.md)
+- [Context Engineering for Skills](./03-context-engineering-for-skills.md)
+- [Agent Harness Architecture](./04-agent-harness-architecture.md)
+- [Rules, Hooks and Lifecycle Controls](./05-rules-hooks-and-lifecycle-controls.md)
+- [Skill Composition and Discovery](./06-skill-composition-and-discovery.md)
+- [Testing, Evaluation and Quality Gates](./07-testing-evaluation-and-quality-gates.md)
+- [Portability, Versioning and Governance](./08-portability-versioning-and-governance.md)
+- [Capstone: Design a Production Skill and Harness](./09-capstone.md)

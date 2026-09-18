@@ -1,5 +1,14 @@
 # 05 — Observability, Tracing and Production Telemetry
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **05 — Observability, Tracing and Production Telemetry** within MLOps and LLMOps;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Production AI must reveal what happened across application, model, retrieval, tools and infrastructure.

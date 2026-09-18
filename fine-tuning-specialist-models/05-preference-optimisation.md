@@ -1,5 +1,14 @@
 # 05 — Preference Optimisation
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **05 — Preference Optimisation** within Fine-Tuning and Specialist Models;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 Preference optimisation uses comparative feedback to shift model behaviour toward outputs judged better under defined criteria.
 

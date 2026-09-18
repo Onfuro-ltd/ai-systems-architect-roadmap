@@ -1,5 +1,14 @@
 # 08 — Feedback, Outcomes and Knowledge Evolution
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **08 — Feedback, Outcomes and Knowledge Evolution** within Domain-Specific AI Systems;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Improve domain capability from verified experience without allowing uncontrolled self-modification.

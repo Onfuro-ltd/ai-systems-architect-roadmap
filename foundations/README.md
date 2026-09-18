@@ -1,4 +1,4 @@
-# AI Foundations
+# Domains 01–02 — AI Foundations and Modern Foundation Models
 
 AI systems architecture starts with a durable mental model of what modern AI systems are actually doing.
 

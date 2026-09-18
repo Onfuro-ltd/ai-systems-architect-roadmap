@@ -1,5 +1,14 @@
 # 05 — Agent and Tool Security
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **05 — Agent and Tool Security** within Security, Permissions and Governance;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Tools convert model reasoning into real-world effects.

@@ -1,5 +1,14 @@
 # 08 — Event Sourcing and Replay
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **08 — Event Sourcing and Replay** within Data and Event Architecture;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Event sourcing stores domain events as the authoritative history from which current state can be reconstructed.

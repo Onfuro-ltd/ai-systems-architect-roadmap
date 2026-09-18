@@ -1,5 +1,14 @@
 # 04 — Causal Thinking and Intervention Effects
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **04 — Causal Thinking and Intervention Effects** within Decision Intelligence;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Avoid assuming that a predictive relationship tells us what will happen if we intervene.

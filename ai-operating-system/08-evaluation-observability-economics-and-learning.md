@@ -1,5 +1,14 @@
 # 08 — Evaluation, Observability, Economics and Learning
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **08 — Evaluation, Observability, Economics and Learning** within Build an AI Operating System;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Create the evidence loop that lets the AI OS improve without uncontrolled self-modification.

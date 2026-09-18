@@ -1,5 +1,14 @@
 # Domain 11 — Security, Permissions and Governance
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across threat modelling, identity, least privilege, prompt injection, data isolation, tool security, approvals, sandboxing, audit and governance.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 This domain explains how to secure AI applications and agents by controlling what they may see, what they may do, how authority is delegated, and how actions are governed and audited.
@@ -166,3 +175,15 @@ Define governance, review, incident response, capability ownership and security 
 - NIST AI RMF Generative AI Profile: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
 
 Next: **01 — AI Threat Modelling**.
+
+## Canonical curriculum navigation
+
+- [AI Threat Modelling](./01-ai-threat-modelling.md)
+- [Identity, Least Privilege and Capabilities](./02-identity-least-privilege-and-capabilities.md)
+- [Prompt Injection and Untrusted Content](./03-prompt-injection-and-untrusted-content.md)
+- [Data Security, Privacy and Isolation](./04-data-security-privacy-and-isolation.md)
+- [Agent and Tool Security](./05-agent-and-tool-security.md)
+- [Policy Engines, Approvals and Action Controls](./06-policy-engines-approvals-and-action-controls.md)
+- [Secrets, Sandboxing and Runtime Security](./07-secrets-sandboxing-and-runtime-security.md)
+- [Audit, Incident Response and Governance](./08-audit-incident-response-and-governance.md)
+- [Capstone: Secure an Agentic AI System](./09-capstone.md)

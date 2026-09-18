@@ -1,5 +1,14 @@
 # Domain 08 — Memory Systems
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across working, episodic, semantic and procedural memory, retrieval, consolidation, forgetting, privacy and memory evaluation.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 This domain explains how AI systems retain, retrieve, update and forget information across interactions and events.
@@ -156,3 +165,15 @@ Define standards for what an organisation's AI systems may remember, how memory 
 Do not store information merely because it is available.
 
 Next: **01 — Memory Foundations**.
+
+## Canonical curriculum navigation
+
+- [Memory Foundations](./01-memory-foundations.md)
+- [Working, Episodic, Semantic and Procedural Memory](./02-working-episodic-semantic-and-procedural-memory.md)
+- [Memory Write, Retrieval and Ranking](./03-memory-write-retrieval-and-ranking.md)
+- [Summarisation, Consolidation and Compression](./04-summarisation-consolidation-and-compression.md)
+- [Forgetting, Staleness and Conflict](./05-forgetting-staleness-and-conflict.md)
+- [Memory Architecture and Storage Patterns](./06-memory-architecture-and-storage-patterns.md)
+- [Privacy, Security and User Control](./07-privacy-security-and-user-control.md)
+- [Memory Evaluation and Observability](./08-memory-evaluation-and-observability.md)
+- [Capstone: Design a Production Memory System](./09-capstone.md)

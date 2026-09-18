@@ -1,5 +1,14 @@
 # Validation and Deterministic Boundaries
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **Validation and Deterministic Boundaries** within AI Application Engineering;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Why this matters
 
 Large language models are powerful because they are flexible. The same flexibility creates a fundamental engineering challenge: model output is probabilistic.
@@ -441,3 +450,7 @@ You understand validation boundaries when you can:
 # Architectural principle
 
 **The best AI systems are not those that give AI the most control. They are those that give AI the right level of control.**
+
+## Architect exercise
+
+Design or inspect a representative system that uses **Validation and Deterministic Boundaries**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.
