@@ -85,7 +85,7 @@ Evaluate:
 - model size;
 - expected growth.
 
-## example platform Relevance
+## Generic Relevance
 
 A future AI platform may use:
 
