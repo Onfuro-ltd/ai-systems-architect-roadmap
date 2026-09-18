@@ -116,7 +116,7 @@ Human Approval
 Publish
 ```
 
-## example platform Relevance
+## Generic Relevance
 
 Potential applications:
 
