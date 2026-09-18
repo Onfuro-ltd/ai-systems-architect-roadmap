@@ -83,7 +83,7 @@ AI Orchestration Layer
 
 ## Relevance to AI Business Platforms
 
-For systems like example platform, different workloads may require different models:
+For systems like the example platform, different workloads may require different models:
 
 - strategic reasoning → frontier model;
 - classification → smaller specialised model;
