@@ -81,7 +81,7 @@ Business Rules
 Action / Recommendation
 ```
 
-## example platform Relevance
+## Generic Relevance
 
 Potential applications:
 
