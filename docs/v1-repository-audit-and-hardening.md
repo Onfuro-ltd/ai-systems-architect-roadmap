@@ -58,12 +58,16 @@ P1 completion evidence is recorded in [`roadmap/domain-directory-map.md`](../roa
 
 Legacy combined and supplemental tracks remain intentionally present. Their chapter-by-chapter migration, archival or supplemental classification belongs to P2 and is not treated as complete by this checkpoint.
 
-### P2 — Consolidate duplicate and legacy tracks
+### P2 — Consolidate duplicate and legacy tracks — COMPLETE
 
-- Map every legacy chapter to an authoritative domain or mark it supplemental.
-- Avoid deleting useful material until migration is verified.
-- Remove contradictory or stale navigation.
-- Consolidate Domain 18 old/new chapter structure.
+- [x] Map every legacy chapter to an authoritative domain or mark it supplemental.
+- [x] Preserve useful historical material rather than deleting it.
+- [x] Remove legacy tracks from authoritative root navigation by archiving or supplemental classification.
+- [x] Consolidate Domain 18 to one canonical root chapter structure while preserving the earlier detailed set for P3 review.
+
+P2 completion evidence is recorded in [`docs/legacy-supplemental-content-map.md`](./legacy-supplemental-content-map.md).
+
+Archived content is not authoritative. Supplemental content extends the roadmap without creating extra authoritative domains.
 
 ### P3 — Editorial normalization
 

@@ -60,16 +60,17 @@ Each now has a dedicated authoritative curriculum track.
 
 ## Legacy and supplemental directories
 
-The following known overlapping tracks are intentionally retained for **P2 — legacy/supplemental consolidation**:
+P2 has classified and relocated the known overlapping tracks:
 
-| Directory | Current classification | P2 treatment |
+| Location | Classification | Status |
 | --- | --- | --- |
-| `mcp-skills-tools/` | Legacy combined source overlapping Domains 06 and 07 | Map useful chapters into authoritative domains, then archive/redirect or otherwise classify. |
-| `ai-security-governance/` | Legacy security/governance track overlapping Domain 11 | Verify chapter-by-chapter migration before retirement or archival. |
-| `open-source-models-infrastructure/` | Legacy combined infrastructure track overlapping Domains 14–16 | Map chapter-by-chapter in P2. |
-| `ai-product-engineering-commercialisation/` | Supplemental/legacy product-commercialisation material | Classify against authoritative product/business domains in P2. |
+| `archive/legacy/mcp-skills-tools/` | Archived combined source for Domains 06/07/11 | Migration mapped; not authoritative. |
+| `archive/legacy/ai-security-governance/` | Archived predecessor to Domains 10/11 | Migration mapped; not authoritative. |
+| `archive/legacy/open-source-models-infrastructure/` | Archived combined predecessor to Domains 14–16 | Migration mapped; not authoritative. |
+| `supplemental/ai-product-engineering-commercialisation/` | Supplemental commercialisation track | Intentionally retained; not an authoritative domain. |
+| `archive/legacy/multimodal-ai-pre-p2/` | Archived pre-P2 Domain 18 chapter structure | Unique detail retained for P3 editorial migration. |
 
-Do not delete a legacy directory until its useful material has been mapped and migration has been verified.
+See [`docs/legacy-supplemental-content-map.md`](../docs/legacy-supplemental-content-map.md) for chapter-by-chapter mapping.
 
 ## Authority rule
 
