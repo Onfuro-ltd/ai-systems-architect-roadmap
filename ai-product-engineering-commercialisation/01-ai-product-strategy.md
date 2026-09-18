@@ -77,9 +77,9 @@ Before building:
 5. How will success be measured?
 6. Who pays?
 
-## example platform Relevance
+## Generic Relevance
 
-example platform should not be positioned as simply an AI chatbot.
+the example platform should not be positioned as simply an AI chatbot.
 
 The stronger product vision is:
 
