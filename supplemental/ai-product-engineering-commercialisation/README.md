@@ -1,3 +1,11 @@
+> **P2 supplemental status:** This track is intentionally retained as supplemental commercialisation material. It is not an authoritative roadmap domain.
+>
+> Closely related authoritative domains:
+> - [Domain 12 — AI System Design](../../ai-system-design/README.md)
+> - [Domain 21 — AI Economics and Model Routing](../../ai-economics-model-routing/README.md)
+> - [Domain 22 — Enterprise AI](../../enterprise-ai/README.md)
+> - [Domain 23 — AI Product Design](../../ai-product-design/README.md)
+
 # AI Product Engineering & Commercialisation v1.0
 
 ## Purpose
