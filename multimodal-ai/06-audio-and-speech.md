@@ -113,7 +113,7 @@ Relevant enterprise use cases:
 
 ---
 
-## example platform Relevance
+## Generic Relevance
 
 Future possibilities:
 
