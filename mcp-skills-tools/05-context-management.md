@@ -85,7 +85,7 @@ Not:
 
 ## Relevance to AI Systems
 
-For example platform-style systems:
+For the example platform-style systems:
 
 A pricing agent does not need the entire company database.
 
