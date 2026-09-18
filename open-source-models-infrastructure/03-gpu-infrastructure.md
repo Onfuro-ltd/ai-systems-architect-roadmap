@@ -83,7 +83,7 @@ Experimentation
         +-- Cloud GPU resources
 ```
 
-## example platform relevance
+## Generic relevance
 
 The future architecture should not start with GPUs.
 
