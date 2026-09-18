@@ -87,7 +87,7 @@ Human Approval
 Business Action
 ```
 
-## example platform Connection
+## Generic Connection
 
 A future commerce intelligence platform could use specialised agents for:
 
