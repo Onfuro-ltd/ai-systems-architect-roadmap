@@ -48,7 +48,7 @@ Controlled Deployment
 Continuous Monitoring
 ```
 
-## example platform Application
+## Generic Application
 
 A future commerce intelligence platform should follow:
 
