@@ -126,7 +126,7 @@ Audit Record
 
 For enterprise AI platforms, the goal is not to prevent AI from acting. The goal is to enable useful actions with appropriate controls.
 
-## example platform Example
+## Generic Example
 
 A commerce AI agent may access:
 
