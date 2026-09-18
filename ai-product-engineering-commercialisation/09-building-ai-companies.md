@@ -181,9 +181,9 @@ Assuming superior technology automatically creates demand.
 
 Adding security, governance, and permissions only after deployment.
 
-## 11. example platform application
+## 11. Generic application
 
-The long-term example platform company should compound around commerce intelligence rather than simply around access to third-party models.
+The long-term the example platform company should compound around commerce intelligence rather than simply around access to third-party models.
 
 Potential compounding loop:
 
