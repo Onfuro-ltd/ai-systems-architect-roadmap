@@ -44,13 +44,19 @@ The known Domain 12 private references are part of a larger problem. Search conf
 - Search for related proprietary names and internal implementation details, not just one project name.
 - Re-run repository-wide privacy search before release.
 
-### P1 — Restore authoritative 28-domain structure
+### P1 — Restore authoritative 28-domain structure — COMPLETE
 
-- Create dedicated Domain 08 Memory Systems.
-- Create dedicated Domain 09 Orchestration and Multi-Agent Systems.
-- Create dedicated Domain 10 Evaluation and Reliability.
-- Audit Domain 06 and Domain 07 against the master roadmap and separate their curriculum boundaries.
-- Verify Domain 11 against the authoritative Security, Permissions and Governance scope.
+- [x] Create dedicated Domain 08 Memory Systems.
+- [x] Create dedicated Domain 09 Orchestration and Multi-Agent Systems.
+- [x] Create dedicated Domain 10 Evaluation and Reliability.
+- [x] Audit Domain 06 and Domain 07 against the master roadmap and separate their curriculum boundaries.
+- [x] Verify Domain 11 against the authoritative Security, Permissions and Governance scope.
+- [x] Give every roadmap domain an explicit authoritative repository home.
+- [x] Make root and master-roadmap navigation resolve to those authoritative homes.
+
+P1 completion evidence is recorded in [`roadmap/domain-directory-map.md`](../roadmap/domain-directory-map.md).
+
+Legacy combined and supplemental tracks remain intentionally present. Their chapter-by-chapter migration, archival or supplemental classification belongs to P2 and is not treated as complete by this checkpoint.
 
 ### P2 — Consolidate duplicate and legacy tracks
 

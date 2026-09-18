@@ -72,36 +72,40 @@ The project therefore treats model choice as an architectural decision, not the 
 
 The curriculum covers 28 connected domains:
 
-1. AI Foundations
-2. Modern Foundation Models
-3. AI Application Engineering
-4. Knowledge Systems and RAG
-5. Agents
-6. Skills and Agent Harnesses
-7. MCP and Tool Ecosystems
-8. Memory Systems
-9. Orchestration and Multi-Agent Systems
-10. Evaluation and Reliability
-11. Security, Permissions and Governance
-12. AI System Design
-13. Data and Event Architecture
-14. Open-Source and Local AI
-15. Fine-Tuning and Specialist Models
-16. GPU and Inference Infrastructure
-17. MLOps and LLMOps
-18. Multimodal AI
-19. Computer Use and Interface Agents
-20. Physical AI and Robotics
-21. AI Economics and Model Routing
-22. Enterprise AI
-23. AI Product Design
-24. Business Automation
-25. Decision Intelligence
-26. Domain-Specific AI Systems
-27. AI-Native Commerce and Operations
-28. Build an AI Operating System
+1. [AI Foundations](./foundations/README.md)
+2. [Modern Foundation Models](./foundations/README.md)
+3. [AI Application Engineering](./application-engineering/README.md)
+4. [Knowledge Systems and RAG](./knowledge-systems-rag/README.md)
+5. [Agents](./agents/README.md)
+6. [Skills and Agent Harnesses](./06-skills-agent-harnesses/README.md)
+7. [MCP and Tool Ecosystems](./07-mcp-tool-ecosystems/README.md)
+8. [Memory Systems](./08-memory-systems/README.md)
+9. [Orchestration and Multi-Agent Systems](./09-orchestration-multi-agent/README.md)
+10. [Evaluation and Reliability](./10-evaluation-reliability/README.md)
+11. [Security, Permissions and Governance](./11-security-permissions-governance/README.md)
+12. [AI System Design](./ai-system-design/README.md)
+13. [Data and Event Architecture](./data-event-architecture/README.md)
+14. [Open-Source and Local AI](./open-source-local-ai/README.md)
+15. [Fine-Tuning and Specialist Models](./fine-tuning-specialist-models/README.md)
+16. [GPU and Inference Infrastructure](./gpu-inference-infrastructure/README.md)
+17. [MLOps and LLMOps](./mlops-llmops/README.md)
+18. [Multimodal AI](./multimodal-ai/README.md)
+19. [Computer Use and Interface Agents](./computer-use-interface-agents/README.md)
+20. [Physical AI and Robotics](./physical-ai-robotics/README.md)
+21. [AI Economics and Model Routing](./ai-economics-model-routing/README.md)
+22. [Enterprise AI](./enterprise-ai/README.md)
+23. [AI Product Design](./ai-product-design/README.md)
+24. [Business Automation](./business-automation/README.md)
+25. [Decision Intelligence](./decision-intelligence/README.md)
+26. [Domain-Specific AI Systems](./domain-specific-ai-systems/README.md)
+27. [AI-Native Commerce and Operations](./ai-native-commerce-operations/README.md)
+28. [Build an AI Operating System](./ai-operating-system/README.md)
+
+> **Domain 02 note:** Modern Foundation Models is currently taught within the shared [Foundations curriculum](./foundations/README.md), alongside the fundamental model concepts it builds on. It remains a distinct architectural domain in the master roadmap.
 
 See the [Master Roadmap](./roadmap/master-roadmap.md) for the architectural scope of each domain.
+
+For the canonical directory for every domain, including the shared Domain 01/02 Foundations home and legacy-track status, see the [Authoritative Domain Directory Map](./roadmap/domain-directory-map.md).
 
 ## Foundations curriculum
 
