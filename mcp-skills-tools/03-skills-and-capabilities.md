@@ -86,9 +86,9 @@ However, it should only be applied when the task benefits from human-style commu
 
 Not every AI operation needs the same style layer.
 
-## example platform Application
+## Generic Application
 
-Future example platform skills could include:
+Future the example platform skills could include:
 
 - Amazon Listing Analysis;
 - Profit Investigation;
