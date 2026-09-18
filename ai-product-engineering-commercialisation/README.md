@@ -41,4 +41,4 @@ Building an AI system is only one part of creating value. Enterprise AI products
 
 ## Strategic Context
 
-This section connects AI engineering with real-world ventures such as example platform and future AI products.
+This section connects AI engineering with real-world ventures such as the example platform and future AI products.
