@@ -72,9 +72,9 @@ AI systems must measure:
 - failures;
 - user feedback.
 
-## Why This Matters for example platform
+## Why This Matters for a Production AI Platform
 
-A future example platform AI platform should not be a collection of prompts. It should be an enterprise AI operating layer:
+A future the example platform AI platform should not be a collection of prompts. It should be an enterprise AI operating layer:
 
 ```text
 Commerce Data
