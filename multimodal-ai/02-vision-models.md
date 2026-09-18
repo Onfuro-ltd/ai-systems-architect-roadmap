@@ -108,7 +108,7 @@ Good systems should track:
 - validation results
 - human review where needed
 
-## example platform Applications
+## Generic Applications
 
 Potential uses:
 
