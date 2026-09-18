@@ -151,9 +151,9 @@ A modular monolith can be the correct architecture when:
 
 Microservices should solve a demonstrated organisational or operational problem—not be adopted because AI systems sound sophisticated.
 
-## 10. example platform application
+## 10. Generic application
 
-example platform can maintain strong internal domain boundaries even while operating as a modular platform.
+the example platform can maintain strong internal domain boundaries even while operating as a modular platform.
 
 Potential boundaries include:
 
