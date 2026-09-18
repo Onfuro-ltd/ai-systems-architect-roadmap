@@ -52,7 +52,7 @@ The strongest systems will usually be hybrid:
 - specialist models for high-volume tasks;
 - business rules for reliability.
 
-## example platform Relevance
+## Generic Relevance
 
 A future commerce intelligence platform should combine:
 
