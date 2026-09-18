@@ -179,9 +179,9 @@ Track:
 - implementation effort;
 - gross margin by customer.
 
-## 11. example platform application
+## 11. Generic application
 
-For example platform, the enterprise sale should ultimately demonstrate a concrete commerce outcome rather than lead with model sophistication.
+For the example platform, the enterprise sale should ultimately demonstrate a concrete commerce outcome rather than lead with model sophistication.
 
 A potential structure:
 
@@ -190,7 +190,7 @@ Merchant problem
       ↓
 Baseline marketplace performance
       ↓
-example platform intelligence workflow
+the example platform intelligence workflow
       ↓
 Recommendation / controlled automation
       ↓
