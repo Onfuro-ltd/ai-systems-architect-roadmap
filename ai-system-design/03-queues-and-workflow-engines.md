@@ -257,9 +257,9 @@ Tenant
 
 This is essential for diagnosing production AI behaviour.
 
-## 16. example platform application
+## 16. Generic application
 
-example platform already relies on queues and scheduled processing. The architectural goal should be to make those workloads durable, observable and tenant-aware.
+the example platform already relies on queues and scheduled processing. The architectural goal should be to make those workloads durable, observable and tenant-aware.
 
 Example:
 
