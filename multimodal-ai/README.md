@@ -94,41 +94,18 @@ By the end of this section, you should be able to:
 
 ## Curriculum
 
-### 01 — What Is Multimodal AI?
+1. [Multimodal foundations and architecture](./01-multimodal-foundations-and-architecture.md)
+2. [Vision and image understanding](./02-vision-and-image-understanding.md)
+3. [Image generation and editing systems](./03-image-generation-and-editing-systems.md)
+4. [Audio and speech systems](./04-audio-and-speech-systems.md)
+5. [Video intelligence and generation](./05-video-intelligence-and-generation.md)
+6. [Document intelligence](./06-document-intelligence.md)
+7. [Multimodal context, fusion and routing](./07-multimodal-context-fusion-and-routing.md)
+8. [Multimodal evaluation, safety and security](./08-multimodal-evaluation-safety-and-security.md)
+9. [Production multimodal infrastructure](./09-production-multimodal-infrastructure.md)
+10. [Multimodal AI capstone](./10-multimodal-ai-capstone.md)
 
-Understand modalities, multimodal models, fusion, alignment, native multimodality, pipelines, and the difference between perception and reasoning.
-
-### 02 — Vision Models
-
-Learn the foundations behind image encoders, vision-language models, object and scene understanding, visual grounding, OCR boundaries, and visual reasoning.
-
-### 03 — Image Understanding
-
-Design production systems for product analysis, documents, screenshots, inspection, classification, extraction, visual search, and multimodal RAG.
-
-### 04 — Image Generation
-
-Understand diffusion and other generative approaches, conditioning, editing, consistency, control, provenance, evaluation, and production workflows.
-
-### 05 — Video Generation
-
-Study temporal modelling, text-to-video, image-to-video, consistency, controllability, cost, quality evaluation, and practical use cases.
-
-### 06 — Audio and Speech
-
-Cover speech-to-text, text-to-speech, real-time voice systems, diarisation, latency, turn taking, audio understanding, consent, and privacy.
-
-### 07 — Multimodal Agents
-
-Combine perception, reasoning, tools, memory, and actions. Understand screen-based agents, document agents, voice agents, and computer-use systems.
-
-### 08 — Enterprise Multimodal Systems
-
-Design multimodal systems for commerce, support, operations, healthcare-adjacent workflows, industrial inspection, marketing, accessibility, and internal knowledge work.
-
-### 09 — Multimodal Capstone
-
-Design an enterprise-grade multimodal operations system that combines multiple inputs, specialised models, tool access, evidence, validation, security, observability, and evaluation.
+> **P2 consolidation note:** an earlier, deeper nine-chapter structure is preserved under [`archive/legacy/multimodal-ai-pre-p2/`](../archive/legacy/multimodal-ai-pre-p2/README.md). The ten chapters above are the canonical Domain 18 navigation structure. P3 should merge any uniquely valuable archived detail into these chapters.
 
 ---
 
@@ -323,6 +300,6 @@ If you cannot answer these questions, keep learning before adding more tools or 
 
 Continue with:
 
-**[01 — What Is Multimodal AI?](01-what-is-multimodal-ai.md)**
+**[01 — Multimodal Foundations and Architecture](01-multimodal-foundations-and-architecture.md)**
 
 That chapter builds the conceptual foundation before we move into vision, image generation, video, audio, and multimodal agents.
