@@ -248,9 +248,9 @@ Test at least:
 
 Property-based testing can also be useful for complex state graphs.
 
-## 15. example platform application
+## 15. Generic application
 
-example platform can use explicit states for synchronisation and AI decision workflows.
+the example platform can use explicit states for synchronisation and AI decision workflows.
 
 Example marketplace sync:
 
