@@ -99,7 +99,7 @@ Examples:
 - research agents;
 - operational agents.
 
-## example platform Example
+## Generic Example
 
 A weak idea:
 
