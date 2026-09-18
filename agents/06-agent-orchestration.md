@@ -114,7 +114,7 @@ Risks:
 
 ## Connection To Enterprise Systems
 
-For systems like example platform:
+For systems like the example platform:
 
 ```
 Business Goal
