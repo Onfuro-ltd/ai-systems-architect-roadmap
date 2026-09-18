@@ -231,9 +231,9 @@ P3 — batch / enrichment
 
 Priority should be explicit rather than emerging accidentally from queue timing.
 
-## 12. example platform application
+## 12. Generic application
 
-example platform should distinguish interactive and background workloads.
+the example platform should distinguish interactive and background workloads.
 
 Interactive:
 
@@ -254,7 +254,7 @@ Asynchronous:
 A useful pattern is:
 
 ```text
-example platform UI
+the example platform UI
    ↓
 Application API
    ↓
