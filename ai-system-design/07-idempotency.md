@@ -154,14 +154,14 @@ Never assume a timeout means the external action did not happen.
 Consider:
 
 ```text
-example platform → external marketplace: execute action
+the example platform → external marketplace: execute action
                      ↓
                action succeeds
                      ↓
               response is lost
 ```
 
-example platform sees a timeout, but the marketplace may already have changed.
+the example platform sees a timeout, but the marketplace may already have changed.
 
 Blindly retrying can duplicate the action.
 
@@ -375,9 +375,9 @@ Test scenarios such as:
 
 The expected result should be one intended business effect.
 
-## 22. example platform application
+## 22. Generic application
 
-For example platform, idempotency should be treated as a cross-cutting platform concern for marketplace integrations, queue jobs, notifications, imports, and future AI actions.
+For the example platform, idempotency should be treated as a cross-cutting platform concern for marketplace integrations, queue jobs, notifications, imports, and future AI actions.
 
 Example controlled marketplace action:
 
