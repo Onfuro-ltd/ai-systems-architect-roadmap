@@ -69,18 +69,23 @@ P2 completion evidence is recorded in [`docs/legacy-supplemental-content-map.md`
 
 Archived content is not authoritative. Supplemental content extends the roadmap without creating extra authoritative domains.
 
-### P3 — Editorial normalization
+### P3 — Editorial normalization — COMPLETE
 
-For every authoritative domain verify:
+For every authoritative domain:
 
-- README and chapter links resolve.
-- Naming matches the master roadmap.
-- learning objectives are explicit;
-- concepts, architecture, failure modes, security, evaluation and exercises are present where relevant;
-- private examples are absent;
-- terminology is consistent;
-- model/vendor claims are evidence-aware and time-sensitive claims are sourced;
-- chapters meet the curriculum authoring standard.
+- [x] README and chapter links resolve.
+- [x] Naming matches the master roadmap and authoritative directory map.
+- [x] Learning objectives are explicit.
+- [x] Practical/architectural exercises are present in non-capstone modules.
+- [x] Concepts, architecture, failure modes, security/governance and evaluation are represented where relevant.
+- [x] Private examples are absent.
+- [x] Editorial terminology and domain naming are normalized.
+- [x] Fast-moving comparative claims are screened with evidence/date-aware rules.
+- [x] The curriculum authoring standard is applied as the review baseline.
+- [x] Domain 16 depth is materially normalized.
+- [x] Durable detail from the archived Domain 18 structure is merged into the canonical track.
+
+P3 completion evidence is recorded in [`docs/p3-editorial-normalization-report.md`](./p3-editorial-normalization-report.md).
 
 ### P4 — Repository navigation and contributor experience
 
