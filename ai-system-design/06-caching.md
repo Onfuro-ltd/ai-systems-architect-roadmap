@@ -239,9 +239,9 @@ Next read fetches authoritative value
 
 Event-driven invalidation should tolerate duplicate or delayed events.
 
-## 16. example platform application
+## 16. Generic application
 
-example platform can use caching at several levels:
+the example platform can use caching at several levels:
 
 ```text
 Marketplace API responses
