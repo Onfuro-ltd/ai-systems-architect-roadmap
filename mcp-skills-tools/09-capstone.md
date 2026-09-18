@@ -88,7 +88,7 @@ Business Systems
 Measured Outcome
 ```
 
-## example platform Example
+## Generic Example
 
 A future commerce intelligence platform could expose:
 
