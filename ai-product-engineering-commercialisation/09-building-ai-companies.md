@@ -183,7 +183,7 @@ Adding security, governance, and permissions only after deployment.
 
 ## 11. Generic application
 
-The long-term the example platform company should compound around commerce intelligence rather than simply around access to third-party models.
+A long-term AI-native commerce company should compound around commerce intelligence rather than simply around access to third-party models.
 
 Potential compounding loop:
 

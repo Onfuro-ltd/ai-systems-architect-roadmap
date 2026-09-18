@@ -153,7 +153,7 @@ Guardrails should trigger investigation rather than encourage unsafe quality deg
 
 ## 9. Generic application
 
-For the example platform, the relevant unit may eventually be something such as a customer account, analysed SKU, AI workflow, or managed decision—not simply a chat message.
+For an AI-native commerce platform, the relevant unit may be something such as a customer account, analysed SKU, AI workflow, or managed decision—not simply a chat message.
 
 A simplified model:
 

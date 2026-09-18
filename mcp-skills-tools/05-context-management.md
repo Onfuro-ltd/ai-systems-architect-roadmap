@@ -85,7 +85,7 @@ Not:
 
 ## Relevance to AI Systems
 
-For the example platform-style systems:
+For AI-native operations systems:
 
 A pricing agent does not need the entire company database.
 

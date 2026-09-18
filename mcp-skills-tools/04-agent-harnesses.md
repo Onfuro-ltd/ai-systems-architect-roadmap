@@ -60,7 +60,7 @@ Without a harness, AI systems become:
 
 ## Generic Relevance
 
-A future the example platform AI worker would not be only a language model. It would include:
+A production AI worker would not be only a language model. It would include:
 
 - reasoning model;
 - marketplace tools;

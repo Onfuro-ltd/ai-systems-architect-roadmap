@@ -114,7 +114,7 @@ Risks:
 
 ## Connection To Enterprise Systems
 
-For systems like the example platform:
+For systems with comparable orchestration requirements:
 
 ```
 Business Goal

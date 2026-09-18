@@ -93,7 +93,7 @@ It should expose capabilities safely.
 
 ## Generic Application
 
-Future the example platform MCP capabilities could expose:
+Future MCP capabilities for an AI-native commerce platform could expose:
 
 - Amazon SP-API tools
 - eBay tools

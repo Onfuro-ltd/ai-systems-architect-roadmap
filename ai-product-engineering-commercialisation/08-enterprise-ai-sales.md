@@ -181,7 +181,7 @@ Track:
 
 ## 11. Generic application
 
-For the example platform, the enterprise sale should ultimately demonstrate a concrete commerce outcome rather than lead with model sophistication.
+For an AI-native commerce platform, the enterprise sale should ultimately demonstrate a concrete commerce outcome rather than lead with model sophistication.
 
 A potential structure:
 
@@ -190,7 +190,7 @@ Merchant problem
       ↓
 Baseline marketplace performance
       ↓
-the example platform intelligence workflow
+AI-native commerce intelligence workflow
       ↓
 Recommendation / controlled automation
       ↓

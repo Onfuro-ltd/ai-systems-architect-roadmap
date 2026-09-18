@@ -66,7 +66,7 @@ AI products require validation of:
 - cost per interaction;
 - operational impact.
 
-## Example: the example platform
+## Example: AI-native operations platform
 
 A poor MVP:
 

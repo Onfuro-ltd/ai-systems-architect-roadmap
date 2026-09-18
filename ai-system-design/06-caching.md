@@ -241,7 +241,7 @@ Event-driven invalidation should tolerate duplicate or delayed events.
 
 ## 16. Generic application
 
-the example platform can use caching at several levels:
+A production AI platform can use caching at several levels:
 
 ```text
 Marketplace API responses

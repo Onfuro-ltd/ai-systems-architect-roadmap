@@ -88,7 +88,7 @@ Evaluate:
 
 ## Generic Relevance
 
-A future the example platform AI platform should not simply select the newest model.
+A production AI platform should not simply select the newest model.
 
 It should use evaluation and routing:
 

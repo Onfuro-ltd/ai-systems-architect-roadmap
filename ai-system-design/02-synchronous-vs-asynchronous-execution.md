@@ -233,7 +233,7 @@ Priority should be explicit rather than emerging accidentally from queue timing.
 
 ## 12. Generic application
 
-the example platform should distinguish interactive and background workloads.
+A production AI platform should distinguish interactive and background workloads.
 
 Interactive:
 
@@ -254,7 +254,7 @@ Asynchronous:
 A useful pattern is:
 
 ```text
-the example platform UI
+AI platform UI
    ↓
 Application API
    ↓

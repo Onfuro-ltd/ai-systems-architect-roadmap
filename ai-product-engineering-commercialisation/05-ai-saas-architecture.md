@@ -72,7 +72,7 @@ The product should decide:
 
 ## Why This Matters for a Production AI Platform
 
-the example platform already follows many SaaS principles:
+A production AI platform may already follow many SaaS principles:
 
 - multi-tenancy;
 - marketplace integrations;
@@ -86,7 +86,7 @@ The AI layer should become an additional intelligence layer on top of the platfo
 Business Data
       |
       v
-the example platform Intelligence Layer
+AI Platform Intelligence Layer
       |
       v
 Recommendations + Controlled Actions

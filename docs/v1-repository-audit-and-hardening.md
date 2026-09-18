@@ -8,7 +8,7 @@ The authoritative master roadmap defines 28 domains and Domains 12–28 now have
 
 The audit found four release blockers:
 
-1. **Privacy leakage:** a repository-wide code search for the private project name `example platform` returns more than 50 curriculum files. These references must be removed or rewritten as generic public examples before promotion.
+1. **Privacy leakage:** the initial repository audit identified private-project references across more than 50 curriculum files. These references required removal or conversion into generic public examples before promotion.
 2. **Authoritative-domain gap:** Domains 08 (Memory Systems), 09 (Orchestration and Multi-Agent Systems), and 10 (Evaluation and Reliability) do not currently have dedicated curriculum directories matching the master roadmap.
 3. **Domain 06/07 structural overlap:** `mcp-skills-tools/` combines material belonging to both Skills and Agent Harnesses and MCP/Tool Ecosystems. It should be audited and separated or explicitly mapped without losing useful material.
 4. **Legacy/supplemental overlap:** older tracks such as `open-source-models-infrastructure/` and `ai-product-engineering-commercialisation/` overlap later authoritative domains and contain private-project references. They require classification, sanitization and either archival, migration or explicit supplemental status.

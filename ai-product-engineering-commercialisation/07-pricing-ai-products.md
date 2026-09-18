@@ -204,7 +204,7 @@ Measure:
 
 ## 10. Generic application
 
-the example platform should not necessarily charge simply because an AI model was invoked.
+An AI product should not necessarily charge simply because an AI model was invoked.
 
 A stronger eventual model could combine a platform subscription with usage or capability tiers tied to merchant scale and value.
 

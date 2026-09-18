@@ -462,7 +462,7 @@ Determine where the system bends and where it breaks.
 
 ## 25. Generic application
 
-A scalable the example platform architecture should separate workload classes while keeping capacity governed.
+A scalable AI platform architecture should separate workload classes while keeping capacity governed.
 
 ```text
 Users / Webhooks / Schedulers

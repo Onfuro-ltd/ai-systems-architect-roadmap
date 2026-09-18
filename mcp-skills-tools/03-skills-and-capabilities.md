@@ -88,7 +88,7 @@ Not every AI operation needs the same style layer.
 
 ## Generic Application
 
-Future the example platform skills could include:
+Future AI-native operations skills could include:
 
 - Amazon Listing Analysis;
 - Profit Investigation;

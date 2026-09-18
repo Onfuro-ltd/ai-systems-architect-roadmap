@@ -74,7 +74,7 @@ AI systems must measure:
 
 ## Why This Matters for a Production AI Platform
 
-A future the example platform AI platform should not be a collection of prompts. It should be an enterprise AI operating layer:
+A production AI platform should not be a collection of prompts. It should be an enterprise AI operating layer:
 
 ```text
 Commerce Data

@@ -259,7 +259,7 @@ This is essential for diagnosing production AI behaviour.
 
 ## 16. Generic application
 
-the example platform already relies on queues and scheduled processing. The architectural goal should be to make those workloads durable, observable and tenant-aware.
+A production platform may already rely on queues and scheduled processing. The architectural goal should be to make those workloads durable, observable and tenant-aware.
 
 Example:
 

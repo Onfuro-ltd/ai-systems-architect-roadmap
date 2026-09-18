@@ -73,7 +73,7 @@ Controls include:
 
 ## Why This Matters for a Production AI Platform
 
-the example platform will eventually support business decisions involving:
+An enterprise AI platform may support business decisions involving:
 
 - pricing
 - inventory

@@ -99,4 +99,4 @@ Enterprise AI will not succeed because agents have unlimited access.
 
 It will succeed because agents have controlled, measurable and secure capabilities.
 
-For systems like the example platform, marketplace tools should expose business capabilities while maintaining strict permission boundaries.
+For AI-native commerce systems, marketplace tools should expose business capabilities while maintaining strict permission boundaries.

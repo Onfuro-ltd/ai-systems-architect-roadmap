@@ -153,7 +153,7 @@ Microservices should solve a demonstrated organisational or operational problemâ
 
 ## 10. Generic application
 
-the example platform can maintain strong internal domain boundaries even while operating as a modular platform.
+A modular AI platform can maintain strong internal domain boundaries even as its capabilities expand.
 
 Potential boundaries include:
 

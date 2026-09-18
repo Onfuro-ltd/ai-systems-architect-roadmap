@@ -262,7 +262,7 @@ If confidence, validation, permissions, or required data are unavailable, high-i
 
 ## 16. Generic application
 
-For the example platform, critical dependency failures may include:
+For an AI-native operations platform, critical dependency failures may include:
 
 - Amazon/eBay/Shopify API outage;
 - expired marketplace credentials;

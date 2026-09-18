@@ -79,7 +79,7 @@ Before building:
 
 ## Generic Relevance
 
-the example platform should not be positioned as simply an AI chatbot.
+An AI-native operations platform should not be positioned as simply an AI chatbot.
 
 The stronger product vision is:
 

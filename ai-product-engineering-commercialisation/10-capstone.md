@@ -211,7 +211,7 @@ Audit
 
 ## 9. Generic capstone architecture
 
-A model-independent the example platform intelligence layer can be conceptualised as:
+A model-independent commerce intelligence layer can be conceptualised as:
 
 ```text
 Amazon / eBay / Shopify / Other Sources
