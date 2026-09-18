@@ -209,9 +209,9 @@ Execution
 Audit
 ```
 
-## 9. example platform capstone architecture
+## 9. Generic capstone architecture
 
-A model-independent example platform intelligence layer can be conceptualised as:
+A model-independent the example platform intelligence layer can be conceptualised as:
 
 ```text
 Amazon / eBay / Shopify / Other Sources
