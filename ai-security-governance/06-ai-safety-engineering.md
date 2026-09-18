@@ -71,9 +71,9 @@ Controls include:
 - rollback capability
 - monitoring
 
-## Why This Matters for example platform
+## Why This Matters for a Production AI Platform
 
-example platform will eventually support business decisions involving:
+the example platform will eventually support business decisions involving:
 
 - pricing
 - inventory
