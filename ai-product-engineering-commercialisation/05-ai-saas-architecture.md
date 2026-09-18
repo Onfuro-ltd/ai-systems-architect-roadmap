@@ -70,9 +70,9 @@ The product should decide:
 - when human approval is required;
 - when to escalate.
 
-## Why This Matters for example platform
+## Why This Matters for a Production AI Platform
 
-example platform already follows many SaaS principles:
+the example platform already follows many SaaS principles:
 
 - multi-tenancy;
 - marketplace integrations;
@@ -86,7 +86,7 @@ The AI layer should become an additional intelligence layer on top of the platfo
 Business Data
       |
       v
-example platform Intelligence Layer
+the example platform Intelligence Layer
       |
       v
 Recommendations + Controlled Actions
