@@ -1,3 +1,10 @@
+> **P2 archive status:** This combined track is preserved as a migration source only. It is no longer authoritative.
+>
+> Current curriculum:
+> - [Domain 06 — Skills and Agent Harnesses](../../../06-skills-agent-harnesses/README.md)
+> - [Domain 07 — MCP and Tool Ecosystems](../../../07-mcp-tool-ecosystems/README.md)
+> - [Domain 11 — Security, Permissions and Governance](../../../11-security-permissions-governance/README.md)
+
 # MCP, Skills & AI Tool Ecosystems v0.6
 
 ## Introduction
