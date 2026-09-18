@@ -64,7 +64,7 @@ Without governance, organisations cannot reliably answer:
 - Why did it produce this result?
 - Who approved deployment?
 
-## example platform Relevance
+## Generic Relevance
 
 A future commerce AI platform requires governance because agents may influence:
 
