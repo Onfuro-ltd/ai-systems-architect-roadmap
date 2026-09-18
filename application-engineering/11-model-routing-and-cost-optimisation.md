@@ -48,7 +48,7 @@ Different tasks have different requirements:
 | Private data processing | Privacy/control |
 | High-volume automation | Cost efficiency |
 
-Using a frontier model for every request can be wasteful. Using the cheapest model everywhere can reduce quality and increase operational cost through failures.
+Using a frontier model for every request can be wasteful. Using the lowest-cost eligible model everywhere can reduce quality and increase operational cost through failures.
 
 ## Basic routing architecture
 
