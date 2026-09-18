@@ -67,7 +67,7 @@ AI products require additional validation:
 - human review requirements;
 - acceptable automation level.
 
-## example platform Example
+## Generic Example
 
 Instead of asking:
 
