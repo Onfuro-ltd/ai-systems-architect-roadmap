@@ -2,46 +2,83 @@
 
 ## Purpose
 
-Operate media-heavy AI workloads with controlled storage, processing, latency and cost.
+Multimodal production systems move large heterogeneous artifacts through ingestion, preprocessing, specialist inference, storage, retrieval and downstream reasoning. The platform must manage media lifecycle as well as models.
 
-## Ingestion
+## Learning outcomes
 
-Validate MIME/type, size, dimensions/duration, integrity and authorization before expensive processing. Use bounded uploads and asynchronous processing for large artifacts.
+By the end of this module, you should be able to:
+- design storage and processing paths by modality
+- separate synchronous and asynchronous media work
+- build artifact identity, lineage and derived-evidence storage
+- operate modality-specific capacity, observability and cost controls
 
-## Storage
+## Artifact ingestion
 
-Separate original immutable media, normalized derivatives, extracted representations, embeddings/indexes and generated outputs. Define retention and lifecycle for each.
+Validate type, size, source and malware/security constraints before processing. Give each source artifact a stable identity.
 
-## Processing
+## Processing graph
 
-Use queues/workflow engines for long OCR, video, transcription and generation jobs. Make stages idempotent and resumable.
+Image normalization, OCR, transcription, frame extraction and embedding may be independent asynchronous stages. Persist outputs so expensive work is not repeated unnecessarily.
+
+## Storage tiers
+
+Raw media, normalized media, thumbnails/frames, transcripts and derived evidence have different retention and access needs.
 
 ## Caching
 
-Cache safe deterministic or expensive derived artifacts such as transcripts, thumbnails, scene boundaries or embeddings using content/version identity.
+Cache deterministic transforms and safe model results using artifact/model/config identity. Do not reuse results across authorization boundaries.
 
-## Compute routing
+## Serving
 
-Different modalities may require CPU, GPU, specialist accelerators or external APIs. Route independently rather than forcing all work through one model tier.
-
-## Cost
-
-Media cost depends on bytes, pixels, frames, duration, context, generation size, storage, egress and accelerator time. Attribute cost to workflow and successful outcome.
+Different modalities may require different hardware and batching. Route perception workloads independently from language reasoning when that improves utilisation.
 
 ## Observability
 
-Trace artifact IDs, transformations, model/runtime versions, queue time, processing time, storage, failures, quality checks, provenance and final outcome.
+Trace artifact ID through transformations, model calls, derived evidence and final outcomes. Track processing latency, failure class, storage, model cost and human review.
 
-## Resilience
+## Lifecycle
 
-Support retry, resume, partial reprocessing, corrupted-input quarantine, provider fallback where permitted and safe cleanup of abandoned jobs.
+Deletion must propagate through raw artifacts, derived frames, transcripts, embeddings, caches and memory where applicable.
 
-## Exercise
+## Failure modes
 
-Design infrastructure for millions of images, long PDFs, audio calls and occasional videos with different latency and retention requirements.
+- same artifact processed repeatedly because identity is missing
+- derived copies survive deletion
+- video/audio jobs overwhelm interactive text capacity
+- cache leaks data across users/tenants
+- operators cannot connect final claim to source transformation
+
+## Security and governance
+
+Apply least privilege to media stores and processors, scan/validate untrusted uploads, isolate tenants, redact logs and control egress from processing workers.
+
+## Evaluation
+
+Track storage/egress, preprocessing, specialist inference, reasoning inference and review cost separately. Optimise cost per successful multimodal task.
+
+## Practical exercise
+
+Design infrastructure for images, scanned PDFs, audio and video. Define synchronous/asynchronous boundaries, artifact lineage, retention, deletion and cost attribution.
+
+## Architect checklist
+
+- [ ] every artifact and derivative has identity
+- [ ] processing is resumable/idempotent
+- [ ] deletion propagates
+- [ ] capacity is separated where workload shapes differ
+- [ ] end-to-end lineage is observable
+
+## Primary reading
+
+- [W3C PROV Overview](https://www.w3.org/TR/prov-overview/)
+- [Flamingo — a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
+
+## Mastery gate
+
+Design a production use of **Production Multimodal Infrastructure** that preserves provenance, uncertainty and action boundaries, and state how you would measure whether the multimodal component improves the outcome over a simpler baseline.
 
 ## Takeaway
 
-> Production multimodal AI is as much a media-processing and data-lifecycle platform as it is a model-serving problem.
+> Multimodal infrastructure is a governed artifact pipeline, not just another model endpoint.
 
 Next: **10 — Multimodal AI Capstone**.

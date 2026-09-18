@@ -2,42 +2,80 @@
 
 ## Purpose
 
-Evaluate multimodal systems against modality-specific failures and cross-modal attack surfaces.
+Multimodal systems need evaluation that reflects each modality and the end-to-end action. They also expand the attack surface through media, metadata and generated content.
 
-## Evaluation
+## Learning outcomes
 
-Build representative suites for image quality, OCR, spatial reasoning, audio recognition, accents/noise, temporal video reasoning, document layout and cross-modal tasks.
+By the end of this module, you should be able to:
+- build modality-specific and end-to-end evaluation suites
+- test indirect prompt injection through non-text artifacts
+- separate perception errors from reasoning/policy failures
+- design provenance, privacy and human-review controls proportional to consequence
 
-Measure end-to-end task success as well as component quality.
+## Evaluation layers
 
-## Perturbations
+Test ingestion quality, perception/extraction, alignment/fusion, reasoning, policy and final outcome separately. This makes failures diagnosable.
 
-Test blur, crop, rotation, compression, low light, noise, missing frames, poor scans, long documents, overlapping speech and corrupted metadata where relevant.
+## Task suites
 
-## Prompt injection through media
+Include blur, occlusion, unusual layouts, accents/noise, long video, conflicting modalities, manipulated/generated media and missing evidence.
 
-Images, documents, transcripts and web screenshots may contain instructions intended to manipulate an agent.
+## Grounding
 
-Treat retrieved/media content as untrusted evidence, not system authority.
+For consequential claims, require links to page, region, timestamp or structured source. Evaluate whether cited evidence actually supports the claim.
 
 ## Adversarial media
 
-Consider deceptive edits, spoofed screenshots, manipulated documents, synthetic voices and generated imagery. Verification requirements should match consequence.
+Images, documents and audio can contain instructions aimed at the model. Test that content remains data and cannot grant authority.
 
-## Privacy and consent
+## Synthetic media
 
-Media can expose faces, voices, locations, documents and bystanders. Minimize collection and retention, enforce access, and apply consent/legal requirements appropriate to the use case.
+Generated or manipulated media may be useful content but requires provenance and should not be assumed authentic evidence.
 
-## Generated media
+## Human review
 
-Apply policy, provenance and human review appropriate to risk. Exact requirements vary by deployment and jurisdiction.
+Use review where uncertainty or consequence exceeds the validated automation boundary. Show reviewers the proposed action and evidence.
 
-## Exercise
+## Failure modes
 
-Threat-model a multimodal agent that can receive images and documents and then call operational tools.
+- aggregate score hides a catastrophic modality slice
+- model follows instructions embedded in a document/image/audio
+- generated media accepted as real evidence
+- private media leaks through logs or cross-tenant retrieval
+- high-confidence perception error triggers irreversible action
+
+## Security and governance
+
+Apply data minimisation, access control, tenant isolation, retention policy and tool restrictions to all modalities. Consider consent and bystander data for audio/video. Preserve a kill switch for privileged automation.
+
+## Evaluation
+
+Combine deterministic checks, modality-specific metrics, behavioural grading and end-to-end outcomes. Track false-action rates, human corrections, latency and cost by risk slice.
+
+## Practical exercise
+
+Create an adversarial suite for a document-and-image agent containing hidden text, conflicting sources, corrupted files and synthetic evidence. Define pass/fail gates before tool use.
+
+## Architect checklist
+
+- [ ] evaluation covers each modality and end-to-end outcome
+- [ ] adversarial media is tested
+- [ ] provenance is part of scoring
+- [ ] high-risk actions have explicit gates
+- [ ] privacy/logging controls cover raw and derived media
+
+## Primary reading
+
+- [W3C PROV Overview](https://www.w3.org/TR/prov-overview/)
+- [CLIP — Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
+- [Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356)
+
+## Mastery gate
+
+Design a production use of **Multimodal Evaluation, Safety and Security** that preserves provenance, uncertainty and action boundaries, and state how you would measure whether the multimodal component improves the outcome over a simpler baseline.
 
 ## Takeaway
 
-> A multimodal attack can enter through what the system sees or hears, so perception must never bypass policy and authorization boundaries.
+> Multimodal reliability requires proving both what the system perceived and what it was allowed to do with that perception.
 
 Next: **09 — Production Multimodal Infrastructure**.

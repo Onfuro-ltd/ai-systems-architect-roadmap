@@ -303,3 +303,8 @@ Continue with:
 **[01 — Multimodal Foundations and Architecture](01-multimodal-foundations-and-architecture.md)**
 
 That chapter builds the conceptual foundation before we move into vision, image generation, video, audio, and multimodal agents.
+
+
+## P3 depth migration
+
+P3 merged the durable concepts from the archived pre-P2 nine-chapter track into the canonical ten-chapter curriculum. The archive remains available for traceability, but new learning and contributor work should target the canonical chapters above.

@@ -2,54 +2,79 @@
 
 ## Purpose
 
-Turn PDFs, scans, forms, tables and mixed-layout documents into trustworthy structured evidence.
+Documents combine text, layout, tables, images, handwriting and metadata. Reliable extraction often needs both deterministic parsing and visual/language understanding.
 
-## Document layers
+## Learning outcomes
 
-A document can contain embedded text, scanned images, layout, tables, handwriting, signatures, diagrams, annotations and metadata.
+By the end of this module, you should be able to:
+- distinguish native digital parsing, OCR and visual document reasoning
+- preserve page/region provenance for extracted fields
+- design schema validation and human review for consequential extraction
+- handle malicious or conflicting document content safely
 
-Text extraction alone may lose essential meaning.
+## Document types
 
-## Pipeline
+Native PDFs, scans, forms, slides and photos of documents require different ingestion. Detect format and quality before choosing the extraction path.
 
-```text
-Original document
-      ↓
-Type / integrity detection
-      ↓
-Native text extraction where available
-      ↓
-OCR / layout / table processing where needed
-      ↓
-Structured representation
-      ↓
-Retrieval / reasoning
-      ↓
-Citation to source page/region
-```
+## Parsing vs OCR
 
-## Prefer native structure
+Use native text/object extraction when available; OCR when pixels contain the text; visual reasoning when layout/relationships matter.
 
-Use embedded text and document structure before OCR when reliable. OCR is a fallback or complementary perception layer, not a universal first step.
+## Layout
 
-## Tables and forms
+Tables, headers, footnotes, merged cells and multi-column layouts carry meaning. Flattening to plain text can destroy structure.
 
-Preserve row/column relationships, units, headers and page context. Flattening tables into arbitrary text can corrupt meaning.
+## Structured extraction
 
-## Citations
+Return typed fields with page/region references, validation status and uncertainty. Downstream systems should not parse free-form model prose if a schema can be used.
 
-For evidence-sensitive workflows, retain page, bounding region or source element so outputs can be inspected.
+## Cross-page reasoning
 
-## Security
+Some facts require linking definitions, tables and appendices. Retrieval/chunking strategies should preserve document hierarchy.
 
-Documents are untrusted input. Treat embedded instructions as data, scan attachments as appropriate, isolate parsers, limit resource consumption and prevent document content from overriding system policy.
+## Authority
 
-## Exercise
+A document can be relevant but not authoritative. Store source identity, version and effective date where decisions depend on it.
 
-Design ingestion for mixed digital/scanned financial documents where exact amounts, tables and page-level citations are required.
+## Failure modes
+
+- wrong OCR digit causes a material field error
+- table rows/columns become misaligned
+- stale document version overrides current policy
+- hidden or malicious text influences the model
+- model fills a missing field instead of returning unknown
+
+## Security and governance
+
+Documents are a major indirect-prompt-injection surface. Keep document content in the data trust class, enforce access before retrieval, and validate any proposed action outside the model.
+
+## Evaluation
+
+Measure field precision/recall, exact-value error, page/region grounding, missing-field behaviour and human correction. Slice results by document type and scan quality.
+
+## Practical exercise
+
+Build a pipeline that extracts five fields from mixed native/scanned documents. Require provenance, schema validation, explicit unknowns and one deterministic cross-check.
+
+## Architect checklist
+
+- [ ] format detection chooses the extraction path
+- [ ] every consequential field can point to evidence
+- [ ] missing values remain missing rather than invented
+- [ ] document authority/version is explicit
+- [ ] extraction quality is measured by document slice
+
+## Primary reading
+
+- [W3C PROV Overview](https://www.w3.org/TR/prov-overview/)
+- [Flamingo — a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
+
+## Mastery gate
+
+Design a production use of **Document Intelligence** that preserves provenance, uncertainty and action boundaries, and state how you would measure whether the multimodal component improves the outcome over a simpler baseline.
 
 ## Takeaway
 
-> Document intelligence preserves structure and provenance while converting visual and textual evidence into machine-usable form.
+> Document intelligence is trustworthy when structured outputs remain traceable to the source artifact.
 
 Next: **07 — Multimodal Context, Fusion and Routing**.
