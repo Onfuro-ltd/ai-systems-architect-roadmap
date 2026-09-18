@@ -69,7 +69,7 @@ RAG systems require controls around:
 - retrieval filtering;
 - audit trails.
 
-## example platform Example
+## Generic Example
 
 A commerce AI platform may process:
 
