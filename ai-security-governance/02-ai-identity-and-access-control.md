@@ -68,4 +68,4 @@ Audit Log
 
 ## Why This Matters
 
-For enterprise AI platforms such as example platform, agents may interact with marketplaces, finance systems, customer data, and operational tools. Security must be built into the architecture rather than added afterwards.
+For enterprise AI platforms such as the example platform, agents may interact with marketplaces, finance systems, customer data, and operational tools. Security must be built into the architecture rather than added afterwards.
