@@ -75,7 +75,7 @@ Validate
 Execute
 ```
 
-## example platform Relevance
+## Generic Relevance
 
 Commerce agents may consume marketplace data, supplier documents, customer messages, and product content.
 
