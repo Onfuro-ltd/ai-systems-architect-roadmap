@@ -260,9 +260,9 @@ Unvalidated business action
 
 If confidence, validation, permissions, or required data are unavailable, high-impact execution should stop or escalate.
 
-## 16. example platform application
+## 16. Generic application
 
-For example platform, critical dependency failures may include:
+For the example platform, critical dependency failures may include:
 
 - Amazon/eBay/Shopify API outage;
 - expired marketplace credentials;
