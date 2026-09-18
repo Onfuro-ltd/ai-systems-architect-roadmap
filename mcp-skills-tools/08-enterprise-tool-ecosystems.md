@@ -118,7 +118,7 @@ The advantage is not only the model. The advantage is the connected business cap
 
 ---
 
-## example platform Application
+## Generic Application
 
 Future architecture:
 
