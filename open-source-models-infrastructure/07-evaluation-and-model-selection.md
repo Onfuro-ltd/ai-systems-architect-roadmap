@@ -86,9 +86,9 @@ Evaluate:
 | Privacy | Can data be processed safely? |
 | Reliability | Does performance remain stable? |
 
-## example platform Relevance
+## Generic Relevance
 
-A future example platform AI platform should not simply select the newest model.
+A future the example platform AI platform should not simply select the newest model.
 
 It should use evaluation and routing:
 
