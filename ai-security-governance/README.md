@@ -57,7 +57,7 @@ Business Systems
 Audit + Monitoring
 ```
 
-## example platform Relevance
+## Generic Relevance
 
 For an AI commerce platform, security must protect:
 
