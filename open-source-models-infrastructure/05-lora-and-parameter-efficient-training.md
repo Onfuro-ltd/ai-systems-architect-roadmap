@@ -43,7 +43,7 @@ Poor candidates:
 - live business data;
 - information better handled through retrieval or tools.
 
-## example platform Relevance
+## Generic Relevance
 
 Potential uses:
 
