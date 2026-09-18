@@ -94,7 +94,7 @@ Validation Data
 Real-world Test Data
 ```
 
-## example platform Relevance
+## Generic Relevance
 
 The strategic advantage is building commerce intelligence data:
 
