@@ -109,7 +109,7 @@ Human or Policy Approval
 Execution
 ```
 
-## example platform Relevance
+## Generic Relevance
 
 Future commerce agents may interact with:
 
