@@ -87,14 +87,16 @@ For every authoritative domain:
 
 P3 completion evidence is recorded in [`docs/p3-editorial-normalization-report.md`](./p3-editorial-normalization-report.md).
 
-### P4 — Repository navigation and contributor experience
+### P4 — Repository navigation and contributor experience — COMPLETE
 
-- Replace Foundations-only root navigation with all 28 domains.
-- Add a completion/status matrix.
-- Add prerequisites and recommended paths.
-- Add cross-domain links.
-- Validate CONTRIBUTING, SECURITY, Code of Conduct, authoring standard and decision framework.
-- Add issue/PR templates if absent.
+- [x] Replace stale Foundations-only emphasis with complete 28-domain navigation.
+- [x] Add a completion/status matrix.
+- [x] Add prerequisites and recommended paths.
+- [x] Add cross-domain prerequisite/next-step links.
+- [x] Validate and strengthen CONTRIBUTING, SECURITY and Code of Conduct while retaining the authoring standard and decision framework as canonical quality/evidence references.
+- [x] Add issue and pull-request templates.
+
+P4 completion evidence is recorded in [`docs/p4-navigation-contributor-experience-report.md`](./p4-navigation-contributor-experience-report.md).
 
 ### P5 — Release engineering
 
