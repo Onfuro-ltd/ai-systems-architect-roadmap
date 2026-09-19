@@ -172,9 +172,9 @@ GitHub stars, vendor claims and influencer popularity are not evidence of produc
 
 ## Project status
 
-**Current stage: 28-domain curriculum drafted; v1.0 repository audit and hardening in progress.**
+**Current stage: v1.0 release candidate; P0–P5 engineering hardening is complete on the release branch, with final publication pending merge-to-main validation and an explicit repository-license decision.**
 
-The authoritative curriculum sequence has now been drafted through Domain 28. Before a v1.0 release, the repository is undergoing privacy cleanup, authoritative-domain structure verification, legacy-track consolidation, navigation validation and editorial normalization. See the [v1.0 Repository Audit and Hardening Plan](./docs/v1-repository-audit-and-hardening.md).
+The authoritative curriculum and repository hardening phases are complete as a release candidate. The remaining publication gates are deliberately operational/legal: choose and add the repository license, merge the cumulative release branch into `main`, confirm CI on that exact main commit, then create the v1.0 tag. See the [v1.0 Release Checklist](./docs/v1.0-release-checklist.md) and [Release Policy](./docs/release-policy.md).
 
 The roadmap is intentionally living. AI models, protocols and techniques will change; the project's responsibility is to preserve durable knowledge while updating conclusions when strong evidence changes.
 
