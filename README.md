@@ -107,21 +107,20 @@ See the [Master Roadmap](./roadmap/master-roadmap.md) for the architectural scop
 
 For the canonical directory for every domain, including the shared Domain 01/02 Foundations home and legacy-track status, see the [Authoritative Domain Directory Map](./roadmap/domain-directory-map.md).
 
-## Foundations curriculum
+## Recommended learning paths
 
-The first complete curriculum track is [AI Foundations](./foundations/README.md):
+The repository is now navigable as a complete 28-domain curriculum rather than a Foundations-only track.
 
-- [AI history and evolution](./foundations/01-ai-history-and-evolution.md)
-- [Neural networks to transformers](./foundations/02-neural-networks-to-transformers.md)
-- [Transformers and attention](./foundations/03-transformers-and-attention.md)
-- [Tokens, context and embeddings](./foundations/04-tokens-context-and-embeddings.md)
-- [Training, inference and scaling](./foundations/05-training-inference-and-scaling.md)
-- [Reasoning and test-time compute](./foundations/06-reasoning-and-test-time-compute.md)
-- [Mixture of Experts](./foundations/07-mixture-of-experts.md)
-- [Multimodal foundations](./foundations/08-multimodal-foundations.md)
-- [Foundations capstone](./foundations/09-foundations-capstone.md)
+Choose the path that matches your goal:
 
-The capstone requires a reproducible model-comparison laboratory, failure taxonomy and architecture decision record. Reading alone does not count as mastery.
+- **Full AI systems architect path** — follow the [Learning Phases](./roadmap/learning-phases.md) from Foundations through the AI Operating System capstone.
+- **Application and agent engineering** — Domains 03–13, then 21 and 24.
+- **Inference/platform engineering** — Domains 01–03, 10, 12–17 and 21–22.
+- **Security/governance** — Domains 03, 05, 07, 09–13, 17 and 22.
+- **Multimodal/interface systems** — Domains 01–03, 10–12 and 18–20.
+- **AI product, automation and decision systems** — Domains 03, 10–13 and 21–28.
+
+Use the [Prerequisites and Recommended Paths](./roadmap/prerequisites-and-paths.md) for dependency-aware routes and the [Domain Status Matrix](./roadmap/domain-status.md) for curriculum completion status.
 
 ## Technology Radar
 
