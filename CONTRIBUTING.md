@@ -278,6 +278,19 @@ AI-assisted content must still:
 Mass-generated content that merely satisfies headings is not an acceptable contribution.
 
 
+## Repository validation
+
+Before submitting a pull request, run:
+
+```bash
+python3 scripts/validate_repository.py --release
+```
+
+The validator uses only the Python standard library and checks required repository structure, UTF-8/Markdown fence integrity, internal Markdown links, prohibited private-term fingerprints and high-signal credential patterns.
+
+The same gate runs in GitHub Actions. Release/tag preparation has an additional `--tag-ready` mode that also requires the repository license.
+
+
 ## Maintainer review principle
 
 A contribution should leave the reader able to make a **better architecture decision** than before reading it.

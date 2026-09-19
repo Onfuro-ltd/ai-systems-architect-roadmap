@@ -32,3 +32,8 @@
 ## Validation performed
 
 Describe checks, tests, link validation or review performed.
+
+## Repository quality gate
+
+- [ ] `python3 scripts/validate_repository.py --release` passes
+- [ ] CI repository-quality check passes
