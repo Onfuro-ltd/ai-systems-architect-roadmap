@@ -187,3 +187,11 @@ Next: **01 — AI Threat Modelling**.
 - [Secrets, Sandboxing and Runtime Security](./07-secrets-sandboxing-and-runtime-security.md)
 - [Audit, Incident Response and Governance](./08-audit-incident-response-and-governance.md)
 - [Capstone: Secure an Agentic AI System](./09-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [05 — Agents](../agents/README.md), [07 — MCP and Tool Ecosystems](../07-mcp-tool-ecosystems/README.md)
+
+**Useful next domains:** [12 — AI System Design](../ai-system-design/README.md), [17 — MLOps and LLMOps](../mlops-llmops/README.md), [22 — Enterprise AI](../enterprise-ai/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

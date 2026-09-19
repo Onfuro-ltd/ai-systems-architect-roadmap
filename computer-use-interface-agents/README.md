@@ -79,3 +79,11 @@ Next: **01 — Computer-Use Agent Architecture**.
 - [Evaluation and Observability](./08-evaluation-and-observability.md)
 - [Production Browser and Desktop Agent Infrastructure](./09-production-browser-and-desktop-agent-infrastructure.md)
 - [Computer-Use and Interface Agents Capstone](./10-computer-use-interface-agents-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [05 — Agents](../agents/README.md), [09 — Orchestration and Multi-Agent Systems](../09-orchestration-multi-agent/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md), [18 — Multimodal AI](../multimodal-ai/README.md)
+
+**Useful next domains:** [23 — AI Product Design](../ai-product-design/README.md), [24 — Business Automation](../business-automation/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

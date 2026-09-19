@@ -76,3 +76,11 @@ A good agent is not the one that can do everything. It is the one that can relia
 - [Agent Evaluation](./09-agent-evaluation.md)
 - [Agent Production Patterns](./10-agent-production-patterns.md)
 - [Agent Capstone — AI Business Operations Agent System](./11-agent-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [04 — Knowledge Systems and RAG](../knowledge-systems-rag/README.md)
+
+**Useful next domains:** [06 — Skills and Agent Harnesses](../06-skills-agent-harnesses/README.md), [07 — MCP and Tool Ecosystems](../07-mcp-tool-ecosystems/README.md), [09 — Orchestration and Multi-Agent Systems](../09-orchestration-multi-agent/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

@@ -81,3 +81,11 @@ Next: **01 — Experiment Tracking and Reproducibility**.
 - [Operational Governance and Model Registry](./08-operational-governance-and-model-registry.md)
 - [LLMOps Platform Architecture](./09-llmops-platform-architecture.md)
 - [MLOps and LLMOps Capstone](./10-mlops-and-llmops-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [12 — AI System Design](../ai-system-design/README.md), [13 — Data and Event Architecture](../data-event-architecture/README.md)
+
+**Useful next domains:** [22 — Enterprise AI](../enterprise-ai/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

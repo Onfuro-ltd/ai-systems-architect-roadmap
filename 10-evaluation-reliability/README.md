@@ -161,3 +161,11 @@ Next: **01 — Evaluation Foundations**.
 - [Production Evaluation and Monitoring](./07-production-evaluation-and-monitoring.md)
 - [Cost, Latency and Outcome Economics](./08-cost-latency-and-outcome-economics.md)
 - [Capstone: Build an Evaluation and Reliability System](./09-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [05 — Agents](../agents/README.md)
+
+**Useful next domains:** [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md), [17 — MLOps and LLMOps](../mlops-llmops/README.md), [23 — AI Product Design](../ai-product-design/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

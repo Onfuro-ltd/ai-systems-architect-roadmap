@@ -83,3 +83,11 @@ Next: **01 — AI Cost Fundamentals**.
 - [Routing Evaluation and Online Optimization](./08-routing-evaluation-and-online-optimization.md)
 - [FinOps, Budgets and Economic Governance](./09-finops-budgets-and-economic-governance.md)
 - [AI Economics and Model Routing Capstone](./10-ai-economics-and-model-routing-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [14 — Open-Source and Local AI](../open-source-local-ai/README.md), [16 — GPU and Inference Infrastructure](../gpu-inference-infrastructure/README.md)
+
+**Useful next domains:** [22 — Enterprise AI](../enterprise-ai/README.md), [23 — AI Product Design](../ai-product-design/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

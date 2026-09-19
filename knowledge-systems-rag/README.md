@@ -141,3 +141,11 @@ A learner should be able to:
 - [RAG Security](./10-rag-security.md)
 - [RAG Evaluation](./11-rag-evaluation.md)
 - [RAG Capstone — Production Enterprise Knowledge System](./12-rag-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md)
+
+**Useful next domains:** [05 — Agents](../agents/README.md), [08 — Memory Systems](../08-memory-systems/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [13 — Data and Event Architecture](../data-event-architecture/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

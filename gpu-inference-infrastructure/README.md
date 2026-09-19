@@ -258,3 +258,11 @@ Next: **01 — GPU Architecture for AI Inference**.
 ## Primary references
 
 The detailed chapters use current primary/official references such as the NVIDIA CUDA guides, vLLM documentation and PagedAttention paper, PyTorch distributed documentation, TensorRT-LLM documentation and MLPerf Inference. Benchmark claims should always identify the exact model/runtime/hardware/workload combination.
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [01 — AI Foundations](../foundations/README.md), [02 — Modern Foundation Models](../foundations/README.md), [03 — AI Application Engineering](../application-engineering/README.md), [14 — Open-Source and Local AI](../open-source-local-ai/README.md)
+
+**Useful next domains:** [17 — MLOps and LLMOps](../mlops-llmops/README.md), [21 — AI Economics and Model Routing](../ai-economics-model-routing/README.md), [22 — Enterprise AI](../enterprise-ai/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

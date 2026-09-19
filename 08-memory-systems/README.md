@@ -177,3 +177,11 @@ Next: **01 — Memory Foundations**.
 - [Privacy, Security and User Control](./07-privacy-security-and-user-control.md)
 - [Memory Evaluation and Observability](./08-memory-evaluation-and-observability.md)
 - [Capstone: Design a Production Memory System](./09-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [04 — Knowledge Systems and RAG](../knowledge-systems-rag/README.md), [05 — Agents](../agents/README.md), [06 — Skills and Agent Harnesses](../06-skills-agent-harnesses/README.md)
+
+**Useful next domains:** [09 — Orchestration and Multi-Agent Systems](../09-orchestration-multi-agent/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

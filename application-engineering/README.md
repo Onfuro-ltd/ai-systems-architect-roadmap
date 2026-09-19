@@ -97,3 +97,11 @@ A learner completing this section should be able to design AI applications that 
 - [Security Basics for AI Applications](./13-security-basics-for-ai-applications.md)
 - [Testing AI Applications](./14-testing-ai-applications.md)
 - [Application Engineering Capstone](./15-application-engineering-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [01 — AI Foundations](../foundations/README.md), [02 — Modern Foundation Models](../foundations/README.md)
+
+**Useful next domains:** [04 — Knowledge Systems and RAG](../knowledge-systems-rag/README.md), [05 — Agents](../agents/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [12 — AI System Design](../ai-system-design/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

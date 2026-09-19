@@ -118,3 +118,11 @@ A capable model does not remove the need for software architecture. As AI capabi
 - [Testing, Evaluation and Quality Gates](./07-testing-evaluation-and-quality-gates.md)
 - [Portability, Versioning and Governance](./08-portability-versioning-and-governance.md)
 - [Capstone: Design a Production Skill and Harness](./09-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [05 — Agents](../agents/README.md)
+
+**Useful next domains:** [08 — Memory Systems](../08-memory-systems/README.md), [09 — Orchestration and Multi-Agent Systems](../09-orchestration-multi-agent/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

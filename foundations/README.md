@@ -119,3 +119,13 @@ Foundations is complete when you can:
 - identify what the model layer should **not** be trusted to enforce.
 
 Proceed to the [Foundations Capstone](./09-foundations-capstone.md) only after completing the practical exercises in the preceding topics.
+
+## Prerequisites and next steps
+
+**Domain 01 prerequisite:** none.
+
+**Domain 02 prerequisite:** Domain 01 concepts within this shared Foundations curriculum.
+
+**Useful next domains:** [03 — AI Application Engineering](../application-engineering/README.md), [14 — Open-Source and Local AI](../open-source-local-ai/README.md), [18 — Multimodal AI](../multimodal-ai/README.md), and [21 — AI Economics and Model Routing](../ai-economics-model-routing/README.md).
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

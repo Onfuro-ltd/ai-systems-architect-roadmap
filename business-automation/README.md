@@ -83,3 +83,11 @@ Next: **01 — Workflow Discovery and Automation Selection**.
 - [Automation Evaluation and Process Intelligence](./08-automation-evaluation-and-process-intelligence.md)
 - [Production Automation Architecture and Governance](./09-production-automation-architecture-and-governance.md)
 - [Business Automation Capstone](./10-business-automation-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [07 — MCP and Tool Ecosystems](../07-mcp-tool-ecosystems/README.md), [09 — Orchestration and Multi-Agent Systems](../09-orchestration-multi-agent/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md), [12 — AI System Design](../ai-system-design/README.md), [13 — Data and Event Architecture](../data-event-architecture/README.md), [23 — AI Product Design](../ai-product-design/README.md)
+
+**Useful next domains:** [25 — Decision Intelligence](../decision-intelligence/README.md), [27 — AI-Native Commerce and Operations](../ai-native-commerce-operations/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

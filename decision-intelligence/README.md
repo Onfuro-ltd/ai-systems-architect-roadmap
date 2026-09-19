@@ -83,3 +83,11 @@ Next: **01 — Decision Intelligence Foundations**.
 - [Outcome Feedback and Decision Evaluation](./08-outcome-feedback-and-decision-evaluation.md)
 - [Production Decision Intelligence Architecture](./09-production-decision-intelligence-architecture.md)
 - [Decision Intelligence Capstone](./10-decision-intelligence-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [04 — Knowledge Systems and RAG](../knowledge-systems-rag/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [13 — Data and Event Architecture](../data-event-architecture/README.md), [23 — AI Product Design](../ai-product-design/README.md), [24 — Business Automation](../business-automation/README.md)
+
+**Useful next domains:** [26 — Domain-Specific AI Systems](../domain-specific-ai-systems/README.md), [27 — AI-Native Commerce and Operations](../ai-native-commerce-operations/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

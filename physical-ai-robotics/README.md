@@ -82,3 +82,11 @@ Next: **01 — Physical AI and Robotics Foundations**.
 - [Safety, Human Oversight and Governance](./08-safety-human-oversight-and-governance.md)
 - [Robotics Infrastructure, Fleet Operations and Evaluation](./09-robotics-infrastructure-fleet-operations-and-evaluation.md)
 - [Physical AI and Robotics Capstone](./10-physical-ai-and-robotics-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md), [12 — AI System Design](../ai-system-design/README.md), [16 — GPU and Inference Infrastructure](../gpu-inference-infrastructure/README.md), [18 — Multimodal AI](../multimodal-ai/README.md)
+
+**Useful next domains:** [22 — Enterprise AI](../enterprise-ai/README.md), [26 — Domain-Specific AI Systems](../domain-specific-ai-systems/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

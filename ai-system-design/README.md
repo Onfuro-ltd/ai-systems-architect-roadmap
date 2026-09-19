@@ -99,3 +99,11 @@ The following chapters will build that capability progressively.
 - [Graceful Degradation](./09-graceful-degradation.md)
 - [AI Architecture Trade-offs](./10-ai-architecture-trade-offs.md)
 - [System Design Capstone](./11-system-design-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [09 — Orchestration and Multi-Agent Systems](../09-orchestration-multi-agent/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md)
+
+**Useful next domains:** [13 — Data and Event Architecture](../data-event-architecture/README.md), [17 — MLOps and LLMOps](../mlops-llmops/README.md), [22 — Enterprise AI](../enterprise-ai/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

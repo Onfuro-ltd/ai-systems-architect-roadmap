@@ -161,3 +161,11 @@ Next: **01 — Orchestration Foundations**.
 - [Multi-Agent Failure Modes and Anti-Patterns](./07-multi-agent-failure-modes-and-anti-patterns.md)
 - [Production Orchestration and Observability](./08-production-orchestration-and-observability.md)
 - [Capstone: Design a Production Orchestration System](./09-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [05 — Agents](../agents/README.md), [06 — Skills and Agent Harnesses](../06-skills-agent-harnesses/README.md), [07 — MCP and Tool Ecosystems](../07-mcp-tool-ecosystems/README.md), [08 — Memory Systems](../08-memory-systems/README.md)
+
+**Useful next domains:** [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md), [12 — AI System Design](../ai-system-design/README.md), [24 — Business Automation](../business-automation/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

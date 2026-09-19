@@ -256,3 +256,11 @@ Next: **01 — When to Fine-Tune and When Not To**.
 - [Evaluation and Regression Testing](./08-evaluation-and-regression-testing.md)
 - [Adapter and Model Lifecycle and Governance](./09-adapter-model-lifecycle-and-governance.md)
 - [Fine-Tuning and Specialist Models Capstone](./10-fine-tuning-specialist-models-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [01 — AI Foundations](../foundations/README.md), [02 — Modern Foundation Models](../foundations/README.md), [03 — AI Application Engineering](../application-engineering/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [14 — Open-Source and Local AI](../open-source-local-ai/README.md)
+
+**Useful next domains:** [16 — GPU and Inference Infrastructure](../gpu-inference-infrastructure/README.md), [17 — MLOps and LLMOps](../mlops-llmops/README.md), [21 — AI Economics and Model Routing](../ai-economics-model-routing/README.md), [26 — Domain-Specific AI Systems](../domain-specific-ai-systems/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

@@ -86,3 +86,11 @@ Next: **01 — Commerce Data and Operational State**.
 - [Marketplace and Channel Automation](./08-marketplace-and-channel-automation.md)
 - [Commerce Control Tower and AI Operations](./09-commerce-control-tower-and-ai-operations.md)
 - [AI-Native Commerce and Operations Capstone](./10-ai-native-commerce-and-operations-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [13 — Data and Event Architecture](../data-event-architecture/README.md), [21 — AI Economics and Model Routing](../ai-economics-model-routing/README.md), [23 — AI Product Design](../ai-product-design/README.md), [24 — Business Automation](../business-automation/README.md), [25 — Decision Intelligence](../decision-intelligence/README.md), [26 — Domain-Specific AI Systems](../domain-specific-ai-systems/README.md)
+
+**Useful next domains:** [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

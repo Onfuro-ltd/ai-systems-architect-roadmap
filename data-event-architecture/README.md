@@ -217,3 +217,11 @@ Start with **01 — Data Ownership and Sources of Truth**.
 Before designing streams, events, models, or agents, an architect must answer a more fundamental question:
 
 > Which system is allowed to say what is true?
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [12 — AI System Design](../ai-system-design/README.md)
+
+**Useful next domains:** [17 — MLOps and LLMOps](../mlops-llmops/README.md), [22 — Enterprise AI](../enterprise-ai/README.md), [24 — Business Automation](../business-automation/README.md), [25 — Decision Intelligence](../decision-intelligence/README.md), [27 — AI-Native Commerce and Operations](../ai-native-commerce-operations/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

@@ -231,3 +231,11 @@ Next: **01 — Open Source vs Open Weight AI**.
 - [Benchmarking Quality, Latency and Cost](./09-benchmarking-quality-latency-and-cost.md)
 - [Hybrid Routing and Model Independence](./10-hybrid-routing-and-model-independence.md)
 - [Open-Source and Local AI Capstone](./11-open-source-local-ai-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [01 — AI Foundations](../foundations/README.md), [02 — Modern Foundation Models](../foundations/README.md), [03 — AI Application Engineering](../application-engineering/README.md)
+
+**Useful next domains:** [15 — Fine-Tuning and Specialist Models](../fine-tuning-specialist-models/README.md), [16 — GPU and Inference Infrastructure](../gpu-inference-infrastructure/README.md), [17 — MLOps and LLMOps](../mlops-llmops/README.md), [21 — AI Economics and Model Routing](../ai-economics-model-routing/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

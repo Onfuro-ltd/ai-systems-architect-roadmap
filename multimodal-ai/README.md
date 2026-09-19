@@ -308,3 +308,11 @@ That chapter builds the conceptual foundation before we move into vision, image 
 ## P3 depth migration
 
 P3 merged the durable concepts from the archived pre-P2 nine-chapter track into the canonical ten-chapter curriculum. The archive remains available for traceability, but new learning and contributor work should target the canonical chapters above.
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [01 — AI Foundations](../foundations/README.md), [02 — Modern Foundation Models](../foundations/README.md), [03 — AI Application Engineering](../application-engineering/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md)
+
+**Useful next domains:** [19 — Computer Use and Interface Agents](../computer-use-interface-agents/README.md), [20 — Physical AI and Robotics](../physical-ai-robotics/README.md), [23 — AI Product Design](../ai-product-design/README.md), [26 — Domain-Specific AI Systems](../domain-specific-ai-systems/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

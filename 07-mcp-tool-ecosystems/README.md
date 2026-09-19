@@ -154,3 +154,11 @@ Next: **01 — MCP Foundations**.
 - [Failure Handling, Observability and Lifecycle](./07-failure-handling-observability-and-lifecycle.md)
 - [Enterprise Capability Ecosystems](./08-enterprise-capability-ecosystems.md)
 - [Capstone: Design an Enterprise MCP Capability](./09-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [05 — Agents](../agents/README.md)
+
+**Useful next domains:** [09 — Orchestration and Multi-Agent Systems](../09-orchestration-multi-agent/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md), [12 — AI System Design](../ai-system-design/README.md), [24 — Business Automation](../business-automation/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

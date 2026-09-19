@@ -83,3 +83,11 @@ Next: **01 — Domain Intelligence and Capability Mapping**.
 - [Feedback, Outcomes and Knowledge Evolution](./08-feedback-outcomes-and-knowledge-evolution.md)
 - [Production Domain AI Architecture and Governance](./09-production-domain-ai-architecture-and-governance.md)
 - [Domain-Specific AI Systems Capstone](./10-domain-specific-ai-systems-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [04 — Knowledge Systems and RAG](../knowledge-systems-rag/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md), [12 — AI System Design](../ai-system-design/README.md), [13 — Data and Event Architecture](../data-event-architecture/README.md), [15 — Fine-Tuning and Specialist Models](../fine-tuning-specialist-models/README.md), [25 — Decision Intelligence](../decision-intelligence/README.md)
+
+**Useful next domains:** [27 — AI-Native Commerce and Operations](../ai-native-commerce-operations/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).
