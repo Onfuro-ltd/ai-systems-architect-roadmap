@@ -228,6 +228,56 @@ Avoid:
 - unnecessary complexity;
 - filler generated merely to make a section longer.
 
+## Issue and pull request workflow
+
+Use the repository's issue templates so reports arrive with enough context to act on:
+
+- **Curriculum / correction** — missing topics, technical corrections, broken learning flow or evidence gaps;
+- **Technology evaluation** — proposals to evaluate a model, framework, protocol, product or pattern;
+- **Repository improvement** — navigation, contributor experience, automation or maintenance work.
+
+Before opening a new issue, check the [Master Roadmap](./roadmap/master-roadmap.md), [Domain Status Matrix](./roadmap/domain-status.md) and existing issues to avoid duplicate taxonomy.
+
+Pull requests should:
+
+- address one coherent problem;
+- link the relevant issue when one exists;
+- explain why the change improves architectural judgement;
+- identify primary sources for material technical claims;
+- state important failure/security/economic implications where relevant;
+- confirm that no secrets, private data or proprietary implementation details were added;
+- update navigation when files or domain boundaries change.
+
+Use the pull request template as a review contract rather than deleting its checklist.
+
+## Branch and commit scope
+
+Branch names should communicate intent, for example:
+
+```text
+curriculum/<domain>-<topic>
+fix/<short-description>
+docs/<short-description>
+repo/<short-description>
+```
+
+Prefer a small number of coherent commits that preserve reviewable checkpoints. Avoid mixing taxonomy changes, large editorial rewrites and unrelated fixes unless the migration genuinely requires them.
+
+## AI-assisted contributions
+
+AI tools may assist research, drafting, editing or coding, but contributors remain responsible for every submitted claim and line of code.
+
+AI-assisted content must still:
+
+- satisfy the curriculum authoring standard;
+- use real, inspectable sources rather than fabricated citations;
+- distinguish uncertain/inferred claims;
+- avoid private or proprietary information;
+- be technically reviewed by the contributor before submission.
+
+Mass-generated content that merely satisfies headings is not an acceptable contribution.
+
+
 ## Maintainer review principle
 
 A contribution should leave the reader able to make a **better architecture decision** than before reading it.
