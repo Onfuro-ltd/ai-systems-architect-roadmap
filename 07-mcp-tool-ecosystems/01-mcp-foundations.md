@@ -106,7 +106,7 @@ A protocol name alone is not sufficient compatibility information.
 
 The current protocol provides `server/discover`.
 
-It lets a client query supported protocol versions, server capabilities and server identity before making other calls.
+It lets a client query supported protocol versions and server capabilities before making other calls. The discovery result can also carry the server's self-reported identity in result `_meta['io.modelcontextprotocol/serverInfo']`; that identity is metadata for display, logging and debugging rather than an authorization signal.
 
 Discovery is useful but not required for every request flow. A client can also make a request directly and handle an unsupported-version response.
 

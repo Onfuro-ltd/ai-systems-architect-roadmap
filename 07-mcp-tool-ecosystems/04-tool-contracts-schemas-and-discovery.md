@@ -93,7 +93,7 @@ These solve different problems.
 
 ### `server/discover`
 
-Provides server-level protocol versions, capabilities and identity metadata.
+Provides supported protocol versions and server capabilities. The response may also carry self-reported server identity in result `_meta['io.modelcontextprotocol/serverInfo']`; identity is not a standalone `DiscoverResult.serverInfo` field.
 
 ### Primitive list operations
 
