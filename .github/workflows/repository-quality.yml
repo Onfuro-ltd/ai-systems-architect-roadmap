@@ -31,3 +31,6 @@ jobs:
 
       - name: Run release-quality gate
         run: python3 scripts/validate_repository.py --release
+
+      - name: Run tag-ready preflight
+        run: python3 scripts/validate_repository.py --tag-ready
