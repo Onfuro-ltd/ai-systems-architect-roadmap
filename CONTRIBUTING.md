@@ -278,6 +278,20 @@ AI-assisted content must still:
 Mass-generated content that merely satisfies headings is not an acceptable contribution.
 
 
+## Licensing of contributions
+
+This repository uses two licenses with explicit scope. Read the root [LICENSE](./LICENSE) before contributing.
+
+Unless maintainers explicitly agree otherwise before accepting a contribution:
+
+- standalone software, scripts, automation, configuration and other code-like contributions are submitted under **Apache License 2.0**;
+- curriculum, documentation, prose, diagrams and other educational-content contributions are submitted under **Creative Commons Attribution 4.0 International**;
+- code snippets contributed inside documentation may also be reused under **Apache License 2.0** as described in the root licensing notice.
+
+Do not contribute material you do not have the right to license under the applicable terms. Third-party material must retain its original licensing and attribution requirements.
+
+By intentionally submitting a contribution for inclusion in this repository, you confirm that you have authority to submit it under the applicable project license.
+
 ## Repository validation
 
 Before submitting a pull request, run:

@@ -40,11 +40,18 @@ Prepared:
 
 ## Intentional publication blockers
 
-### Repository license
+### Repository license — RESOLVED AFTER P5 ENGINEERING CLOSURE
 
-No `LICENSE`/`LICENSE.md` existed at the P4 checkpoint. P5 does not select legal licensing terms on behalf of the maintainer.
+No `LICENSE`/`LICENSE.md` existed at the P4 checkpoint, so P5 correctly left licensing as a deliberate maintainer decision.
 
-### Canonical main
+Before the v1.0 merge, the maintainers selected and added a scoped dual-license model:
+
+- Apache License 2.0 for software/code;
+- Creative Commons Attribution 4.0 International for curriculum/documentation.
+
+The root `LICENSE` defines scope and the complete license texts are retained under `LICENSES/`.
+
+### Canonical main — STILL REQUIRED
 
 The cumulative P5 branch must be reviewed and merged into `main`, followed by green CI on the exact merged main SHA.
 

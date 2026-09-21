@@ -170,11 +170,20 @@ Submissions should distinguish evidence from opinion, cite primary sources where
 
 GitHub stars, vendor claims and influencer popularity are not evidence of production readiness.
 
+## Licensing
+
+This repository uses a scoped dual-license model:
+
+- **Software/code:** [Apache License 2.0](./LICENSES/Apache-2.0.txt)
+- **Curriculum/documentation:** [Creative Commons Attribution 4.0 International](./LICENSES/CC-BY-4.0.txt)
+
+The root [LICENSE](./LICENSE) defines the scope, including treatment of embedded code examples and third-party material.
+
 ## Project status
 
-**Current stage: v1.0 release candidate; P0–P5 engineering hardening is complete on the release branch, with final publication pending merge-to-main validation and an explicit repository-license decision.**
+**Current stage: v1.0 release candidate; P0–P5 engineering hardening and the licensing decision are complete on the release branch, with final publication pending cumulative review, merge-to-main validation and final tag/release verification.**
 
-The authoritative curriculum and repository hardening phases are complete as a release candidate. The remaining publication gates are deliberately operational/legal: choose and add the repository license, merge the cumulative release branch into `main`, confirm CI on that exact main commit, then create the v1.0 tag. See the [v1.0 Release Checklist](./docs/v1.0-release-checklist.md) and [Release Policy](./docs/release-policy.md).
+The authoritative curriculum, repository hardening and scoped dual-license model are complete as a release candidate. The remaining publication gates are operational: review and merge the cumulative release branch into `main`, confirm CI on that exact main commit, run the tag-ready gate on merged main, then create and verify the v1.0 tag/release. See the [v1.0 Release Checklist](./docs/v1.0-release-checklist.md) and [Release Policy](./docs/release-policy.md).
 
 The roadmap is intentionally living. AI models, protocols and techniques will change; the project's responsibility is to preserve durable knowledge while updating conclusions when strong evidence changes.
 

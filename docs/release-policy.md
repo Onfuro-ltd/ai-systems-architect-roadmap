@@ -53,11 +53,16 @@ A release freezes the repository state, not the truth of every fast-moving claim
 
 A public release tag should identify the reviewed state users receive from the default branch. Tagging a feature branch before merge can create a release commit that is not actually the canonical repository state.
 
-## Licensing gate
+## Licensing model
 
-This repository is public and intended for broad collaboration, but a license is a legal choice by the maintainers.
+The maintainers deliberately selected a scoped dual-license model before the first public v1 tag:
 
-Release automation deliberately does **not** invent a license. The first public v1 tag is blocked until a `LICENSE` or `LICENSE.md` file is deliberately selected and added.
+- software/code: **Apache License 2.0**;
+- curriculum/documentation: **Creative Commons Attribution 4.0 International**.
+
+The root `LICENSE` defines scope and points to the canonical license texts in `LICENSES/`.
+
+Release automation must continue to require a root license notice for tag readiness. A future change to the repository licensing model is a deliberate release-level decision and must not be introduced implicitly by tooling.
 
 ## Required release evidence
 
