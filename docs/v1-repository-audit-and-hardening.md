@@ -37,12 +37,14 @@ The known Domain 12 private references are part of a larger problem. Search conf
 
 ## Release hardening sequence
 
-### P0 — Privacy and public-safety cleanup
+### P0 — Privacy and public-safety cleanup — COMPLETE
 
-- Remove private project/company implementation references from all public curriculum.
-- Replace only with generic examples where the lesson remains useful.
-- Search for related proprietary names and internal implementation details, not just one project name.
-- Re-run repository-wide privacy search before release.
+- [x] Remove private project/company implementation references from all public curriculum.
+- [x] Replace only with generic examples where the lesson remains useful.
+- [x] Search for related proprietary names and internal implementation details, not just one project name.
+- [x] Re-run current-tree and reachable-history privacy scans before release.
+
+P5 revalidated the reachable repository state without publishing the prohibited private identifiers in the public CI configuration.
 
 ### P1 — Restore authoritative 28-domain structure — COMPLETE
 
@@ -98,27 +100,40 @@ P3 completion evidence is recorded in [`docs/p3-editorial-normalization-report.m
 
 P4 completion evidence is recorded in [`docs/p4-navigation-contributor-experience-report.md`](./p4-navigation-contributor-experience-report.md).
 
-### P5 — Release engineering
+### P5 — Release engineering — COMPLETE FOR RELEASE CANDIDATE
 
-- Run link and Markdown validation.
-- Run privacy/secret scanning.
-- Add CI checks for broken internal links and prohibited private terms.
-- Define versioning/release policy.
-- Produce v1.0 changelog/release notes.
-- Tag v1.0 only after P0–P5 gates pass.
+- [x] Run link and Markdown validation.
+- [x] Run current-tree and reachable-history privacy/secret scanning.
+- [x] Add CI checks for broken internal links, prohibited private-term fingerprints and high-signal secrets.
+- [x] Define versioning/release policy.
+- [x] Produce the v1.0 changelog/release notes and publication checklist.
+- [x] Enforce the rule that v1.0 is tagged only after the cumulative release candidate is merged to `main`, CI is green on that exact commit, and the tag-ready gate passes.
+
+P5 completion evidence is recorded in [`docs/p5-release-engineering-report.md`](./p5-release-engineering-report.md).
+
+The engineering hardening phases are complete, but **v1.0 publication is intentionally still blocked** until the maintainer deliberately chooses/adds a repository license and the cumulative P5 branch is merged and revalidated on `main`.
 
 ## v1.0 release gate
 
-The repository should not be called v1.0-ready until:
+The release-candidate engineering gate now passes for:
 
-- all 28 authoritative domains have an explicit home;
-- no private implementation references remain;
-- duplicate tracks are classified;
-- navigation resolves to the authoritative curriculum;
-- internal links pass;
-- curriculum depth/format has been reviewed;
-- privacy and secret scans pass;
-- the final AI Operating System capstone links back to the prerequisite domains.
+- [x] all 28 authoritative domains having an explicit home;
+- [x] no prohibited private implementation references in current/reachable repository content;
+- [x] duplicate/legacy tracks being classified;
+- [x] navigation resolving to the authoritative curriculum;
+- [x] internal links passing;
+- [x] curriculum depth/format review;
+- [x] privacy and high-signal secret scans;
+- [x] the final AI Operating System capstone linking back to prerequisite domains;
+- [x] repeatable local/CI repository-quality validation.
+
+Final publication still requires:
+
+- [ ] deliberate repository-license selection;
+- [ ] merge of the cumulative release candidate into `main`;
+- [ ] green repository-quality CI on the exact merged main SHA;
+- [ ] passing `--tag-ready` validation;
+- [ ] creation and verification of the public `v1.0` tag/release.
 
 ## Principle
 
