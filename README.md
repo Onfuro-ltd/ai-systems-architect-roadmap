@@ -72,52 +72,55 @@ The project therefore treats model choice as an architectural decision, not the 
 
 The curriculum covers 28 connected domains:
 
-1. AI Foundations
-2. Modern Foundation Models
-3. AI Application Engineering
-4. Knowledge Systems and RAG
-5. Agents
-6. Skills and Agent Harnesses
-7. MCP and Tool Ecosystems
-8. Memory Systems
-9. Orchestration and Multi-Agent Systems
-10. Evaluation and Reliability
-11. Security, Permissions and Governance
-12. AI System Design
-13. Data and Event Architecture
-14. Open-Source and Local AI
-15. Fine-Tuning and Specialist Models
-16. GPU and Inference Infrastructure
-17. MLOps and LLMOps
-18. Multimodal AI
-19. Computer Use and Interface Agents
-20. Physical AI and Robotics
-21. AI Economics and Model Routing
-22. Enterprise AI
-23. AI Product Design
-24. Business Automation
-25. Decision Intelligence
-26. Domain-Specific AI Systems
-27. AI-Native Commerce and Operations
-28. Build an AI Operating System
+1. [AI Foundations](./foundations/README.md)
+2. [Modern Foundation Models](./foundations/README.md)
+3. [AI Application Engineering](./application-engineering/README.md)
+4. [Knowledge Systems and RAG](./knowledge-systems-rag/README.md)
+5. [Agents](./agents/README.md)
+6. [Skills and Agent Harnesses](./06-skills-agent-harnesses/README.md)
+7. [MCP and Tool Ecosystems](./07-mcp-tool-ecosystems/README.md)
+8. [Memory Systems](./08-memory-systems/README.md)
+9. [Orchestration and Multi-Agent Systems](./09-orchestration-multi-agent/README.md)
+10. [Evaluation and Reliability](./10-evaluation-reliability/README.md)
+11. [Security, Permissions and Governance](./11-security-permissions-governance/README.md)
+12. [AI System Design](./ai-system-design/README.md)
+13. [Data and Event Architecture](./data-event-architecture/README.md)
+14. [Open-Source and Local AI](./open-source-local-ai/README.md)
+15. [Fine-Tuning and Specialist Models](./fine-tuning-specialist-models/README.md)
+16. [GPU and Inference Infrastructure](./gpu-inference-infrastructure/README.md)
+17. [MLOps and LLMOps](./mlops-llmops/README.md)
+18. [Multimodal AI](./multimodal-ai/README.md)
+19. [Computer Use and Interface Agents](./computer-use-interface-agents/README.md)
+20. [Physical AI and Robotics](./physical-ai-robotics/README.md)
+21. [AI Economics and Model Routing](./ai-economics-model-routing/README.md)
+22. [Enterprise AI](./enterprise-ai/README.md)
+23. [AI Product Design](./ai-product-design/README.md)
+24. [Business Automation](./business-automation/README.md)
+25. [Decision Intelligence](./decision-intelligence/README.md)
+26. [Domain-Specific AI Systems](./domain-specific-ai-systems/README.md)
+27. [AI-Native Commerce and Operations](./ai-native-commerce-operations/README.md)
+28. [Build an AI Operating System](./ai-operating-system/README.md)
+
+> **Domain 02 note:** Modern Foundation Models is currently taught within the shared [Foundations curriculum](./foundations/README.md), alongside the fundamental model concepts it builds on. It remains a distinct architectural domain in the master roadmap.
 
 See the [Master Roadmap](./roadmap/master-roadmap.md) for the architectural scope of each domain.
 
-## Foundations curriculum
+For the canonical directory for every domain, including the shared Domain 01/02 Foundations home and legacy-track status, see the [Authoritative Domain Directory Map](./roadmap/domain-directory-map.md).
 
-The first complete curriculum track is [AI Foundations](./foundations/README.md):
+## Recommended learning paths
 
-- [AI history and evolution](./foundations/01-ai-history-and-evolution.md)
-- [Neural networks to transformers](./foundations/02-neural-networks-to-transformers.md)
-- [Transformers and attention](./foundations/03-transformers-and-attention.md)
-- [Tokens, context and embeddings](./foundations/04-tokens-context-and-embeddings.md)
-- [Training, inference and scaling](./foundations/05-training-inference-and-scaling.md)
-- [Reasoning and test-time compute](./foundations/06-reasoning-and-test-time-compute.md)
-- [Mixture of Experts](./foundations/07-mixture-of-experts.md)
-- [Multimodal foundations](./foundations/08-multimodal-foundations.md)
-- [Foundations capstone](./foundations/09-foundations-capstone.md)
+The repository is now navigable as a complete 28-domain curriculum rather than a Foundations-only track.
 
-The capstone requires a reproducible model-comparison laboratory, failure taxonomy and architecture decision record. Reading alone does not count as mastery.
+Choose the path that matches your goal:
+
+- **Full AI systems architect path** — follow the [Learning Phases](./roadmap/learning-phases.md) from Foundations through the AI Operating System capstone.
+- **Application and agent engineering** — Domains 03–13, then 21 and 24.
+- **Inference/platform engineering** — Domains 01–03, 10, 12–17 and 21–22.
+- **Security/governance** — Domains 03, 05, 07, 09–13, 17 and 22.
+- **Multimodal/interface systems** — Domains 01–03, 10–12 and 18–20.
+- **AI product, automation and decision systems** — Domains 03, 10–13 and 21–28.
+
+Use the [Prerequisites and Recommended Paths](./roadmap/prerequisites-and-paths.md) for dependency-aware routes and the [Domain Status Matrix](./roadmap/domain-status.md) for curriculum completion status.
 
 ## Technology Radar
 
@@ -167,11 +170,20 @@ Submissions should distinguish evidence from opinion, cite primary sources where
 
 GitHub stars, vendor claims and influencer popularity are not evidence of production readiness.
 
+## Licensing
+
+This repository uses a scoped dual-license model:
+
+- **Software/code:** [Apache License 2.0](./LICENSES/Apache-2.0.txt)
+- **Curriculum/documentation:** [Creative Commons Attribution 4.0 International](./LICENSES/CC-BY-4.0.txt)
+
+The root [LICENSE](./LICENSE) defines the scope, including treatment of embedded code examples and third-party material.
+
 ## Project status
 
-**Current stage: 28-domain curriculum drafted; v1.0 repository audit and hardening in progress.**
+**Current stage: v1.0 release candidate; P0–P5 engineering hardening and the licensing decision are complete on the release branch, with final publication pending cumulative review, merge-to-main validation and final tag/release verification.**
 
-The authoritative curriculum sequence has now been drafted through Domain 28. Before a v1.0 release, the repository is undergoing privacy cleanup, authoritative-domain structure verification, legacy-track consolidation, navigation validation and editorial normalization. See the [v1.0 Repository Audit and Hardening Plan](./docs/v1-repository-audit-and-hardening.md).
+The authoritative curriculum, repository hardening and scoped dual-license model are complete as a release candidate. The remaining publication gates are operational: review and merge the cumulative release branch into `main`, confirm CI on that exact main commit, run the tag-ready gate on merged main, then create and verify the v1.0 tag/release. See the [v1.0 Release Checklist](./docs/v1.0-release-checklist.md) and [Release Policy](./docs/release-policy.md).
 
 The roadmap is intentionally living. AI models, protocols and techniques will change; the project's responsibility is to preserve durable knowledge while updating conclusions when strong evidence changes.
 

@@ -1,5 +1,14 @@
 # Agent Production Patterns
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **Agent Production Patterns** within Agents;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Introduction
 
 A production agent is not a demo loop. It is an engineered system that must operate reliably, securely, and economically.
@@ -159,3 +168,7 @@ Future AI platforms will require the same engineering principles as traditional 
 - governance.
 
 Agents are software systems with intelligence components, not replacements for software engineering discipline.
+
+## Architect exercise
+
+Design or inspect a representative system that uses **Agent Production Patterns**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.

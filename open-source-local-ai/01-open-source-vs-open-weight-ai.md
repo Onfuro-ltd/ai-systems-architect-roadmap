@@ -1,5 +1,14 @@
 # 01 — Open Source vs Open Weight AI
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **01 — Open Source vs Open Weight AI** within Open-Source and Local AI;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 The word open is multidimensional. Distinguish open-source software, open weights, source-available releases, research-only releases, commercially usable models, and proprietary hosted models.

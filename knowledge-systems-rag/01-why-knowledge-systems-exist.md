@@ -1,5 +1,14 @@
 # 01 — Why Knowledge Systems Exist
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **01 — Why Knowledge Systems Exist** within Knowledge Systems and RAG;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## The problem
 
 Large language models contain broad learned patterns, but they do not automatically contain an organisation's private, current or authoritative information.
@@ -100,3 +109,7 @@ RAG does not fix:
 ## Strategic lesson
 
 The future AI advantage will not only come from better models. It will come from better information systems surrounding those models.
+
+## Architect exercise
+
+Design or inspect a representative system that uses **01 — Why Knowledge Systems Exist**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.

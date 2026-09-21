@@ -1,5 +1,14 @@
 # Domain 17 — MLOps and LLMOps
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across model/application release operations, evaluation pipelines, observability, feedback, registries, rollback and operational governance.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 Production AI systems change across models, prompts, datasets, retrieval, tools, runtimes, policies and infrastructure. MLOps and LLMOps make those changes traceable, testable, deployable, observable and reversible.
@@ -59,3 +68,24 @@ The deployable unit is often a system configuration, not merely a model: model +
 > LLMOps is the operating discipline that keeps probabilistic AI changes controlled inside deterministic production systems.
 
 Next: **01 — Experiment Tracking and Reproducibility**.
+
+## Canonical curriculum navigation
+
+- [Experiment Tracking and Reproducibility](./01-experiment-tracking-and-reproducibility.md)
+- [Model, Prompt, Dataset and Artifact Versioning](./02-model-prompt-dataset-and-artifact-versioning.md)
+- [Evaluation Pipelines and Quality Gates](./03-evaluation-pipelines-and-quality-gates.md)
+- [Deployment Strategies and Release Engineering](./04-deployment-strategies-and-release-engineering.md)
+- [Observability, Tracing and Production Telemetry](./05-observability-tracing-and-production-telemetry.md)
+- [Drift, Feedback and Continuous Improvement](./06-drift-feedback-and-continuous-improvement.md)
+- [Rollback, Incident Response and Recovery](./07-rollback-incident-response-and-recovery.md)
+- [Operational Governance and Model Registry](./08-operational-governance-and-model-registry.md)
+- [LLMOps Platform Architecture](./09-llmops-platform-architecture.md)
+- [MLOps and LLMOps Capstone](./10-mlops-and-llmops-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [12 — AI System Design](../ai-system-design/README.md), [13 — Data and Event Architecture](../data-event-architecture/README.md)
+
+**Useful next domains:** [22 — Enterprise AI](../enterprise-ai/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

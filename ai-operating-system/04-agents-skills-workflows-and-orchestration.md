@@ -1,5 +1,14 @@
 # 04 — Agents, Skills, Workflows and Orchestration
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **04 — Agents, Skills, Workflows and Orchestration** within Build an AI Operating System;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Coordinate reasoning and deterministic execution without building an unbounded autonomous loop.

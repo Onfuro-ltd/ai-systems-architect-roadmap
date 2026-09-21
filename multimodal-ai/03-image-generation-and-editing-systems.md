@@ -2,44 +2,79 @@
 
 ## Purpose
 
-Design controlled systems for generating and transforming images.
+Image generation creates or transforms media from text, images, masks or other conditioning. Production design must control identity, consistency, provenance, rights and quality—not merely prompt for attractive output.
 
-## Generation contract
+## Learning outcomes
 
-Specify intent, dimensions/aspect ratio, required content, prohibited content, brand/style constraints, reference assets, text requirements and downstream usage.
+By the end of this module, you should be able to:
+- explain diffusion-style generation conceptually and distinguish generation from editing
+- identify conditioning and control mechanisms at an architecture level
+- design asset provenance, review and versioning
+- evaluate generated media for task success rather than aesthetics alone
+
+## Generation mechanism
+
+Diffusion-style systems learn to reverse a noise process; production systems may use latent representations and conditioning to make generation practical. The architecture should remain model-agnostic.
+
+## Conditioning
+
+Text, reference images, masks, depth/pose or structured controls can constrain output. Stronger control can improve consistency but adds pipeline complexity.
 
 ## Editing
 
-Image editing can use masks, source images, reference images, control signals or natural-language instructions. Preserve the original and record transformation lineage.
+Inpainting, outpainting and image-to-image workflows modify existing assets. Preserve the source asset, transformation request and generated revision.
 
-## Iteration
+## Identity and consistency
 
-Generation is probabilistic. Build review/selection loops rather than assuming the first output is production-ready.
-
-## Text and geometry
-
-Exact text, logos, product geometry, dimensions and regulated claims may require deterministic compositing or specialist verification rather than unconstrained generation.
+Repeated characters, products or brand elements require reference/control strategies and human verification. One successful sample is not evidence of repeatability.
 
 ## Asset pipeline
 
-```text
-Brief → references → generation/edit → validation → review → approved asset → delivery
-```
+Treat generated media as versioned artifacts with prompt/config/model identity, review state, usage rights and publication status.
 
-## Rights and provenance
+## Deterministic finishing
 
-Track source/reference rights, consent where relevant, generation model, prompt/configuration, edits and approval. Requirements vary by jurisdiction and use case.
+Cropping, dimensions, format conversion, compression and metadata checks are often better handled by conventional software.
+
+## Failure modes
+
+- visually plausible but factually wrong product details
+- identity or brand inconsistency across variants
+- text rendered incorrectly
+- editing changes protected details outside intended region
+- generated content published without provenance/review
+
+## Security and governance
+
+Control access to sensitive reference images and brand assets. Consider rights, consent, impersonation/deception risk and policy before generation. Generated media must never be treated as authentic source evidence merely because it looks realistic.
 
 ## Evaluation
 
-Measure instruction adherence, visual quality, identity/object consistency where applicable, text correctness, artifact rate, policy compliance and human acceptance.
+Evaluate against the production objective: constraint adherence, consistency, artifact rate, human correction, generation cost and acceptance rate. Use blind review and deterministic checks where possible.
 
-## Exercise
+## Practical exercise
 
-Design an enterprise marketing-image workflow where AI creates variants but exact product appearance and approved claims must remain controlled.
+Design an asset-generation workflow from approved source image to reviewed derivative. Include version identity, deterministic validation, human approval and rollback to the original.
+
+## Architect checklist
+
+- [ ] source and generated versions are distinct
+- [ ] model/configuration identity is recorded
+- [ ] critical visual claims are verified
+- [ ] publishing requires the intended approval
+- [ ] evaluation includes repeatability and correction cost
+
+## Primary reading
+
+- [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+- [W3C PROV Overview](https://www.w3.org/TR/prov-overview/)
+
+## Mastery gate
+
+Design a production use of **Image Generation and Editing Systems** that preserves provenance, uncertainty and action boundaries, and state how you would measure whether the multimodal component improves the outcome over a simpler baseline.
 
 ## Takeaway
 
-> Generative image systems work best when creative probability is surrounded by deterministic asset, rights, validation and approval controls.
+> Generated media is a governed artifact, not self-authenticating evidence.
 
 Next: **04 — Audio and Speech Systems**.

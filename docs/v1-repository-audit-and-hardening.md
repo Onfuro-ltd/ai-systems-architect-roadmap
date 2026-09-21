@@ -37,71 +37,103 @@ The known Domain 12 private references are part of a larger problem. Search conf
 
 ## Release hardening sequence
 
-### P0 — Privacy and public-safety cleanup
+### P0 — Privacy and public-safety cleanup — COMPLETE
 
-- Remove private project/company implementation references from all public curriculum.
-- Replace only with generic examples where the lesson remains useful.
-- Search for related proprietary names and internal implementation details, not just one project name.
-- Re-run repository-wide privacy search before release.
+- [x] Remove private project/company implementation references from all public curriculum.
+- [x] Replace only with generic examples where the lesson remains useful.
+- [x] Search for related proprietary names and internal implementation details, not just one project name.
+- [x] Re-run current-tree and reachable-history privacy scans before release.
 
-### P1 — Restore authoritative 28-domain structure
+P5 revalidated the reachable repository state without publishing the prohibited private identifiers in the public CI configuration.
 
-- Create dedicated Domain 08 Memory Systems.
-- Create dedicated Domain 09 Orchestration and Multi-Agent Systems.
-- Create dedicated Domain 10 Evaluation and Reliability.
-- Audit Domain 06 and Domain 07 against the master roadmap and separate their curriculum boundaries.
-- Verify Domain 11 against the authoritative Security, Permissions and Governance scope.
+### P1 — Restore authoritative 28-domain structure — COMPLETE
 
-### P2 — Consolidate duplicate and legacy tracks
+- [x] Create dedicated Domain 08 Memory Systems.
+- [x] Create dedicated Domain 09 Orchestration and Multi-Agent Systems.
+- [x] Create dedicated Domain 10 Evaluation and Reliability.
+- [x] Audit Domain 06 and Domain 07 against the master roadmap and separate their curriculum boundaries.
+- [x] Verify Domain 11 against the authoritative Security, Permissions and Governance scope.
+- [x] Give every roadmap domain an explicit authoritative repository home.
+- [x] Make root and master-roadmap navigation resolve to those authoritative homes.
 
-- Map every legacy chapter to an authoritative domain or mark it supplemental.
-- Avoid deleting useful material until migration is verified.
-- Remove contradictory or stale navigation.
-- Consolidate Domain 18 old/new chapter structure.
+P1 completion evidence is recorded in [`roadmap/domain-directory-map.md`](../roadmap/domain-directory-map.md).
 
-### P3 — Editorial normalization
+Legacy combined and supplemental tracks remain intentionally present. Their chapter-by-chapter migration, archival or supplemental classification belongs to P2 and is not treated as complete by this checkpoint.
 
-For every authoritative domain verify:
+### P2 — Consolidate duplicate and legacy tracks — COMPLETE
 
-- README and chapter links resolve.
-- Naming matches the master roadmap.
-- learning objectives are explicit;
-- concepts, architecture, failure modes, security, evaluation and exercises are present where relevant;
-- private examples are absent;
-- terminology is consistent;
-- model/vendor claims are evidence-aware and time-sensitive claims are sourced;
-- chapters meet the curriculum authoring standard.
+- [x] Map every legacy chapter to an authoritative domain or mark it supplemental.
+- [x] Preserve useful historical material rather than deleting it.
+- [x] Remove legacy tracks from authoritative root navigation by archiving or supplemental classification.
+- [x] Consolidate Domain 18 to one canonical root chapter structure while preserving the earlier detailed set for P3 review.
 
-### P4 — Repository navigation and contributor experience
+P2 completion evidence is recorded in [`docs/legacy-supplemental-content-map.md`](./legacy-supplemental-content-map.md).
 
-- Replace Foundations-only root navigation with all 28 domains.
-- Add a completion/status matrix.
-- Add prerequisites and recommended paths.
-- Add cross-domain links.
-- Validate CONTRIBUTING, SECURITY, Code of Conduct, authoring standard and decision framework.
-- Add issue/PR templates if absent.
+Archived content is not authoritative. Supplemental content extends the roadmap without creating extra authoritative domains.
 
-### P5 — Release engineering
+### P3 — Editorial normalization — COMPLETE
 
-- Run link and Markdown validation.
-- Run privacy/secret scanning.
-- Add CI checks for broken internal links and prohibited private terms.
-- Define versioning/release policy.
-- Produce v1.0 changelog/release notes.
-- Tag v1.0 only after P0–P5 gates pass.
+For every authoritative domain:
+
+- [x] README and chapter links resolve.
+- [x] Naming matches the master roadmap and authoritative directory map.
+- [x] Learning objectives are explicit.
+- [x] Practical/architectural exercises are present in non-capstone modules.
+- [x] Concepts, architecture, failure modes, security/governance and evaluation are represented where relevant.
+- [x] Private examples are absent.
+- [x] Editorial terminology and domain naming are normalized.
+- [x] Fast-moving comparative claims are screened with evidence/date-aware rules.
+- [x] The curriculum authoring standard is applied as the review baseline.
+- [x] Domain 16 depth is materially normalized.
+- [x] Durable detail from the archived Domain 18 structure is merged into the canonical track.
+
+P3 completion evidence is recorded in [`docs/p3-editorial-normalization-report.md`](./p3-editorial-normalization-report.md).
+
+### P4 — Repository navigation and contributor experience — COMPLETE
+
+- [x] Replace stale Foundations-only emphasis with complete 28-domain navigation.
+- [x] Add a completion/status matrix.
+- [x] Add prerequisites and recommended paths.
+- [x] Add cross-domain prerequisite/next-step links.
+- [x] Validate and strengthen CONTRIBUTING, SECURITY and Code of Conduct while retaining the authoring standard and decision framework as canonical quality/evidence references.
+- [x] Add issue and pull-request templates.
+
+P4 completion evidence is recorded in [`docs/p4-navigation-contributor-experience-report.md`](./p4-navigation-contributor-experience-report.md).
+
+### P5 — Release engineering — COMPLETE FOR RELEASE CANDIDATE
+
+- [x] Run link and Markdown validation.
+- [x] Run current-tree and reachable-history privacy/secret scanning.
+- [x] Add CI checks for broken internal links, prohibited private-term fingerprints and high-signal secrets.
+- [x] Define versioning/release policy.
+- [x] Produce the v1.0 changelog/release notes and publication checklist.
+- [x] Enforce the rule that v1.0 is tagged only after the cumulative release candidate is merged to `main`, CI is green on that exact commit, and the tag-ready gate passes.
+
+P5 completion evidence is recorded in [`docs/p5-release-engineering-report.md`](./p5-release-engineering-report.md).
+
+The engineering hardening phases are complete, but **v1.0 publication is intentionally still blocked** until the maintainer deliberately chooses/adds a repository license and the cumulative P5 branch is merged and revalidated on `main`.
 
 ## v1.0 release gate
 
-The repository should not be called v1.0-ready until:
+The release-candidate engineering gate now passes for:
 
-- all 28 authoritative domains have an explicit home;
-- no private implementation references remain;
-- duplicate tracks are classified;
-- navigation resolves to the authoritative curriculum;
-- internal links pass;
-- curriculum depth/format has been reviewed;
-- privacy and secret scans pass;
-- the final AI Operating System capstone links back to the prerequisite domains.
+- [x] all 28 authoritative domains having an explicit home;
+- [x] no prohibited private implementation references in current/reachable repository content;
+- [x] duplicate/legacy tracks being classified;
+- [x] navigation resolving to the authoritative curriculum;
+- [x] internal links passing;
+- [x] curriculum depth/format review;
+- [x] privacy and high-signal secret scans;
+- [x] the final AI Operating System capstone linking back to prerequisite domains;
+- [x] repeatable local/CI repository-quality validation.
+
+Final publication still requires:
+
+- [ ] deliberate repository-license selection;
+- [ ] merge of the cumulative release candidate into `main`;
+- [ ] green repository-quality CI on the exact merged main SHA;
+- [ ] passing `--tag-ready` validation;
+- [ ] creation and verification of the public `v1.0` tag/release.
 
 ## Principle
 

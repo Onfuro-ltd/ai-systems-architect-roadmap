@@ -1,5 +1,14 @@
 # 03 — Supervised Fine-Tuning
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **03 — Supervised Fine-Tuning** within Fine-Tuning and Specialist Models;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 Supervised fine-tuning adapts a pretrained model toward desired input-output behaviour using curated examples.
 

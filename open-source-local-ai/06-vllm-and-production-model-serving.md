@@ -1,5 +1,14 @@
 # 06 — vLLM and Production Model Serving
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **06 — vLLM and Production Model Serving** within Open-Source and Local AI;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Production serving is a scheduling and resource-management problem around model inference.

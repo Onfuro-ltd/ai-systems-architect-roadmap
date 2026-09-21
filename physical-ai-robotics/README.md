@@ -1,5 +1,14 @@
 # Domain 20 — Physical AI and Robotics
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across robotics, perception, localisation, planning, control, embodied models, simulation, real-time inference, safety and fleet operations.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 Physical AI closes the loop between perception, reasoning and action in the real world. Errors can damage equipment or injure people, so safety cannot depend on model judgement alone.
@@ -60,3 +69,24 @@ Sensors
 > Physical AI is where probabilistic intelligence meets irreversible reality; deterministic safety boundaries must become stronger as physical consequence increases.
 
 Next: **01 — Physical AI and Robotics Foundations**.
+
+## Canonical curriculum navigation
+
+- [Physical AI and Robotics Foundations](./01-physical-ai-and-robotics-foundations.md)
+- [Sensors, Perception and State Estimation](./02-sensors-perception-and-state-estimation.md)
+- [Localization, Mapping and World Models](./03-localization-mapping-and-world-models.md)
+- [Planning, Control and Actuation](./04-planning-control-and-actuation.md)
+- [Vision-Language-Action and Embodied Models](./05-vision-language-action-and-embodied-models.md)
+- [Simulation, Digital Twins and Synthetic Environments](./06-simulation-digital-twins-and-synthetic-environments.md)
+- [Edge Inference and Real-Time Robotics](./07-edge-inference-and-real-time-robotics.md)
+- [Safety, Human Oversight and Governance](./08-safety-human-oversight-and-governance.md)
+- [Robotics Infrastructure, Fleet Operations and Evaluation](./09-robotics-infrastructure-fleet-operations-and-evaluation.md)
+- [Physical AI and Robotics Capstone](./10-physical-ai-and-robotics-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md), [12 — AI System Design](../ai-system-design/README.md), [16 — GPU and Inference Infrastructure](../gpu-inference-infrastructure/README.md), [18 — Multimodal AI](../multimodal-ai/README.md)
+
+**Useful next domains:** [22 — Enterprise AI](../enterprise-ai/README.md), [26 — Domain-Specific AI Systems](../domain-specific-ai-systems/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

@@ -1,5 +1,14 @@
 # 09 — Production Decision Intelligence Architecture
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **09 — Production Decision Intelligence Architecture** within Decision Intelligence;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Operate decision services as versioned, observable and governed production systems.

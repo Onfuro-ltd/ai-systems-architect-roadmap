@@ -1,5 +1,14 @@
 # Retrieval Strategies
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **Retrieval Strategies** within Knowledge Systems and RAG;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Retrieval is the point where a knowledge system decides what information the AI system is allowed to see.
@@ -236,3 +245,7 @@ It asks:
 > "How do we reliably deliver the correct, authorised, current information required for this decision?"
 
 That question leads to better architecture.
+
+## Architect exercise
+
+Design or inspect a representative system that uses **Retrieval Strategies**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.

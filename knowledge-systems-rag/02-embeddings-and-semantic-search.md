@@ -1,5 +1,14 @@
 # 02 — Embeddings and Semantic Search
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **02 — Embeddings and Semantic Search** within Knowledge Systems and RAG;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## What problem embeddings solve
 
 Computers traditionally search using exact matching.

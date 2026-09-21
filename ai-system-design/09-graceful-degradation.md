@@ -1,5 +1,14 @@
 # 09 — Graceful Degradation
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **09 — Graceful Degradation** within AI System Design;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Graceful degradation is the ability of a system to continue providing safe, useful service when part of the architecture is slow, unavailable, or operating below normal capacity.
@@ -456,6 +465,10 @@ For every major capability, answer:
 14. Is degradation state observable?
 15. How does the system recover without causing a retry/backlog storm?
 16. Have degradation paths been load- and failure-tested?
+
+## Architect exercise
+
+Design or inspect a representative system that uses **09 — Graceful Degradation**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.
 
 ## Takeaway
 

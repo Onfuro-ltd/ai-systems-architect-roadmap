@@ -228,6 +228,83 @@ Avoid:
 - unnecessary complexity;
 - filler generated merely to make a section longer.
 
+## Issue and pull request workflow
+
+Use the repository's issue templates so reports arrive with enough context to act on:
+
+- **Curriculum / correction** — missing topics, technical corrections, broken learning flow or evidence gaps;
+- **Technology evaluation** — proposals to evaluate a model, framework, protocol, product or pattern;
+- **Repository improvement** — navigation, contributor experience, automation or maintenance work.
+
+Before opening a new issue, check the [Master Roadmap](./roadmap/master-roadmap.md), [Domain Status Matrix](./roadmap/domain-status.md) and existing issues to avoid duplicate taxonomy.
+
+Pull requests should:
+
+- address one coherent problem;
+- link the relevant issue when one exists;
+- explain why the change improves architectural judgement;
+- identify primary sources for material technical claims;
+- state important failure/security/economic implications where relevant;
+- confirm that no secrets, private data or proprietary implementation details were added;
+- update navigation when files or domain boundaries change.
+
+Use the pull request template as a review contract rather than deleting its checklist.
+
+## Branch and commit scope
+
+Branch names should communicate intent, for example:
+
+```text
+curriculum/<domain>-<topic>
+fix/<short-description>
+docs/<short-description>
+repo/<short-description>
+```
+
+Prefer a small number of coherent commits that preserve reviewable checkpoints. Avoid mixing taxonomy changes, large editorial rewrites and unrelated fixes unless the migration genuinely requires them.
+
+## AI-assisted contributions
+
+AI tools may assist research, drafting, editing or coding, but contributors remain responsible for every submitted claim and line of code.
+
+AI-assisted content must still:
+
+- satisfy the curriculum authoring standard;
+- use real, inspectable sources rather than fabricated citations;
+- distinguish uncertain/inferred claims;
+- avoid private or proprietary information;
+- be technically reviewed by the contributor before submission.
+
+Mass-generated content that merely satisfies headings is not an acceptable contribution.
+
+
+## Licensing of contributions
+
+This repository uses two licenses with explicit scope. Read the root [LICENSE](./LICENSE) before contributing.
+
+Unless maintainers explicitly agree otherwise before accepting a contribution:
+
+- standalone software, scripts, automation, configuration and other code-like contributions are submitted under **Apache License 2.0**;
+- curriculum, documentation, prose, diagrams and other educational-content contributions are submitted under **Creative Commons Attribution 4.0 International**;
+- code snippets contributed inside documentation may also be reused under **Apache License 2.0** as described in the root licensing notice.
+
+Do not contribute material you do not have the right to license under the applicable terms. Third-party material must retain its original licensing and attribution requirements.
+
+By intentionally submitting a contribution for inclusion in this repository, you confirm that you have authority to submit it under the applicable project license.
+
+## Repository validation
+
+Before submitting a pull request, run:
+
+```bash
+python3 scripts/validate_repository.py --release
+```
+
+The validator uses only the Python standard library and checks required repository structure, UTF-8/Markdown fence integrity, internal Markdown links, prohibited private-term fingerprints and high-signal credential patterns.
+
+GitHub Actions runs both the release gate and the `--tag-ready` preflight. The tag-ready mode also requires the repository license. A green pull-request preflight does not replace the final tag-ready validation on the exact merged `main` SHA.
+
+
 ## Maintainer review principle
 
 A contribution should leave the reader able to make a **better architecture decision** than before reading it.

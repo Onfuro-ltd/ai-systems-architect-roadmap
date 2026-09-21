@@ -4,6 +4,25 @@ The roadmap is broad by design. These phases turn it into an executable learning
 
 Each phase combines theory, implementation, architecture and evaluation. Learners should not wait until the end to build systems.
 
+## Phase-to-domain map
+
+| Phase | Primary authoritative domains |
+| --- | --- |
+| 0 — Orientation and AI literacy | 01–02 |
+| 1 — Reliable AI applications | 03 |
+| 2 — Knowledge and grounding | 04 |
+| 3 — Agents and tools | 05, 07 |
+| 4 — Skills, memory and harness engineering | 06, 08 |
+| 5 — Evaluation, security and governance | 10–11 |
+| 6 — Orchestration and production architecture | 09, 12–13, 21 |
+| 7 — Open models, fine-tuning and infrastructure | 14–17 |
+| 8 — Multimodal and interface agents | 18–20 |
+| 9 — Decision intelligence and AI-native business systems | 22–27 |
+| 10 — Capstone: AI operating system | 28 |
+
+The phases are a recommended learning sequence, not a second taxonomy. The [Master Roadmap](./master-roadmap.md) defines domain scope, while [Prerequisites and Recommended Paths](./prerequisites-and-paths.md) shows dependency-aware alternatives.
+
+
 ## Phase 0 — Orientation and AI literacy
 
 **Goal:** understand the landscape well enough to distinguish models, applications, agents, infrastructure and hype.

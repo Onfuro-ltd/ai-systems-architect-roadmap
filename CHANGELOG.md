@@ -6,14 +6,22 @@ The project is intentionally living. Curriculum content, architectural recommend
 
 ## Unreleased
 
-Planned next areas include:
+### v1.0 release candidate
 
-- AI Application Engineering
-- structured outputs and validation
-- tool/function calling
-- production model API patterns
-- state, retries and deterministic execution boundaries
-- expanded Technology Radar evaluations
+The complete 28-domain curriculum and v1 repository hardening work are prepared for public v1.0 publication.
+
+Highlights:
+
+- complete authoritative 28-domain roadmap;
+- dedicated Skills, MCP, Memory, Orchestration, Evaluation and Security/Governance tracks;
+- legacy/supplemental classification and Domain 18 consolidation;
+- repository-wide editorial normalization;
+- deepened GPU/inference and multimodal curricula;
+- complete navigation, prerequisites and contributor templates;
+- reusable repository quality gate and GitHub Actions CI;
+- release/version policy and v1.0 release notes.
+
+The public `v1.0` tag remains intentionally pending until the repository license is deliberately selected, the P5 branch is merged into `main`, and the merged main commit passes the tag-ready gate.
 
 ## v0.2 — Foundations Curriculum
 

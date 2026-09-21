@@ -1,56 +1,169 @@
 # 10 — Multimodal AI Capstone
 
-## Purpose
+## Objective
 
-Design an enterprise multimodal evidence and generation platform.
+Design an enterprise-grade multimodal system that combines at least three modalities and structured data while preserving provenance, uncertainty, policy and measurable outcomes.
 
 ## Scenario
 
-A multitenant AI platform receives text, photographs, screenshots, PDFs, scans, audio and video. It must answer questions, extract structured facts, generate approved media and support downstream workflows without treating probabilistic perception as authoritative truth.
+Choose a generic workflow such as:
 
-## Target architecture
+- product-quality investigation;
+- support evidence review;
+- document-and-voice case analysis;
+- industrial inspection;
+- accessibility assistant.
+
+Do not choose a scenario where multimodal input adds no measurable value.
+
+## Baseline
+
+Define a simpler baseline first:
+
+- text-only;
+- deterministic parser;
+- specialist single-modality model;
+- human-only process.
+
+The capstone must demonstrate why the multimodal design is worth its complexity.
+
+## Inputs and trust
+
+For every input define:
+
+- source;
+- subject/entity;
+- timestamp;
+- authorization;
+- trust class;
+- retention;
+- whether it can contain untrusted instructions.
+
+## Architecture
+
+Produce a diagram covering:
 
 ```text
-Upload / capture / generated request
-            ↓
-Authorization + validation
-            ↓
-Immutable original + provenance
-            ↓
-Modality router
- ┌──────────┼──────────┬──────────┐
- ↓          ↓          ↓          ↓
-Vision   Document    Audio      Video
- ↓          ↓          ↓          ↓
-Specialist extraction / representation
-            ↓
-Evidence contracts + fusion
-            ↓
-Reasoning / generation
-            ↓
-Deterministic validation + policy
-            ↓
-Approval / action / delivered asset
-            ↓
-Outcome evaluation + audit
+Artifacts / Structured Data
+          |
+Validation + Identity
+          |
+Preprocessing / Specialist Perception
+          |
+Normalized Evidence + Provenance
+          |
+Fusion / Routing / Reasoning
+          |
+Policy + Deterministic Rules
+          |
+Human Approval where required
+          |
+Action / Output
+          |
+Evaluation + Feedback
 ```
 
-## Required deliverables
+## Evidence model
 
-Produce modality inventory; ingestion contracts; storage/lifecycle design; provenance schema; vision/OCR/document pipeline; speech/audio architecture; video sampling/indexing; image/video generation workflow; modality router; evidence-fusion contract; conflict handling; context-budget strategy; privacy/consent model; media prompt-injection threat model; generated-media controls; evaluation suites; asynchronous processing architecture; caching; cost attribution; observability; resilience; human approval boundaries; and at least three ADRs.
+Create a stable evidence schema that can represent:
 
-## Failure matrix
+- document page/region;
+- image bounding region;
+- audio timestamp/speaker label;
+- video interval/frame;
+- structured record;
+- source confidence/trust;
+- transformation/model identity.
 
-Cover corrupt media, wrong MIME, OCR error, visual hallucination, missed video event, transcription error, spoofed/manipulated media, embedded prompt injection, privacy leakage, tenant crossover, generation-policy failure, exact-text/geometry error, provider outage, processing timeout, runaway media cost and lost provenance.
+The final system should not depend on a provider-specific response format.
 
-## Acceptance criteria
+## Alignment and fusion
 
-The original artifact remains traceable; modality-specific quality is measured; OCR is not confused with understanding; consequential actions require verification; evidence retains page/region/timestamp provenance; media content cannot override system policy; tenant/privacy boundaries are deterministic; long processing is resumable; generated assets have approval controls; storage/retention is explicit; costs are attributable; and models/providers remain replaceable behind canonical interfaces.
+Explain how the system determines that different modalities refer to the same entity/event.
 
-## Final principle
+Choose early, late or hybrid fusion and justify the choice.
 
-> Multimodal AI should expand what a system can perceive and create without weakening the deterministic controls that make the surrounding system trustworthy.
+## Routing
 
-**Domain 18 — Multimodal AI complete.**
+Define which tasks use:
 
-Next domain: **19 — Computer Use and Interface Agents**.
+- deterministic processing;
+- specialist model;
+- general multimodal model;
+- reasoning model;
+- human review.
+
+Add escalation and fallback rules.
+
+## Security
+
+Threat-model:
+
+- indirect prompt injection in every modality;
+- malicious upload;
+- cross-tenant leakage;
+- sensitive-media logging;
+- synthetic/manipulated evidence;
+- tool misuse after misleading perception.
+
+## Evaluation
+
+Build a task suite including:
+
+- ordinary examples;
+- low-quality media;
+- conflicting modalities;
+- missing evidence;
+- manipulated/generated content;
+- adversarial instructions;
+- edge cases by modality.
+
+Measure perception/extraction, grounding, route selection, reasoning, false actions, human correction, latency and cost.
+
+## Infrastructure
+
+Specify:
+
+- raw/derived artifact storage;
+- asynchronous processing;
+- idempotency;
+- caching;
+- deletion propagation;
+- model/runtime observability;
+- cost attribution.
+
+## Human authority
+
+For consequential actions, show exactly what a reviewer sees:
+
+- proposed action;
+- supporting evidence;
+- source provenance;
+- uncertainty;
+- policy reason.
+
+## Primary reading
+
+- [CLIP](https://arxiv.org/abs/2103.00020)
+- [Flamingo](https://arxiv.org/abs/2204.14198)
+- [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+- [Whisper](https://arxiv.org/abs/2212.04356)
+- [W3C PROV Overview](https://www.w3.org/TR/prov-overview/)
+
+## Architecture decision records
+
+Write at least three ADRs:
+
+1. native multimodal vs composed specialist architecture;
+2. evidence/fusion strategy;
+3. routing and human-approval boundary.
+
+## Mastery gate
+
+The capstone passes only if another engineer can trace every consequential conclusion back to evidence, identify where uncertainty enters, see which component owns authority, reproduce the evaluation, and replace a model provider without redesigning the business workflow.
+
+## Takeaway
+
+> Multimodal intelligence is production-ready when heterogeneous evidence remains traceable, controlled and measurably more useful than the simpler baseline.
+
+Next: **Domain 19 — Computer Use and Interface Agents**.

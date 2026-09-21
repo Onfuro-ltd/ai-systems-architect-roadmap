@@ -1,5 +1,14 @@
 # 11 — AI Data Boundaries and Context Freshness
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **11 — AI Data Boundaries and Context Freshness** within Data and Event Architecture;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 AI systems reason over representations of reality. Those representations can be stale, incomplete, derived, unauthorized, or probabilistically generated.

@@ -1,5 +1,14 @@
 # State Management and Conversations
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **State Management and Conversations** within AI Application Engineering;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Why state matters
 
 A useful AI application rarely handles a single isolated request.

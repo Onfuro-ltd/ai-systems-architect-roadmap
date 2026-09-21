@@ -1,5 +1,14 @@
 # 04 — Trust, Explainability and Provenance
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **04 — Trust, Explainability and Provenance** within AI Product Design;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Give users the evidence needed to evaluate important AI outputs without pretending hidden reasoning is a reliable explanation.

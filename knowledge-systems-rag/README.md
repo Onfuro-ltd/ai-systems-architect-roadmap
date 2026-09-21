@@ -1,4 +1,13 @@
-# Knowledge Systems and RAG
+# Domain 04 — Knowledge Systems and RAG
+
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across retrieval, chunking, ranking, hybrid search, grounding, citations, knowledge freshness, access control and retrieval evaluation.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
 
 ## Mission
 
@@ -117,3 +126,26 @@ A learner should be able to:
 - measure retrieval quality;
 - protect sensitive information;
 - build systems where AI decisions are grounded in evidence.
+
+## Canonical curriculum navigation
+
+- [Why Knowledge Systems Exist](./01-why-knowledge-systems-exist.md)
+- [Embeddings and Semantic Search](./02-embeddings-and-semantic-search.md)
+- [Vector Databases](./03-vector-databases.md)
+- [RAG Architecture](./04-rag-architecture.md)
+- [Chunking and Document Processing](./05-chunking-and-document-processing.md)
+- [Retrieval Strategies](./06-retrieval-strategies.md)
+- [Hybrid Search](./07-hybrid-search.md)
+- [Re-ranking](./08-re-ranking.md)
+- [Grounding and Citations](./09-grounding-and-citations.md)
+- [RAG Security](./10-rag-security.md)
+- [RAG Evaluation](./11-rag-evaluation.md)
+- [RAG Capstone — Production Enterprise Knowledge System](./12-rag-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md)
+
+**Useful next domains:** [05 — Agents](../agents/README.md), [08 — Memory Systems](../08-memory-systems/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [13 — Data and Event Architecture](../data-event-architecture/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

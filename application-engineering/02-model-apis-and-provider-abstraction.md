@@ -1,5 +1,14 @@
 # Model APIs and Provider Abstraction
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **Model APIs and Provider Abstraction** within AI Application Engineering;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 AI systems should benefit from improving models without becoming permanently dependent on one provider.

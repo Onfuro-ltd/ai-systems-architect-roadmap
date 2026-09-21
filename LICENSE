@@ -1,0 +1,80 @@
+AI Systems Architect Roadmap — Licensing Notice
+
+This repository uses a scoped dual-license model.
+
+Unless a file or directory contains a more specific license notice, the
+following rules apply.
+
+1. Software and code — Apache License 2.0
+
+The following are licensed under the Apache License, Version 2.0
+(SPDX-License-Identifier: Apache-2.0):
+
+- standalone software source code;
+- scripts and executable examples;
+- CI/CD and workflow automation;
+- configuration files used as software/automation inputs;
+- other code-like artifacts whose primary purpose is execution.
+
+The complete license text is in:
+
+    LICENSES/Apache-2.0.txt
+
+2. Curriculum and documentation — Creative Commons Attribution 4.0
+
+The following are licensed under the Creative Commons Attribution 4.0
+International Public License
+(SPDX-License-Identifier: CC-BY-4.0):
+
+- curriculum chapters and learning materials;
+- roadmaps and architecture guidance;
+- documentation and explanatory prose;
+- diagrams and figures authored for this project;
+- repository governance and contributor documentation.
+
+The complete license text is in:
+
+    LICENSES/CC-BY-4.0.txt
+
+When attribution is required, a reasonable attribution is:
+
+    AI Systems Architect Roadmap contributors
+    https://github.com/Onfuro-ltd/ai-systems-architect-roadmap
+
+Where reasonably practicable, indicate if you modified the material.
+
+3. Code snippets embedded in documentation
+
+Code snippets and executable examples embedded inside CC BY 4.0
+documentation may also be reused under the Apache License 2.0 unless that
+snippet or file states otherwise.
+
+This additional permission is intended to let readers use practical code
+examples in software without having to apply a documentation license to
+their software project.
+
+4. Third-party material
+
+Third-party material is not relicensed by this notice.
+
+Where this repository includes third-party material under permission,
+license, quotation, exception, limitation or another lawful basis, the
+original rights and notices continue to apply.
+
+Do not assume that a third-party work is covered by Apache-2.0 or
+CC-BY-4.0 merely because it appears in this repository.
+
+5. Contributions
+
+Unless explicitly agreed otherwise before acceptance, contributions are
+licensed under the license that applies to the destination material:
+
+- software/code contributions: Apache-2.0;
+- curriculum/documentation contributions: CC-BY-4.0;
+- code snippets contributed inside documentation: Apache-2.0 is also
+  available for reuse as described above.
+
+Contributors retain any copyright they hold in their contributions while
+granting the permissions required by the applicable project license.
+
+Copyright remains with the respective copyright holders.

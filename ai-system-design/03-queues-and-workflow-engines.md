@@ -1,5 +1,14 @@
 # 03 — Queues and Workflow Engines
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **03 — Queues and Workflow Engines** within AI System Design;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Queues and workflow engines provide the execution backbone for reliable asynchronous AI systems. They solve different problems: a queue manages work delivery, while a workflow engine manages the state and lifecycle of a multi-step process.
@@ -301,6 +310,10 @@ For every important asynchronous workflow, answer:
 10. How is tenant isolation enforced?
 11. How is the workflow observed and audited?
 12. What happens if a dependency is unavailable for hours?
+
+## Architect exercise
+
+Design or inspect a representative system that uses **03 — Queues and Workflow Engines**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.
 
 ## Takeaway
 

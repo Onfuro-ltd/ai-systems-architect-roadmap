@@ -1,5 +1,14 @@
 # 05 — Vision-Language-Action and Embodied Models
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **05 — Vision-Language-Action and Embodied Models** within Physical AI and Robotics;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Understand models that connect language and perception to robot actions without treating them as complete safety systems.

@@ -1,5 +1,14 @@
 # Chunking and Document Processing
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **Chunking and Document Processing** within Knowledge Systems and RAG;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Why this matters
 
 A retrieval system can only retrieve what has been represented correctly.
@@ -353,3 +362,7 @@ A learner should be able to:
 - identify when information should not be embedded;
 - design evaluation experiments for retrieval quality;
 - explain why document processing is part of AI architecture, not just data preparation.
+
+## Architect exercise
+
+Design or inspect a representative system that uses **Chunking and Document Processing**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.

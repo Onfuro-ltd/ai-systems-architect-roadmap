@@ -1,4 +1,13 @@
-# 12 — AI System Design
+# Domain 12 — AI System Design
+
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across service boundaries, synchronous and asynchronous execution, queues, state machines, fault tolerance, caching, idempotency and scalability.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
 
 ## Purpose
 
@@ -76,3 +85,25 @@ For every AI workflow, determine:
 A learner should be able to take an AI workload and produce a production architecture with explicit boundaries, state, failure modes, scaling strategy, observability, and recovery behaviour.
 
 The following chapters will build that capability progressively.
+
+## Canonical curriculum navigation
+
+- [Service Boundaries](./01-service-boundaries.md)
+- [Synchronous vs Asynchronous Execution](./02-synchronous-vs-asynchronous-execution.md)
+- [Queues and Workflow Engines](./03-queues-and-workflow-engines.md)
+- [State Machines](./04-state-machines.md)
+- [Fault Tolerance](./05-fault-tolerance.md)
+- [Caching](./06-caching.md)
+- [Idempotency](./07-idempotency.md)
+- [Scalability](./08-scalability.md)
+- [Graceful Degradation](./09-graceful-degradation.md)
+- [AI Architecture Trade-offs](./10-ai-architecture-trade-offs.md)
+- [System Design Capstone](./11-system-design-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [09 — Orchestration and Multi-Agent Systems](../09-orchestration-multi-agent/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md)
+
+**Useful next domains:** [13 — Data and Event Architecture](../data-event-architecture/README.md), [17 — MLOps and LLMOps](../mlops-llmops/README.md), [22 — Enterprise AI](../enterprise-ai/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

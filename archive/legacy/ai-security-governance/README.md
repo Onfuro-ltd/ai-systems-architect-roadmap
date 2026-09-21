@@ -1,3 +1,9 @@
+> **P2 archive status:** This earlier security/governance track is preserved as a migration source only. It is no longer authoritative.
+>
+> Current curriculum:
+> - [Domain 10 — Evaluation and Reliability](../../../10-evaluation-reliability/README.md)
+> - [Domain 11 — Security, Permissions and Governance](../../../11-security-permissions-governance/README.md)
+
 # AI Security, Safety & Governance v0.9
 
 ## Purpose

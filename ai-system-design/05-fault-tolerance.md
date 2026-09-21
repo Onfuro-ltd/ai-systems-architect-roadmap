@@ -1,5 +1,14 @@
 # 05 — Fault Tolerance
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **05 — Fault Tolerance** within AI System Design;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Fault tolerance is the ability of a system to continue providing safe, useful service when components fail. In AI systems, failures can occur in models, providers, retrieval systems, queues, workers, databases, networks, tools, and external business APIs.
@@ -319,6 +328,10 @@ For every critical dependency, document:
 10. What happens to partial work?
 11. How is the failure observed and alerted?
 12. Can an AI failure result in an unsafe business action?
+
+## Architect exercise
+
+Design or inspect a representative system that uses **05 — Fault Tolerance**. Produce an architecture sketch, identify at least three failure modes, state one security or governance control where relevant, define one measurable success criterion, and compare the design with a simpler baseline. Record what evidence would justify keeping the added complexity.
 
 ## Takeaway
 

@@ -240,3 +240,29 @@ It must include workload SLOs, model/hardware sizing, KV/context planning, batch
 > GPU infrastructure is not a collection of expensive devices. It is a capacity, scheduling, reliability, and economic system that turns model inference into a dependable service.
 
 Next: **01 — GPU Architecture for AI Inference**.
+
+## Canonical curriculum navigation
+
+- [GPU Architecture for AI Inference](./01-gpu-architecture-for-ai-inference.md)
+- [VRAM, Memory Bandwidth and Model Sizing](./02-vram-memory-bandwidth-and-model-sizing.md)
+- [Prefill, Decode and KV Cache](./03-prefill-decode-and-kv-cache.md)
+- [Batching, Concurrency and Throughput](./04-batching-concurrency-and-throughput.md)
+- [Parallelism and Multi-GPU Inference](./05-parallelism-and-multi-gpu-inference.md)
+- [Inference Servers, Scheduling and Admission Control](./06-inference-servers-scheduling-and-admission-control.md)
+- [Cloud GPUs vs Owned Hardware](./07-cloud-gpus-vs-owned-hardware.md)
+- [Capacity, Utilisation and Cost Engineering](./08-capacity-utilisation-and-cost-engineering.md)
+- [Resilience, Observability and Scaling](./09-resilience-observability-and-scaling.md)
+- [GPU and Inference Infrastructure Capstone](./10-gpu-inference-infrastructure-capstone.md)
+
+
+## Primary references
+
+The detailed chapters use current primary/official references such as the NVIDIA CUDA guides, vLLM documentation and PagedAttention paper, PyTorch distributed documentation, TensorRT-LLM documentation and MLPerf Inference. Benchmark claims should always identify the exact model/runtime/hardware/workload combination.
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [01 — AI Foundations](../foundations/README.md), [02 — Modern Foundation Models](../foundations/README.md), [03 — AI Application Engineering](../application-engineering/README.md), [14 — Open-Source and Local AI](../open-source-local-ai/README.md)
+
+**Useful next domains:** [17 — MLOps and LLMOps](../mlops-llmops/README.md), [21 — AI Economics and Model Routing](../ai-economics-model-routing/README.md), [22 — Enterprise AI](../enterprise-ai/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

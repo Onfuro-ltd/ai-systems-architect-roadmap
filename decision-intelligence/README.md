@@ -1,5 +1,14 @@
 # Domain 25 — Decision Intelligence
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across decision framing, evidence, uncertainty, forecasting, optimisation, causal reasoning, human judgement and decision feedback loops.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 Decision intelligence turns data, predictions, rules and objectives into evidence-backed recommendations and controlled decisions.
@@ -61,3 +70,24 @@ Evaluation + learning
 > Decision intelligence is the architecture that connects evidence to action while making objectives, constraints, uncertainty and outcomes explicit.
 
 Next: **01 — Decision Intelligence Foundations**.
+
+## Canonical curriculum navigation
+
+- [Decision Intelligence Foundations](./01-decision-intelligence-foundations.md)
+- [Signals, Features and Decision Context](./02-signals-features-and-decision-context.md)
+- [Forecasting, Prediction and Uncertainty](./03-forecasting-prediction-and-uncertainty.md)
+- [Causal Thinking and Intervention Effects](./04-causal-thinking-and-intervention-effects.md)
+- [Objectives, Constraints and Business Rules](./05-objectives-constraints-and-business-rules.md)
+- [Optimization, Recommendations and Decision Policies](./06-optimization-recommendations-and-decision-policies.md)
+- [Explanations, Confidence and Human Decisions](./07-explanations-confidence-and-human-decisions.md)
+- [Outcome Feedback and Decision Evaluation](./08-outcome-feedback-and-decision-evaluation.md)
+- [Production Decision Intelligence Architecture](./09-production-decision-intelligence-architecture.md)
+- [Decision Intelligence Capstone](./10-decision-intelligence-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [04 — Knowledge Systems and RAG](../knowledge-systems-rag/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [13 — Data and Event Architecture](../data-event-architecture/README.md), [23 — AI Product Design](../ai-product-design/README.md), [24 — Business Automation](../business-automation/README.md)
+
+**Useful next domains:** [26 — Domain-Specific AI Systems](../domain-specific-ai-systems/README.md), [27 — AI-Native Commerce and Operations](../ai-native-commerce-operations/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

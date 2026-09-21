@@ -1,0 +1,36 @@
+name: Repository quality
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repository-quality-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out full reachable history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Show Python version
+        run: python3 --version
+
+      - name: Run release-quality gate
+        run: python3 scripts/validate_repository.py --release
+
+      - name: Run tag-ready preflight
+        run: python3 scripts/validate_repository.py --tag-ready

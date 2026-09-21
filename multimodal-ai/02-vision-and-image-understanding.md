@@ -2,40 +2,80 @@
 
 ## Purpose
 
-Design systems that extract useful information from photographs, screenshots, diagrams and other images.
+Vision systems turn pixels into evidence such as objects, text, regions and relationships. Reliable applications must understand both the capability and the uncertainty of that perception.
 
-## Vision tasks
+## Learning outcomes
 
-Tasks include classification, detection, localization, segmentation, OCR, visual question answering, chart/diagram interpretation, comparison and scene understanding.
+By the end of this module, you should be able to:
+- distinguish classification, detection, segmentation, OCR, grounding and visual reasoning
+- explain how resolution, crop and preprocessing affect downstream evidence
+- preserve coordinates and source provenance through transformations
+- choose between specialist vision systems and general vision-language models
 
-Do not assume one model is best at all of them.
+## Task types
+
+Classification answers what category is present; detection locates objects; segmentation identifies regions; OCR extracts text; grounding connects language to regions; VQA and vision-language reasoning interpret broader relationships.
 
 ## Image quality
 
-Resolution, crop, orientation, lighting, blur, compression, occlusion and scale can dominate model accuracy. Validate and normalize inputs where appropriate.
+Resolution, lighting, blur, compression, orientation, crop, occlusion and scale can dominate results. Validate input quality before blaming or trusting the model.
 
-## Regions and coordinates
+## Coordinates and transforms
 
-When actions depend on spatial location, preserve coordinate systems and transformations. Resizing/cropping can invalidate downstream coordinates.
+Cropping/resizing changes coordinate frames. If later actions depend on positions, store transformations and map evidence back to the original artifact.
 
-## OCR vs understanding
+## OCR vs visual reasoning
 
-OCR extracts text; understanding interprets the visual document or scene. Use OCR when exact text matters and visual reasoning when layout/context matters, combining them where useful.
+Use deterministic/specialist OCR when exact text is the primary requirement. Use broader visual reasoning when layout, scene context or relationships matter. Combine them when evidence must be both exact and contextual.
 
-## Screenshots
+## Screenshots and interfaces
 
-Screenshots contain text plus layout and interaction state. For interface automation, structured accessibility/UI information may be more reliable than vision alone when available.
+Screenshots mix text, layout and state. Accessibility trees or structured UI data can be more reliable than pixels alone when available.
 
-## Verification
+## Specialist vs general models
 
-For consequential extraction, cross-check with deterministic parsers, barcodes, metadata, OCR confidence, multiple views or human review.
+General VLMs offer breadth; specialist detectors/OCR/inspection models may offer better calibration, latency or domain precision. Benchmark the actual task.
 
-## Exercise
+## Failure modes
 
-Design an image-inspection pipeline that must identify an object, read a label and verify a structured field before allowing an operational action.
+- small but critical detail missed
+- visually similar objects confused
+- OCR text hallucinated or misread
+- coordinate transformation invalidates localization
+- single-view image hides relevant evidence
+
+## Security and governance
+
+Images can contain prompt injection or sensitive content. Do not let text visible inside an image redefine system instructions. Apply access controls to image stores and minimise retention of sensitive imagery.
+
+## Evaluation
+
+Use task-specific metrics such as precision/recall, OCR error, localization/IoU, grounding accuracy and human correction. For consequential decisions measure downstream false-action rates.
+
+## Practical exercise
+
+Build an inspection pipeline that must identify an object, read a label and verify a structured identifier before recommending an action. Preserve image regions and OCR evidence.
+
+## Architect checklist
+
+- [ ] input quality checks exist
+- [ ] coordinate transformations are traceable
+- [ ] exact extraction uses deterministic/specialist verification where justified
+- [ ] confidence does not substitute for validation
+- [ ] evaluation reflects the real image distribution
+
+## Primary reading
+
+- [CLIP — Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
+- [Flamingo — a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
+- [W3C PROV Overview](https://www.w3.org/TR/prov-overview/)
+
+## Mastery gate
+
+Design a production use of **Vision and Image Understanding** that preserves provenance, uncertainty and action boundaries, and state how you would measure whether the multimodal component improves the outcome over a simpler baseline.
 
 ## Takeaway
 
-> Vision models provide probabilistic perception. Architecture determines how that perception is validated before it becomes a fact or action.
+> Vision models produce probabilistic evidence; architecture determines when that evidence is trustworthy enough to use.
 
 Next: **03 — Image Generation and Editing Systems**.

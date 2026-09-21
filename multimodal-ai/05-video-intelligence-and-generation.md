@@ -2,48 +2,79 @@
 
 ## Purpose
 
-Design systems that understand or generate information across time, not merely isolated images.
+Video adds time, sequence and motion to visual information. Systems must choose what to sample, how to preserve temporal evidence and how to distinguish observed events from inferred causality.
 
-## Video understanding
+## Learning outcomes
 
-Video adds temporal order, motion, audio, scene transitions and potentially long duration.
+By the end of this module, you should be able to:
+- design frame/clip sampling and temporal representations
+- separate event detection from causal inference
+- reason about video-generation consistency and controllability
+- control cost by selecting evidence rather than processing every frame blindly
 
-A pipeline may sample frames, detect scenes, extract audio/transcripts, track objects/events and route selected segments to deeper reasoning.
+## Temporal information
+
+Video provides ordering and motion that still images lack. The system should preserve timestamps so claims can point to intervals.
 
 ## Sampling
 
-Uniform frame sampling can miss brief events. Use scene-aware, motion-aware, event-triggered or query-driven sampling where appropriate.
+Uniform frame extraction is simple but may miss short events. Shot detection, event-triggered sampling or adaptive analysis can reduce cost while preserving relevant evidence.
 
-## Temporal grounding
+## Audio + video
 
-Important outputs should reference timestamps or ranges so claims can be verified against source media.
+Audio may carry separate evidence. Align transcript segments with frames/events rather than treating modalities independently.
 
-## Long video
+## Temporal reasoning
 
-Hierarchical processing can reduce cost:
-
-```text
-Video → scenes/chunks → local summaries/events → indexed evidence → query-specific retrieval → reasoning
-```
+An observed sequence does not prove causality. Distinguish 'A occurred before B' from 'A caused B'.
 
 ## Generation
 
-Video generation adds temporal consistency, motion, identity/object persistence, audio synchronization and much higher compute/storage requirements than still images.
+Video generation must maintain subject, scene and motion consistency over time. Control, provenance and review become more difficult than for single images.
 
-## Safety and rights
+## Storage and compute
 
-Consider consent, likeness, deceptive media, copyrighted/reference assets, provenance and distribution context.
+Video is large. Preprocessing, selected frames/clips and tiered analysis can avoid sending full-resolution media to expensive models unnecessarily.
+
+## Failure modes
+
+- critical short event missed by sampling
+- temporal order interpreted as causation
+- audio and video become misaligned
+- generated sequence drifts in identity/object consistency
+- full-video processing creates unacceptable cost/latency
+
+## Security and governance
+
+Video can expose bystanders, locations and sensitive conversations. Apply access/retention controls and treat embedded visual/audio instructions as untrusted. Generated video creates impersonation and authenticity risks.
 
 ## Evaluation
 
-Measure temporal correctness, event recall, grounding, consistency, audio/visual alignment, instruction adherence, artifacts, latency and cost.
+Evaluate event-detection recall, temporal localization, consistency, evidence traceability, latency and cost. For generation include temporal consistency and human acceptance, not single-frame beauty.
 
-## Exercise
+## Practical exercise
 
-Design a system for searching hours of operational video and returning evidence-backed answers with timestamps rather than sending the entire video to one model.
+Design an incident-analysis pipeline for a ten-minute video. Choose sampling, event escalation, audio alignment and evidence storage; compare cost/recall with analysing every frame.
+
+## Architect checklist
+
+- [ ] timestamps survive every transformation
+- [ ] sampling strategy matches event risk
+- [ ] causal claims require evidence beyond sequence
+- [ ] audio/video alignment is testable
+- [ ] cost per useful event/outcome is measured
+
+## Primary reading
+
+- [Flamingo — a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
+- [W3C PROV Overview](https://www.w3.org/TR/prov-overview/)
+
+## Mastery gate
+
+Design a production use of **Video Intelligence and Generation** that preserves provenance, uncertainty and action boundaries, and state how you would measure whether the multimodal component improves the outcome over a simpler baseline.
 
 ## Takeaway
 
-> Video architecture is temporal evidence engineering: preserve when events happened and process only the detail required for the question.
+> Video architecture is temporal evidence engineering, not image analysis repeated many times.
 
 Next: **06 — Document Intelligence**.

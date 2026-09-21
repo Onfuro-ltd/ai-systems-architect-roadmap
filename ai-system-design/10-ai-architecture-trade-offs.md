@@ -1,5 +1,14 @@
 # 10 — AI Architecture Trade-offs
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **10 — AI Architecture Trade-offs** within AI System Design;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Architecture is the discipline of choosing between competing qualities under real constraints. AI systems make these choices harder because they combine probabilistic models, deterministic software, external APIs, variable workloads, cost-sensitive inference, security boundaries, and human decision points.

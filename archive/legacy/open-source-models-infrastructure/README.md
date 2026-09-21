@@ -1,3 +1,10 @@
+> **P2 archive status:** This earlier combined track is preserved as a migration source only. It is no longer authoritative.
+>
+> Current curriculum:
+> - [Domain 14 — Open-Source and Local AI](../../../open-source-local-ai/README.md)
+> - [Domain 15 — Fine-Tuning and Specialist Models](../../../fine-tuning-specialist-models/README.md)
+> - [Domain 16 — GPU and Inference Infrastructure](../../../gpu-inference-infrastructure/README.md)
+
 # Open Source Models, Fine-Tuning & AI Infrastructure v0.8
 
 ## Purpose

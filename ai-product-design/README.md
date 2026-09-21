@@ -1,5 +1,14 @@
 # Domain 23 — AI Product Design
 
+## Learning objectives
+
+By the end of this domain, you should be able to:
+
+- explain the core concepts and distinctions across AI product capability design, human-AI interaction, uncertainty, trust, approvals, user control, failure UX and lifecycle.
+- build or evaluate a representative implementation rather than relying on a demo;
+- make architecture decisions that account for reliability, security, cost, scale and operations;
+- define the evidence, evaluation and governance required before production adoption.
+
 ## Purpose
 
 AI product design turns probabilistic capabilities into products people can understand, control and rely on.
@@ -57,3 +66,24 @@ Feedback + evaluation
 > AI product design is the discipline of turning uncertain machine capability into understandable, controllable and measurable human outcomes.
 
 Next: **01 — Designing Around Capabilities, Not Demos**.
+
+## Canonical curriculum navigation
+
+- [Designing Around Capabilities, Not Demos](./01-designing-around-capabilities-not-demos.md)
+- [Human-AI Interaction Models](./02-human-ai-interaction-models.md)
+- [Uncertainty, Confidence and Evidence](./03-uncertainty-confidence-and-evidence.md)
+- [Trust, Explainability and Provenance](./04-trust-explainability-and-provenance.md)
+- [Approvals and Progressive Autonomy](./05-approvals-and-progressive-autonomy.md)
+- [User Control, Correction and Recovery](./06-user-control-correction-and-recovery.md)
+- [Failure UX and Graceful Degradation](./07-failure-ux-and-graceful-degradation.md)
+- [Feedback, Learning and Product Evaluation](./08-feedback-learning-and-product-evaluation.md)
+- [AI Product Architecture and Lifecycle](./09-ai-product-architecture-and-lifecycle.md)
+- [AI Product Design Capstone](./10-ai-product-design-capstone.md)
+
+## Prerequisites and next steps
+
+**Recommended prerequisites:** [03 — AI Application Engineering](../application-engineering/README.md), [10 — Evaluation and Reliability](../10-evaluation-reliability/README.md), [11 — Security, Permissions and Governance](../11-security-permissions-governance/README.md), [21 — AI Economics and Model Routing](../ai-economics-model-routing/README.md)
+
+**Useful next domains:** [24 — Business Automation](../business-automation/README.md), [25 — Decision Intelligence](../decision-intelligence/README.md), [27 — AI-Native Commerce and Operations](../ai-native-commerce-operations/README.md), [28 — Build an AI Operating System](../ai-operating-system/README.md)
+
+See the [full prerequisite map](../roadmap/prerequisites-and-paths.md) and [domain status matrix](../roadmap/domain-status.md).

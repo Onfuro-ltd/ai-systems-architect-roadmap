@@ -4,6 +4,20 @@
 
 Integrate all 28 roadmap domains into a production-grade, model-independent AI operating architecture.
 
+## Prerequisite domains
+
+This capstone integrates the preceding roadmap rather than replacing it.
+
+Before attempting the final build, review the direct prerequisite map for [Domains 01–27](../roadmap/prerequisites-and-paths.md). In particular, the architecture must demonstrate evidence from:
+
+- [Foundations and modern models](../foundations/README.md)
+- [AI Application Engineering](../application-engineering/README.md), [Knowledge Systems and RAG](../knowledge-systems-rag/README.md) and [Agents](../agents/README.md)
+- [Skills](../06-skills-agent-harnesses/README.md), [MCP](../07-mcp-tool-ecosystems/README.md), [Memory](../08-memory-systems/README.md) and [Orchestration](../09-orchestration-multi-agent/README.md)
+- [Evaluation](../10-evaluation-reliability/README.md) and [Security/Governance](../11-security-permissions-governance/README.md)
+- [System Design](../ai-system-design/README.md) and [Data/Event Architecture](../data-event-architecture/README.md)
+- [MLOps/LLMOps](../mlops-llmops/README.md), [AI Economics/Model Routing](../ai-economics-model-routing/README.md) and [Enterprise AI](../enterprise-ai/README.md)
+- the relevant specialist domains (14–20 and 23–27) for the selected implementation scope.
+
 ## Scenario
 
 Design a multitenant AI platform supporting knowledge work, multimodal evidence, recommendations, durable business automation, computer-use fallback and bounded action across multiple domains. It can route among hosted, private and specialist models while preserving identity, policy, evaluation and human authority.

@@ -1,5 +1,14 @@
 # 08 — Evaluation and Observability
 
+## Learning outcomes
+
+By the end of this module, you should be able to:
+
+- explain the role of **08 — Evaluation and Observability** within Computer Use and Interface Agents;
+- distinguish the mechanism from adjacent concepts and identify the main architectural trade-offs;
+- identify realistic failure modes, control boundaries and operating constraints;
+- apply the concept to a representative production design and define evidence that would validate the choice.
+
 ## Purpose
 
 Measure whether interface agents complete tasks correctly, safely and efficiently.
